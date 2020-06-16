@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+$dark-01: #121212;
+$dark-02: #1E1E1E;
+$dark-03: #232323;
+$dark-04: #252525;
+$dark-05: #2C2C2C;
+$dark-06: #2E2E2E;
+$dark-07: #333333;
+$dark-08: #363636;
+
+$orange: #FA5019;
+$gray:   #CECED8;
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: $dark-01;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+  
+html, body {
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+button {
+    outline: 0;
+}

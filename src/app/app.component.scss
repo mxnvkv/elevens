@@ -7,6 +7,7 @@
     margin-left: -300px;
     position: absolute;
     border-right: 1px solid $dark-01;
+    transition: .3s;
 }
 
 .app {
@@ -15,6 +16,7 @@
     background-image: url(src/assets/img/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    transition: .3s;
 }
 
 .top-bar {

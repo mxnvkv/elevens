@@ -1,6 +1,15 @@
-<div class="app">
+<div class="menu" #menu>
+  <!-- menu -->
+</div>
+
+<div class="app" #app>
   <nav class="top-bar">
+    <div (click)="showMenu()" class="show-menu">
+      <span class="line"></span>
+    </div>
+
     <div class="logo"></div>
   </nav>
+
 	<router-outlet></router-outlet>
 </div>

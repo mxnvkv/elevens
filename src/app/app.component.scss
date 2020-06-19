@@ -73,15 +73,26 @@
     height: 70px;
     background-color: $dark-02;
 
-    .toggle-menu {
-        width: 85px;
-        height: 70px;
+    .toggle-menu,
+    .toggle-menu-wrapper {
         cursor: pointer;
-        position: relative;
         background-image: url('../assets/img/menu.png');
         background-repeat: no-repeat;
         background-position: center;
         background-size: 45%;
+    }
+
+    .toggle-menu {
+        width: 85px;
+        height: 70px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .toggle-menu-wrapper {
+        z-index: 1;
+        background-color: rgba(0, 0, 0, 0);
+        height: 100%;
     }
 
     .logo {

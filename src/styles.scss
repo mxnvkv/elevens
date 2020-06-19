@@ -10,12 +10,27 @@ $dark-08: #363636;
 $orange: #FA5019;
 $gray:   #CECED8;
 
+@mixin font-face($font-family, $file-path, $weight: normal, $style: normal) {
+    @font-face {
+        font-family: $font-family;
+        font-weight: $weight;
+        font-style: $style;
+        src: url('#{$file-path}.ttf');
+    }
+}
+
+@include font-face('Lato', '/assets/Lato/Lato-Bold.ttf', bold, normal);
+@include font-face('Lato', '/assets/Lato/Lato-Regular.ttf', normal, normal);
+@include font-face('Lato', '/assets/Lato/Lato-Italic.ttf', normal, italic);
+@include font-face('Lato', '/assets/Lato/Lato-Light.ttf', lighter, normal);
+
 body {
     width: 100%;
     height: 100%;
     background-color: $dark-01;
     margin: 0;
     padding: 0;
+    font-family: Lato;
 }
 
 * {

@@ -15,7 +15,7 @@ $gray:   #CECED8;
         font-family: $font-family;
         font-weight: $weight;
         font-style: $style;
-        src: url('#{$file-path}.ttf');
+        src: url('#{$file-path}');
     }
 }
 
@@ -48,6 +48,11 @@ html, body {
 input,
 button {
     outline: 0;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
 }
 
 div {

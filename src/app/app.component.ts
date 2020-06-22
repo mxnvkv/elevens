@@ -1,13 +1,15 @@
-import { Component, ViewChild, ElementRef, Renderer2 } from '@angular/core';
+import { Component, ViewChild, ElementRef, Renderer2, OnInit } from '@angular/core';
 import { Observable, fromEvent } from 'rxjs';
 import { map, skip, takeWhile, finalize } from 'rxjs/operators';
+import { SportServiceService } from './services/sport.service';
+import { Data } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   @ViewChild('app') app: ElementRef;
   @ViewChild('menu') menu: ElementRef;
   @ViewChild('toggleMenuElement') toggleMenuElement: ElementRef;
@@ -15,8 +17,16 @@ export class AppComponent {
   clickEvents: Observable<Event> = fromEvent(document, 'click');
 
   constructor(
-    private renderer: Renderer2
+    private renderer: Renderer2,
+    private sportService: SportServiceService
   ) {}
+
+  ngOnInit() {
+    this.sportService.getAllSports()
+      .subscribe((data: Data) => {
+        console.log(data);
+      });
+  }
 
   toggleMenu() {
     this.renderer.setStyle(this.menu.nativeElement, 'margin-left', '0px');

@@ -1,263 +1,231 @@
 {
-    "people": {
-        "count": 82, 
-        "next": "http://swapi.dev/api/people/?page=2", 
-        "previous": null, 
-        "results": [
-            {
-                "name": "Luke Skywalker", 
-                "height": "172", 
-                "mass": "77", 
-                "hair_color": "blond", 
-                "skin_color": "fair", 
-                "eye_color": "blue", 
-                "birth_year": "19BBY", 
-                "gender": "male", 
-                "homeworld": "http://swapi.dev/api/planets/1/", 
-                "films": [
-                    "http://swapi.dev/api/films/1/", 
-                    "http://swapi.dev/api/films/2/", 
-                    "http://swapi.dev/api/films/3/", 
-                    "http://swapi.dev/api/films/6/"
-                ], 
-                "species": [], 
-                "vehicles": [
-                    "http://swapi.dev/api/vehicles/14/", 
-                    "http://swapi.dev/api/vehicles/30/"
-                ], 
-                "starships": [
-                    "http://swapi.dev/api/starships/12/", 
-                    "http://swapi.dev/api/starships/22/"
-                ], 
-                "created": "2014-12-09T13:50:51.644000Z", 
-                "edited": "2014-12-20T21:17:56.891000Z", 
-                "url": "http://swapi.dev/api/people/1/"
-            }, 
-            {
-                "name": "C-3PO", 
-                "height": "167", 
-                "mass": "75", 
-                "hair_color": "n/a", 
-                "skin_color": "gold", 
-                "eye_color": "yellow", 
-                "birth_year": "112BBY", 
-                "gender": "n/a", 
-                "homeworld": "http://swapi.dev/api/planets/1/", 
-                "films": [
-                    "http://swapi.dev/api/films/1/", 
-                    "http://swapi.dev/api/films/2/", 
-                    "http://swapi.dev/api/films/3/", 
-                    "http://swapi.dev/api/films/4/", 
-                    "http://swapi.dev/api/films/5/", 
-                    "http://swapi.dev/api/films/6/"
-                ], 
-                "species": [
-                    "http://swapi.dev/api/species/2/"
-                ], 
-                "vehicles": [], 
-                "starships": [], 
-                "created": "2014-12-10T15:10:51.357000Z", 
-                "edited": "2014-12-20T21:17:50.309000Z", 
-                "url": "http://swapi.dev/api/people/2/"
-            }, 
-            {
-                "name": "R2-D2", 
-                "height": "96", 
-                "mass": "32", 
-                "hair_color": "n/a", 
-                "skin_color": "white, blue", 
-                "eye_color": "red", 
-                "birth_year": "33BBY", 
-                "gender": "n/a", 
-                "homeworld": "http://swapi.dev/api/planets/8/", 
-                "films": [
-                    "http://swapi.dev/api/films/1/", 
-                    "http://swapi.dev/api/films/2/", 
-                    "http://swapi.dev/api/films/3/", 
-                    "http://swapi.dev/api/films/4/", 
-                    "http://swapi.dev/api/films/5/", 
-                    "http://swapi.dev/api/films/6/"
-                ], 
-                "species": [
-                    "http://swapi.dev/api/species/2/"
-                ], 
-                "vehicles": [], 
-                "starships": [], 
-                "created": "2014-12-10T15:11:50.376000Z", 
-                "edited": "2014-12-20T21:17:50.311000Z", 
-                "url": "http://swapi.dev/api/people/3/"
-            }, 
-            {
-                "name": "Darth Vader", 
-                "height": "202", 
-                "mass": "136", 
-                "hair_color": "none", 
-                "skin_color": "white", 
-                "eye_color": "yellow", 
-                "birth_year": "41.9BBY", 
-                "gender": "male", 
-                "homeworld": "http://swapi.dev/api/planets/1/", 
-                "films": [
-                    "http://swapi.dev/api/films/1/", 
-                    "http://swapi.dev/api/films/2/", 
-                    "http://swapi.dev/api/films/3/", 
-                    "http://swapi.dev/api/films/6/"
-                ], 
-                "species": [], 
-                "vehicles": [], 
-                "starships": [
-                    "http://swapi.dev/api/starships/13/"
-                ], 
-                "created": "2014-12-10T15:18:20.704000Z", 
-                "edited": "2014-12-20T21:17:50.313000Z", 
-                "url": "http://swapi.dev/api/people/4/"
-            }, 
-            {
-                "name": "Leia Organa", 
-                "height": "150", 
-                "mass": "49", 
-                "hair_color": "brown", 
-                "skin_color": "light", 
-                "eye_color": "brown", 
-                "birth_year": "19BBY", 
-                "gender": "female", 
-                "homeworld": "http://swapi.dev/api/planets/2/", 
-                "films": [
-                    "http://swapi.dev/api/films/1/", 
-                    "http://swapi.dev/api/films/2/", 
-                    "http://swapi.dev/api/films/3/", 
-                    "http://swapi.dev/api/films/6/"
-                ], 
-                "species": [], 
-                "vehicles": [
-                    "http://swapi.dev/api/vehicles/30/"
-                ], 
-                "starships": [], 
-                "created": "2014-12-10T15:20:09.791000Z", 
-                "edited": "2014-12-20T21:17:50.315000Z", 
-                "url": "http://swapi.dev/api/people/5/"
-            }, 
-            {
-                "name": "Owen Lars", 
-                "height": "178", 
-                "mass": "120", 
-                "hair_color": "brown, grey", 
-                "skin_color": "light", 
-                "eye_color": "blue", 
-                "birth_year": "52BBY", 
-                "gender": "male", 
-                "homeworld": "http://swapi.dev/api/planets/1/", 
-                "films": [
-                    "http://swapi.dev/api/films/1/", 
-                    "http://swapi.dev/api/films/5/", 
-                    "http://swapi.dev/api/films/6/"
-                ], 
-                "species": [], 
-                "vehicles": [], 
-                "starships": [], 
-                "created": "2014-12-10T15:52:14.024000Z", 
-                "edited": "2014-12-20T21:17:50.317000Z", 
-                "url": "http://swapi.dev/api/people/6/"
-            }, 
-            {
-                "name": "Beru Whitesun lars", 
-                "height": "165", 
-                "mass": "75", 
-                "hair_color": "brown", 
-                "skin_color": "light", 
-                "eye_color": "blue", 
-                "birth_year": "47BBY", 
-                "gender": "female", 
-                "homeworld": "http://swapi.dev/api/planets/1/", 
-                "films": [
-                    "http://swapi.dev/api/films/1/", 
-                    "http://swapi.dev/api/films/5/", 
-                    "http://swapi.dev/api/films/6/"
-                ], 
-                "species": [], 
-                "vehicles": [], 
-                "starships": [], 
-                "created": "2014-12-10T15:53:41.121000Z", 
-                "edited": "2014-12-20T21:17:50.319000Z", 
-                "url": "http://swapi.dev/api/people/7/"
-            }, 
-            {
-                "name": "R5-D4", 
-                "height": "97", 
-                "mass": "32", 
-                "hair_color": "n/a", 
-                "skin_color": "white, red", 
-                "eye_color": "red", 
-                "birth_year": "unknown", 
-                "gender": "n/a", 
-                "homeworld": "http://swapi.dev/api/planets/1/", 
-                "films": [
-                    "http://swapi.dev/api/films/1/"
-                ], 
-                "species": [
-                    "http://swapi.dev/api/species/2/"
-                ], 
-                "vehicles": [], 
-                "starships": [], 
-                "created": "2014-12-10T15:57:50.959000Z", 
-                "edited": "2014-12-20T21:17:50.321000Z", 
-                "url": "http://swapi.dev/api/people/8/"
-            }, 
-            {
-                "name": "Biggs Darklighter", 
-                "height": "183", 
-                "mass": "84", 
-                "hair_color": "black", 
-                "skin_color": "light", 
-                "eye_color": "brown", 
-                "birth_year": "24BBY", 
-                "gender": "male", 
-                "homeworld": "http://swapi.dev/api/planets/1/", 
-                "films": [
-                    "http://swapi.dev/api/films/1/"
-                ], 
-                "species": [], 
-                "vehicles": [], 
-                "starships": [
-                    "http://swapi.dev/api/starships/12/"
-                ], 
-                "created": "2014-12-10T15:59:50.509000Z", 
-                "edited": "2014-12-20T21:17:50.323000Z", 
-                "url": "http://swapi.dev/api/people/9/"
-            }, 
-            {
-                "name": "Obi-Wan Kenobi", 
-                "height": "182", 
-                "mass": "77", 
-                "hair_color": "auburn, white", 
-                "skin_color": "fair", 
-                "eye_color": "blue-gray", 
-                "birth_year": "57BBY", 
-                "gender": "male", 
-                "homeworld": "http://swapi.dev/api/planets/20/", 
-                "films": [
-                    "http://swapi.dev/api/films/1/", 
-                    "http://swapi.dev/api/films/2/", 
-                    "http://swapi.dev/api/films/3/", 
-                    "http://swapi.dev/api/films/4/", 
-                    "http://swapi.dev/api/films/5/", 
-                    "http://swapi.dev/api/films/6/"
-                ], 
-                "species": [], 
-                "vehicles": [
-                    "http://swapi.dev/api/vehicles/38/"
-                ], 
-                "starships": [
-                    "http://swapi.dev/api/starships/48/", 
-                    "http://swapi.dev/api/starships/59/", 
-                    "http://swapi.dev/api/starships/64/", 
-                    "http://swapi.dev/api/starships/65/", 
-                    "http://swapi.dev/api/starships/74/"
-                ], 
-                "created": "2014-12-10T16:16:29.192000Z", 
-                "edited": "2014-12-20T21:17:50.325000Z", 
-                "url": "http://swapi.dev/api/people/10/"
-            }
-        ]
-    }
+  "sports-data": {
+    "success": true,
+    "data": [
+      {
+        "key": "americanfootball_ncaaf",
+        "active": true,
+        "group": "American Football",
+        "details": "US College Football",
+        "title": "NCAAF",
+        "has_outrights": false
+      },
+      {
+        "key": "americanfootball_nfl",
+        "active": true,
+        "group": "American Football",
+        "details": "US Football",
+        "title": "NFL",
+        "has_outrights": false
+      },
+      {
+        "key": "aussierules_afl",
+        "active": true,
+        "group": "Aussie Rules",
+        "details": "Aussie Football",
+        "title": "AFL",
+        "has_outrights": false
+      },
+      {
+        "key": "cricket_test_match",
+        "active": true,
+        "group": "Cricket",
+        "details": "International Test Matches",
+        "title": "Test Matches",
+        "has_outrights": false
+      },
+      {
+        "key": "esports_lol",
+        "active": true,
+        "group": "Esports",
+        "details": "LCS, LEC, LCK, LPL",
+        "title": "League of Legends",
+        "has_outrights": false
+      },
+      {
+        "key": "mma_mixed_martial_arts",
+        "active": true,
+        "group": "Mixed Martial Arts",
+        "details": "Mixed Martial Arts",
+        "title": "MMA",
+        "has_outrights": false
+      },
+      {
+        "key": "rugbyleague_nrl",
+        "active": true,
+        "group": "Rugby League",
+        "details": "Aussie Rugby League",
+        "title": "NRL",
+        "has_outrights": false
+      },
+      {
+        "key": "soccer_denmark_superliga",
+        "active": true,
+        "group": "Soccer - Europe",
+        "details": "Danish Soccer 🇩🇰",
+        "title": "Denmark Superliga",
+        "has_outrights": false
+      },
+      {
+        "key": "soccer_efl_champ",
+        "active": true,
+        "group": "Soccer - UK",
+        "details": "EFL Championship 🇬🇧",
+        "title": "Championship",
+        "has_outrights": false
+      },
+      {
+        "key": "soccer_england_league1",
+        "active": true,
+        "group": "Soccer - UK",
+        "details": "EFL League 1 🇬🇧",
+        "title": "League 1",
+        "has_outrights": false
+      },
+      {
+        "key": "soccer_england_league2",
+        "active": true,
+        "group": "Soccer - UK",
+        "details": "EFL League 2  🇬🇧",
+        "title": "League 2",
+        "has_outrights": false
+      },
+      {
+        "key": "soccer_epl",
+        "active": true,
+        "group": "Soccer - UK",
+        "details": "English Premier League 🇬🇧",
+        "title": "EPL",
+        "has_outrights": false
+      },
+      {
+        "key": "soccer_fa_cup",
+        "active": true,
+        "group": "Soccer - UK",
+        "details": "English FA Cup 🇬🇧",
+        "title": "FA Cup",
+        "has_outrights": false
+      },
+      {
+        "key": "soccer_finland_veikkausliiga",
+        "active": true,
+        "group": "Soccer - Europe",
+        "details": "Finnish  Soccer 🇫🇮",
+        "title": "Veikkausliiga - Finland",
+        "has_outrights": false
+      },
+      {
+        "key": "soccer_germany_bundesliga",
+        "active": true,
+        "group": "Soccer - Europe",
+        "details": "German Soccer 🇩🇪",
+        "title": "Bundesliga - Germany",
+        "has_outrights": false
+      },
+      {
+        "key": "soccer_germany_bundesliga2",
+        "active": true,
+        "group": "Soccer - Europe",
+        "details": "German Soccer 🇩🇪",
+        "title": "Bundesliga 2 - Germany",
+        "has_outrights": false
+      },
+      {
+        "key": "soccer_italy_serie_a",
+        "active": true,
+        "group": "Soccer - Europe",
+        "details": "Italian Soccer 🇮🇹",
+        "title": "Serie A - Italy",
+        "has_outrights": false
+      },
+      {
+        "key": "soccer_italy_serie_b",
+        "active": true,
+        "group": "Soccer - Europe",
+        "details": "Italian Soccer 🇮🇹",
+        "title": "Serie B - Italy",
+        "has_outrights": false
+      },
+      {
+        "key": "soccer_korea_kleague1",
+        "active": true,
+        "group": "Soccer - Other",
+        "details": "Korean Soccer 🇰🇷",
+        "title": "K League 1",
+        "has_outrights": false
+      },
+      {
+        "key": "soccer_norway_eliteserien",
+        "active": true,
+        "group": "Soccer - Europe",
+        "details": "Norwegian Soccer 🇳🇴",
+        "title": "Eliteserien - Norway",
+        "has_outrights": false
+      },
+      {
+        "key": "soccer_portugal_primeira_liga",
+        "active": true,
+        "group": "Soccer - Europe",
+        "details": "Portugese Soccer 🇵🇹",
+        "title": "Primeira Liga - Portugal",
+        "has_outrights": false
+      },
+      {
+        "key": "soccer_spain_la_liga",
+        "active": true,
+        "group": "Soccer - Europe",
+        "details": "Spanish Soccer 🇪🇸",
+        "title": "La Liga - Spain",
+        "has_outrights": false
+      },
+      {
+        "key": "soccer_spain_segunda_division",
+        "active": true,
+        "group": "Soccer - Europe",
+        "details": "Spanish Soccer 🇪🇸",
+        "title": "La Liga 2 - Spain",
+        "has_outrights": false
+      },
+      {
+        "key": "soccer_sweden_allsvenskan",
+        "active": true,
+        "group": "Soccer - Europe",
+        "details": "Swedish Soccer 🇸🇪",
+        "title": "Allsvenskan - Sweden",
+        "has_outrights": false
+      },
+      {
+        "key": "soccer_sweden_superettan",
+        "active": true,
+        "group": "Soccer - Europe",
+        "details": "Swedish Soccer 🇸🇪",
+        "title": "Superettan - Sweden",
+        "has_outrights": false
+      },
+      {
+        "key": "soccer_switzerland_superleague",
+        "active": true,
+        "group": "Soccer - Europe",
+        "details": "Swiss Soccer 🇨🇭",
+        "title": "Swiss Superleague",
+        "has_outrights": false
+      },
+      {
+        "key": "soccer_turkey_super_league",
+        "active": true,
+        "group": "Soccer - Europe",
+        "details": "Turkish Soccer 🇹🇷",
+        "title": "Turkey Super League",
+        "has_outrights": false
+      },
+      {
+        "key": "soccer_uefa_europa_league",
+        "active": true,
+        "group": "Soccer - Europe",
+        "details": "European Europa League 🇪🇺",
+        "title": "UEFA Europa",
+        "has_outrights": false
+      }
+    ]
+  }
 }

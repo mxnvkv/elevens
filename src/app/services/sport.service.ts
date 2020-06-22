@@ -16,6 +16,10 @@ export class SportServiceService {
   }
 
   getPeople(): Observable<any> {
-    return this.http.get('http://localhost:4200/people');
+    return this.http.get('http://localhost:4200/sports-data');
+  }
+
+  postData(data: any): Observable<any> {
+    return this.http.post('http://localhost:4200/sports-data', data);
   }
 }

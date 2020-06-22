@@ -25,6 +25,9 @@ export class AppComponent implements OnInit {
     this.sportService.getAllSports()
       .subscribe((data: Data) => {
         console.log(data);
+
+        this.sportService.postData(data)
+          .subscribe();
       });
   }
 

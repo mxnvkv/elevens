@@ -2,7 +2,6 @@ import { Component, ViewChild, ElementRef, Renderer2, OnInit } from '@angular/co
 import { Observable, fromEvent } from 'rxjs';
 import { map, skip, takeWhile, finalize } from 'rxjs/operators';
 import { SportServiceService } from './services/sport.service';
-import { Data } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -22,38 +21,7 @@ export class AppComponent implements OnInit {
     private sportService: SportServiceService
   ) {}
 
-  ngOnInit() {
-    this.sportService.getAllLeagueMatches()
-      .subscribe((data: Data) => {
-        let modifiedData = { ...data };
-
-        modifiedData = modifiedData.data;
-        modifiedData.forEach((match) => {
-          for (let i = 0; i < match.sites.length; i++) {
-            if (match.sites[i].site_key !== 'betfair') {
-              match.sites.splice(i, 1);
-              i--;
-            }
-          }
-
-          match.site = match.sites[0];
-          delete match.sites;
-          delete match.sites_count;
-        })
-
-        this.modifiedData = modifiedData;
-        this.passDataToDB();
-      })
-  }
-
-  passDataToDB() {
-    // this.sportService.postData(this.modifiedData)
-    //   .subscribe((data: Data) => {
-    //     console.log('Posted successfully!');
-    //   })
-
-    // console.log(this.modifiedData);
-  }
+  ngOnInit() {}
 
   toggleMenu() {
     this.renderer.setStyle(this.menu.nativeElement, 'margin-left', '0px');

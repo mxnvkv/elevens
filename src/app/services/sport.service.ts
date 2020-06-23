@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
 const URL_API = "https://api.the-odds-api.com";
-const API_KEY = "/?apiKey=0b828ef7dcd437bd5d0c2c53892bb40a";
+const API_KEY = "0b828ef7dcd437bd5d0c2c53892bb40a";
 
 @Injectable({
   providedIn: 'root'
@@ -12,7 +12,11 @@ export class SportServiceService {
   constructor(private http: HttpClient) {}
 
   getAllSports(): Observable<any> {
-    return this.http.get(URL_API + '/v3/sports' + API_KEY);
+    return this.http.get(URL_API + '/v3/sports/?apiKey=' + API_KEY);
+  }
+
+  getAllLeagueMatches(): Observable<any> {
+    return this.http.get(`https://api.the-odds-api.com/v3/odds/?apiKey=${API_KEY}&sport=soccer_spain_la_liga&region=eu&mkt=h2h`);
   }
 
   getPeople(): Observable<any> {
@@ -20,6 +24,6 @@ export class SportServiceService {
   }
 
   postData(data: any): Observable<any> {
-    return this.http.post('http://localhost:4200/sports-data', data);
+    return this.http.post('http://localhost:4200/soccer_spain_la_liga', data);
   }
 }

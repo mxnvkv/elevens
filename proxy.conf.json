@@ -2,5 +2,25 @@
     "/sports-data": {
         "target": "http://localhost:3000",
         "secure": false
+    },
+
+    "/soccer-epl": {
+        "target": "http://localhost:3000",
+        "secure": false
+    },
+
+    "/soccer_germany_bundesliga": {
+        "target": "http://localhost:3000",
+        "secure": false
+    },
+
+    "/soccer_italy_serie_a": {
+        "target": "http://localhost:3000",
+        "secure": false
+    },
+
+    "/soccer_spain_la_liga": {
+        "target": "http://localhost:3000",
+        "secure": false
     }
 }

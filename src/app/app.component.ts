@@ -15,6 +15,7 @@ export class AppComponent implements OnInit {
   @ViewChild('toggleMenuElement') toggleMenuElement: ElementRef;
 
   clickEvents: Observable<Event> = fromEvent(document, 'click');
+  modifiedData;
 
   constructor(
     private renderer: Renderer2,
@@ -22,13 +23,36 @@ export class AppComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-    this.sportService.getAllSports()
+    this.sportService.getAllLeagueMatches()
       .subscribe((data: Data) => {
-        console.log(data);
+        let modifiedData = { ...data };
 
-        this.sportService.postData(data)
-          .subscribe();
-      });
+        modifiedData = modifiedData.data;
+        modifiedData.forEach((match) => {
+          for (let i = 0; i < match.sites.length; i++) {
+            if (match.sites[i].site_key !== 'betfair') {
+              match.sites.splice(i, 1);
+              i--;
+            }
+          }
+
+          match.site = match.sites[0];
+          delete match.sites;
+          delete match.sites_count;
+        })
+
+        this.modifiedData = modifiedData;
+        this.passDataToDB();
+      })
+  }
+
+  passDataToDB() {
+    // this.sportService.postData(this.modifiedData)
+    //   .subscribe((data: Data) => {
+    //     console.log('Posted successfully!');
+    //   })
+
+    // console.log(this.modifiedData);
   }
 
   toggleMenu() {

@@ -4,7 +4,7 @@
         "secure": false
     },
 
-    "/soccer-epl": {
+    "/soccer_epl": {
         "target": "http://localhost:3000",
         "secure": false
     },

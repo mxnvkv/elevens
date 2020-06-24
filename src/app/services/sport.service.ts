@@ -12,12 +12,12 @@ export class SportServiceService {
   constructor(private http: HttpClient) {}
 
   getLeague(leagueName: string): Observable<any> {
-    return this.http.get('http://localhost:4200/' + leagueName);
+    return this.http.get(`http://localhost:4200/${leagueName}`);
   }
 
   getAllLeagueNames() {
     return [
-      'soccer-epl',
+      'soccer_epl',
       'soccer_germany_bundesliga',
       'soccer_italy_serie_a',
       'soccer_spain_la_liga'

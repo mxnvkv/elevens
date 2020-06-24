@@ -228,7 +228,7 @@
       }
     ]
   },
-  "soccer-epl": [
+  "soccer_epl": [
     {
       "sport_key": "soccer_epl",
       "sport_nice": "EPL",

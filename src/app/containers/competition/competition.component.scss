@@ -1,0 +1,17 @@
+@import '../../../styles.scss';
+
+.competition {
+    width: 100%;
+    height: 50px;
+    background-color: $dark-04;
+    color: $gray;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 15px;
+
+    &-name {
+        font-size: 18px;
+    }
+}

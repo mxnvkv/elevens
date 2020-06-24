@@ -9,6 +9,7 @@ import { FootballComponent } from './containers/football/football.component';
 import { CricketComponent } from './containers/cricket/cricket.component';
 import { HorseRacingComponent } from './containers/horse-racing/horse-racing.component';
 import { HttpClientModule } from '@angular/common/http';
+import { CompetitionComponent } from './containers/competition/competition.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { HttpClientModule } from '@angular/common/http';
     SportComponent,
     FootballComponent,
     CricketComponent,
-    HorseRacingComponent
+    HorseRacingComponent,
+    CompetitionComponent
   ],
   imports: [
     BrowserModule,

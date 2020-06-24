@@ -2,6 +2,10 @@
     <h1>Football</h1>
 
     <ul class="competitions-list">
-        <app-competition></app-competition>
+        <app-competition 
+            *ngFor="let league of allLeaguesData"
+            [league]="league"
+        >
+        </app-competition>
     </ul>
 </app-sport>

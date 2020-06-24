@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Match } from 'src/app/models/match';
 
 @Component({
   selector: 'app-competition',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CompetitionComponent implements OnInit {
 
-  constructor() { }
+  @Input() 
+  league: Match[];
+
+  constructor() {
+
+  }
 
   ngOnInit(): void {
+    
   }
 
 }

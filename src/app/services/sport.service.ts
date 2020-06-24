@@ -11,6 +11,21 @@ const API_KEY = "0b828ef7dcd437bd5d0c2c53892bb40a";
 export class SportServiceService {
   constructor(private http: HttpClient) {}
 
+  getLeague(leagueName: string): Observable<any> {
+    return this.http.get('http://localhost:4200/' + leagueName);
+  }
+
+  getAllLeagueNames() {
+    return [
+      'soccer-epl',
+      'soccer_germany_bundesliga',
+      'soccer_italy_serie_a',
+      'soccer_spain_la_liga'
+    ];
+  }
+
+  // #########################
+
   getAllSports(): Observable<any> {
     return this.http.get(URL_API + '/v3/sports/?apiKey=' + API_KEY);
   }

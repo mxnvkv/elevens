@@ -25,12 +25,5 @@ export class FootballComponent implements OnInit {
           this.allLeaguesData.push(data);
         })
     })
-
-    // this.printAllLeaguesData();
   }
-
-  // printAllLeaguesData() {
-  //   console.log(this.allLeaguesData);
-  // }
-
 }

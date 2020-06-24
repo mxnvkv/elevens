@@ -2,10 +2,12 @@
     <h1>Football</h1>
 
     <ul class="competitions-list">
-        <app-competition 
+        <div 
+            class="competition"
             *ngFor="let league of allLeaguesData"
-            [league]="league"
+            [routerLink]="league[0].sport_key"
         >
-        </app-competition>
+            {{ league[0].sport_nice }}
+        </div>
     </ul>
 </app-sport>

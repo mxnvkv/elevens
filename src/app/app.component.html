@@ -30,8 +30,17 @@
 <div class="app" #app>
   <nav class="top-bar" #topBar>
     <div class="toggle-menu-wrapper">
-      <div (click)="toggleMenu()" class="toggle-menu" #toggleMenuElement>
-        <span class="line"></span>
+      <div 
+        *ngIf="currentUrlLength < 3"
+        (click)="toggleMenu()" 
+        class="toggle-menu"
+        #toggleMenuElement>
+      </div>
+
+      <div
+        *ngIf="currentUrlLength >= 3"
+        (click)="back()"
+        class="arrow-back"> 
       </div>
     </div>
 

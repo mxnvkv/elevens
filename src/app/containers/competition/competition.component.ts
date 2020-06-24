@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Match } from 'src/app/models/match';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-competition',
@@ -8,15 +9,16 @@ import { Match } from 'src/app/models/match';
 })
 export class CompetitionComponent implements OnInit {
 
+  // router: string
+
   @Input() 
   league: Match[];
 
-  constructor() {
-
+  constructor(private _router: Router) {
+    // this.router = _router.url;
+    // console.log(this.router);
   }
 
-  ngOnInit(): void {
-    
-  }
+  ngOnInit(): void {}
 
 }

@@ -2,6 +2,8 @@ import { Component, ViewChild, ElementRef, Renderer2, OnInit } from '@angular/co
 import { Observable, fromEvent } from 'rxjs';
 import { map, skip, takeWhile, finalize } from 'rxjs/operators';
 import { SportServiceService } from './services/sport.service';
+import { Router, NavigationEnd } from '@angular/router';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-root',
@@ -14,12 +16,26 @@ export class AppComponent implements OnInit {
   @ViewChild('toggleMenuElement') toggleMenuElement: ElementRef;
 
   clickEvents: Observable<Event> = fromEvent(document, 'click');
-  modifiedData;
+  currentUrlLength: number;
+  currentLocation;
 
   constructor(
     private renderer: Renderer2,
+    private router: Router,
+    private location: Location,
     private sportService: SportServiceService
-  ) {}
+  ) {
+    this.currentLocation = location;
+
+    router.events.subscribe((event) => {
+      if (event instanceof NavigationEnd) {
+        // [ "", "football", "soccer_epl" ]
+        // if the length of array is more than 2, then we will
+        // display back arrow instead of menu 
+        this.currentUrlLength = event.url.split('/').length;
+      }
+    })
+  }
 
   ngOnInit() {}
 
@@ -45,6 +61,10 @@ export class AppComponent implements OnInit {
         // bringing toggle-menu up
         this.renderer.setStyle(this.toggleMenuElement.nativeElement, 'z-index', '1');
       })
-    ).subscribe((value) => console.log(value), () => {}, () => console.log('completed'));
+    ).subscribe();
+  }
+
+  back() {
+    this.currentLocation.back();
   }
 }

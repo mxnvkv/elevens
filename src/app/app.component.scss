@@ -90,6 +90,16 @@
         z-index: 1;
     }
 
+    .arrow-back {
+        width: 85px;
+        height: 70px;
+        background-color: $dark-02;
+        background-image: url('../assets/img/arrow-back.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 45%;
+    }
+
     .toggle-menu-wrapper {
         z-index: 1;
         background-color: rgba(0, 0, 0, 0);

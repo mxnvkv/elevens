@@ -8,9 +8,23 @@ import { Match } from 'src/app/models/match';
   styleUrls: ['./football.component.scss']
 })
 export class FootballComponent implements OnInit {
-
+  
   allLeagueNames: string[] = [];
   allLeaguesData: Match[] = [];
+
+  leagueKeys = [
+    'soccer_epl',
+    'soccer_germany_bundesliga', 
+    'soccer_italy_serie_a', 
+    'soccer_spain_la_liga',
+  ];
+
+  leagueDisplayTitles = [
+    'English Football', 
+    'German Football',
+    'Italian Football',
+    'Spanish Football'
+  ];
 
   constructor(
     private sportService: SportServiceService
@@ -25,5 +39,9 @@ export class FootballComponent implements OnInit {
           this.allLeaguesData.push(data);
         })
     })
+  }
+
+  returnLeagueDisplayTitle(leagueKey) {
+    return this.leagueDisplayTitles[this.leagueKeys.indexOf(leagueKey)];
   }
 }

@@ -7,7 +7,7 @@
             *ngFor="let league of allLeaguesData"
             [routerLink]="league[0].sport_key"
         >
-            {{ league[0].sport_nice }}
+            {{ returnLeagueDisplayTitle(league[0].sport_key) }}
         </div>
     </ul>
 </app-sport>

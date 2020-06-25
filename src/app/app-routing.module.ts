@@ -5,6 +5,7 @@ import { FootballComponent } from './containers/football/football.component';
 import { CricketComponent } from './containers/cricket/cricket.component';
 import { HorseRacingComponent } from './containers/horse-racing/horse-racing.component';
 import { CompetitionComponent } from './containers/competition/competition.component';
+import { MatchComponent } from './containers/match/match.component';
 
 
 const routes: Routes = [
@@ -14,7 +15,8 @@ const routes: Routes = [
     path: 'football', 
     children: [
       { path: '', component: FootballComponent },
-      { path: ':sport_key', component: CompetitionComponent }
+      { path: ':sport_key', component: CompetitionComponent, },
+      { path: ':sport_key/:id', component: MatchComponent }
     ]
   },
   { path: 'cricket', component: CricketComponent },

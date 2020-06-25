@@ -1,7 +1,8 @@
 <div class="competition">
     <div 
         class="match"
-        *ngFor="let match of league">
+        *ngFor="let match of league"
+        [routerLink]="match.id">
         {{ match.teams[0] }} - {{ match.teams[1] }}
     </div>
 </div>

@@ -1,3 +1,7 @@
 <div class="competition">
-    Competition
+    <div 
+        class="match"
+        *ngFor="let match of league">
+        {{ match.teams[0] }} - {{ match.teams[1] }}
+    </div>
 </div>

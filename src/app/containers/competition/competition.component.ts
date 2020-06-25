@@ -21,7 +21,7 @@ export class CompetitionComponent implements OnInit {
 
   ngOnInit(): void {
     this.sportService.getLeague(this.leagueKeyName)
-      .subscribe((data) => console.log(data))
+      .subscribe((data) => this.league = data)
   }
 
 }

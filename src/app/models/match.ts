@@ -6,5 +6,6 @@ export interface Match {
     site: Site, 
     sport_key: string,
     sport_nice: string,
-    teams: string[]
+    teams: string[],
+    id: number
 }

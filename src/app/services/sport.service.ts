@@ -38,7 +38,7 @@ export class SportServiceService {
     return this.http.get('http://localhost:4200/sports-data');
   }
 
-  postData(data: any): Observable<any> {
-    return this.http.post('http://localhost:4200/soccer_spain_la_liga', data);
+  postData(league: string, data: any): Observable<any> {
+    return this.http.post(`http://localhost:4200/${league}`, data);
   }
 }

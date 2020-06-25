@@ -4,6 +4,7 @@ import { map, skip, takeWhile, finalize } from 'rxjs/operators';
 import { SportServiceService } from './services/sport.service';
 import { Router, NavigationEnd } from '@angular/router';
 import { Location } from '@angular/common';
+import { v4 as uuid } from 'uuid';
 
 @Component({
   selector: 'app-root',

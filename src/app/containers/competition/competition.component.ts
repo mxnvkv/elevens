@@ -23,5 +23,4 @@ export class CompetitionComponent implements OnInit {
     this.sportService.getLeague(this.leagueKeyName)
       .subscribe((data) => this.league = data)
   }
-
 }

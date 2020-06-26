@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { Match } from '../models/match';
 
 const URL_API = "https://api.the-odds-api.com";
 const API_KEY = "0b828ef7dcd437bd5d0c2c53892bb40a";
@@ -17,6 +18,10 @@ export class SportServiceService {
 
   getMatch(leagueName: string, matchID: string): Observable<any> {
     return this.http.get(`http://localhost:4200/${leagueName}/${matchID}`);
+  }
+
+  updateMatch(match: Match): Observable<any> {
+    return this.http.put(`http://localhost:4200/${match.sport_key}/${match.id}`, match)
   }
 
   getAllLeagueNames() {

@@ -10,7 +10,7 @@ import { Match } from 'src/app/models/match';
 export class FootballComponent implements OnInit {
   
   allLeagueNames: string[] = [];
-  allLeaguesData: Match[] = [];
+  allLeaguesData: Match[][] = [];
 
   leagueKeys = [
     'soccer_epl',
@@ -35,7 +35,7 @@ export class FootballComponent implements OnInit {
     
     this.allLeagueNames.forEach((leagueName) => {
       this.sportService.getLeague(leagueName)
-        .subscribe((data: any) => {
+        .subscribe((data: Match[]) => {
           this.allLeaguesData.push(data);
         })
     })

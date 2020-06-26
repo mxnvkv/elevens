@@ -15,6 +15,10 @@ export class SportServiceService {
     return this.http.get(`http://localhost:4200/${leagueName}`);
   }
 
+  getMatch(leagueName: string, matchID: string): Observable<any> {
+    return this.http.get(`http://localhost:4200/${leagueName}/${matchID}`);
+  }
+
   getAllLeagueNames() {
     return [
       'soccer_epl',

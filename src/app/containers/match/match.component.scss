@@ -1,0 +1,67 @@
+@import '../../../styles.scss';
+
+.match {
+    width: 100%;
+    height: auto;
+
+    &-title {
+        width: 100%;
+        height: 70px;
+        background-color: $dark-04;
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    &-name {
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .bet-wrapper {
+        width: 100%;
+        padding: 0 10px;
+        margin-top: 30px;
+        font-weight: bold;
+        // height: 100px;
+        // background-color: $dark-05;
+
+        .market-name {
+            width: 100%;
+            height: 55px;
+            display: flex;
+            align-items: center;
+            padding-left: 15px;
+        }
+
+        .bets {
+            width: 100%;
+            height: 50px;
+            padding: 2px;
+            padding-left: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2px;
+            background-color: $dark-08;
+        }
+
+        .market-odds {
+            width: 70px;
+            height: 100%;
+            border: none;
+            color: lighten($gray, 10%);
+            cursor: pointer;
+            background-color: $orange;
+            transition: .3s;
+
+            &:hover {
+                background-color: darken($orange, 10%);
+            }
+
+            &:active {
+                background-color: darken($orange, 15%);
+            }
+        }
+    }
+}

@@ -6,6 +6,6 @@ export interface Site {
 }
 
 interface Odds {
-    h2h: string[],
-    h2h_lay: string[]
+    h2h: number[],
+    h2h_lay: number[]
 }

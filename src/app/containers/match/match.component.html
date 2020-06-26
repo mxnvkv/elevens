@@ -1,1 +1,19 @@
-<p>match works!</p>
+<div *ngIf="match" class="match">
+    <div class="match-title">
+        <div class="match-name">
+            {{ match.teams[0] }} v {{ match.teams[1] }}
+        </div>
+    </div>
+
+    <div class="bet-wrapper">
+        <div class="market-name">Match Odds</div> 
+        <div *ngFor="let market of matchOdds" class="bets">
+            <div class="runner-detail">
+                {{ market.runnerDetails }}
+            </div>
+            <button class="market-odds">
+                {{ market.odds }}
+            </button>
+        </div>
+    </div>
+</div>

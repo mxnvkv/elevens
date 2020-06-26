@@ -7,5 +7,5 @@ export interface Match {
     sport_key: string,
     sport_nice: string,
     teams: string[],
-    id: number
+    id: string
 }

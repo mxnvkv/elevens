@@ -11,6 +11,7 @@ import { HorseRacingComponent } from './containers/horse-racing/horse-racing.com
 import { HttpClientModule } from '@angular/common/http';
 import { CompetitionComponent } from './containers/competition/competition.component';
 import { MatchComponent } from './containers/match/match.component';
+import { AccountSettingsComponent } from './containers/account-settings/account-settings.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { MatchComponent } from './containers/match/match.component';
     CricketComponent,
     HorseRacingComponent,
     CompetitionComponent,
-    MatchComponent
+    MatchComponent,
+    AccountSettingsComponent
   ],
   imports: [
     BrowserModule,

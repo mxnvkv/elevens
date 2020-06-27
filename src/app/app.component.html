@@ -31,14 +31,14 @@
   <nav class="top-bar" #topBar>
     <div class="toggle-menu-wrapper">
       <div 
-        *ngIf="currentUrlLength < 3"
+        *ngIf="currentUrlLength < 3 && this.currentUrl?.split('/')[1] !== 'account-settings'"
         (click)="toggleMenu()" 
         class="toggle-menu"
         #toggleMenuElement>
       </div>
 
       <div
-        *ngIf="currentUrlLength >= 3"
+        *ngIf="currentUrlLength >= 3 || this.currentUrl?.split('/')[1] === 'account-settings'"
         (click)="back()"
         class="arrow-back"> 
       </div>
@@ -47,7 +47,7 @@
     <div class="logo"></div>
 
     <div class="settings-wrapper">
-      <div class="settings">
+      <div routerLink="/account-settings" class="settings">
         <div class="user-icon"></div>
         <div class="user-balance">10.000</div>
       </div>

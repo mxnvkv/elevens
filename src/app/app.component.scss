@@ -135,6 +135,7 @@
         border-radius: 5px;
         background-color: $orange;
         transition: .3s;
+        outline: none;
 
         &:hover {
             background-color: darken($orange, 7%);
@@ -158,6 +159,7 @@
             justify-content: center;
             align-items: center;
             margin-bottom: 3px;
+            user-select: none;
         }
     }
 }

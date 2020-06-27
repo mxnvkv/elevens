@@ -4,7 +4,6 @@ import { map, skip, takeWhile, finalize } from 'rxjs/operators';
 import { SportServiceService } from './services/sport.service';
 import { Router, NavigationEnd } from '@angular/router';
 import { Location } from '@angular/common';
-import { v4 as uuid } from 'uuid';
 
 @Component({
   selector: 'app-root',
@@ -17,6 +16,7 @@ export class AppComponent implements OnInit {
   @ViewChild('toggleMenuElement') toggleMenuElement: ElementRef;
 
   clickEvents: Observable<Event> = fromEvent(document, 'click');
+  currentUrl: string;
   currentUrlLength: number;
   currentLocation;
 
@@ -30,6 +30,8 @@ export class AppComponent implements OnInit {
 
     router.events.subscribe((event) => {
       if (event instanceof NavigationEnd) {
+        this.currentUrl = event.url;
+
         // [ "", "football", "soccer_epl" ]
         // if the length of array is more than 2, then we will
         // display back arrow instead of menu 

@@ -134,6 +134,11 @@
         flex-direction: column;
         border-radius: 5px;
         background-color: $orange;
+        transition: .3s;
+
+        &:hover {
+            background-color: darken($orange, 7%);
+        }
 
         .user-icon {
             width: 100%;

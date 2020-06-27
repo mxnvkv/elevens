@@ -37,11 +37,19 @@ export class FootballComponent implements OnInit {
       this.sportService.getLeague(leagueName)
         .subscribe((data: Match[]) => {
           this.allLeaguesData.push(data);
+
+          this.allLeaguesData.length >= 4 ? this.sortLeagues() : '';
         })
     })
   }
 
   returnLeagueDisplayTitle(leagueKey) {
     return this.leagueDisplayTitles[this.leagueKeys.indexOf(leagueKey)];
+  }
+
+  sortLeagues() {
+    this.allLeaguesData.sort((a, b) => {
+      return a[0].sport_key.localeCompare(b[0].sport_key);
+    })
   }
 }

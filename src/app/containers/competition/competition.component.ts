@@ -21,6 +21,9 @@ export class CompetitionComponent implements OnInit {
 
   ngOnInit(): void {
     this.sportService.getLeague(this.leagueKeyName)
-      .subscribe((data) => this.league = data)
+      .subscribe((data: Match[]) => {
+        data.sort((a, b) => a.start_time - b.start_time);
+        this.league = data;
+      })
   }
 }

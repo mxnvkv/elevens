@@ -3,6 +3,10 @@
         <div class="match-name">
             {{ match.teams[0] }} v {{ match.teams[1] }}
         </div>
+
+        <div class="match-time">
+            {{ match.start_time | date:'H:mm' }}
+        </div>
     </div>
 
     <div class="bet-wrapper">

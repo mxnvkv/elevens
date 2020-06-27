@@ -3,6 +3,14 @@
         class="match"
         *ngFor="let match of league"
         [routerLink]="match.id">
-        {{ match.teams[0] }} - {{ match.teams[1] }}
+
+        <div class="match-title">
+            {{ match.teams[0] }} - {{ match.teams[1] }}
+        </div>
+
+        <div class="match-time">
+            {{ match.start_time | date: 'H:mm' }}
+        </div>
+
     </div>
 </div>

@@ -10,6 +10,8 @@ $dark-08: #363636;
 $orange: #FA5019;
 $gray:   #CECED8;
 
+$top-bar-height: 70px;
+
 @mixin font-face($font-family, $file-path, $weight: normal, $style: normal) {
     @font-face {
         font-family: $font-family;

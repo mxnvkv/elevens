@@ -1,1 +1,26 @@
-<p>account-settings works!</p>
+<div class="account-settings">
+    <div 
+        *ngIf="accountSettings"
+        class="settings">
+
+        <div class="username">
+            {{ accountSettings.username }}
+        </div>
+
+        <div class="balance-information-title">
+            <div class="icon"></div>
+            <div class="title">
+                Balance Information
+            </div>
+        </div>
+
+        <div
+            class="balance-information"
+            *ngFor="let item of balanceInformation | keyvalue">
+
+            <div> {{ item.key | accountSettingsKey }}: </div>
+            <div> {{ (item.value).toFixed(2) }} </div>
+        </div>
+
+    </div>
+</div>

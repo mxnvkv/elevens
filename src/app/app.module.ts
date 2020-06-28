@@ -12,6 +12,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { CompetitionComponent } from './containers/competition/competition.component';
 import { MatchComponent } from './containers/match/match.component';
 import { AccountSettingsComponent } from './containers/account-settings/account-settings.component';
+import { AccountSettingsKeyPipe } from './pipes/account-settings-key.pipe';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { AccountSettingsComponent } from './containers/account-settings/account-
     HorseRacingComponent,
     CompetitionComponent,
     MatchComponent,
-    AccountSettingsComponent
+    AccountSettingsComponent,
+    AccountSettingsKeyPipe
   ],
   imports: [
     BrowserModule,

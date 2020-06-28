@@ -2062,5 +2062,12 @@
       "id": "c20a5e19-aec0-4890-9e9d-48fece585ad9",
       "start_time": 1577876400000
     }
-  ]
+  ],
+
+  "account_settings": {
+    "username": "user_admin",
+    "available_credit": 9400.00,
+    "credit_limit": 10000.00,
+    "net_exposure": 0.00
+  }
 }

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Router, NavigationEnd } from '@angular/router';
+import { SportServiceService } from 'src/app/services/sport.service';
+import { AccountSettings } from 'src/app/models/account-settings';
 
 @Component({
   selector: 'app-account-settings',
@@ -8,12 +9,18 @@ import { Router, NavigationEnd } from '@angular/router';
 })
 export class AccountSettingsComponent implements OnInit {
 
-  constructor(
-    private router: Router,
-  ) {
-    // console.log(router.getCurrentNavigation().extras.state);
+  accountSettings: AccountSettings;
+  balanceInformation;
+
+  constructor(private sportService: SportServiceService) {}
+
+  ngOnInit(): void {
+    this.sportService.getAccountSettings()
+      .subscribe((data: AccountSettings) => {
+        this.accountSettings = data;
+
+        this.balanceInformation = { ...data };
+        delete this.balanceInformation.username;
+      });
   }
-
-  ngOnInit(): void {}
-
 }

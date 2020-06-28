@@ -22,5 +22,10 @@
     "/soccer_spain_la_liga": {
         "target": "http://localhost:3000",
         "secure": false
+    },
+
+    "/account_settings": {
+        "target": "http://localhost:3000",
+        "secure": false
     }
 }

@@ -4,6 +4,7 @@ import { map, skip, takeWhile, finalize } from 'rxjs/operators';
 import { SportServiceService } from './services/sport.service';
 import { Router, NavigationEnd } from '@angular/router';
 import { Location } from '@angular/common';
+import { AccountSettings } from './models/account-settings';
 
 @Component({
   selector: 'app-root',
@@ -16,6 +17,7 @@ export class AppComponent implements OnInit {
   @ViewChild('toggleMenuElement') toggleMenuElement: ElementRef;
 
   clickEvents: Observable<Event> = fromEvent(document, 'click');
+  accountSettings: AccountSettings;
   currentUrl: string;
   currentUrlLength: number;
   currentLocation;
@@ -38,6 +40,9 @@ export class AppComponent implements OnInit {
         this.currentUrlLength = event.url.split('/').length;
       }
     })
+
+    this.sportService.getAccountSettings()
+      .subscribe((data: AccountSettings) => this.accountSettings = data);
   }
 
   ngOnInit() {}

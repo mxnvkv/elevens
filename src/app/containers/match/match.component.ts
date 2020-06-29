@@ -1,4 +1,4 @@
-import { Component, OnInit, Renderer2, ElementRef } from '@angular/core';
+import { Component, OnInit, Renderer2, ElementRef, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
 import { SportServiceService } from 'src/app/services/sport.service';
 import { Match } from 'src/app/models/match';
@@ -15,6 +15,8 @@ export class MatchComponent implements OnInit {
   matchOdds: OddsDetails[] = [];
   matchID: string;
   leagueName: string
+
+  @ViewChild('betPlacement') betPlacement: ElementRef;
 
   constructor(
     private router: Router,
@@ -39,8 +41,13 @@ export class MatchComponent implements OnInit {
   }
 
   placeBet(event: Event, market: OddsDetails) {
-    const betPlacement = this.renderer.createElement('div');
-    this.renderer.addClass(betPlacement, 'bet-placement');
+    const betPlacement = this.betPlacement.nativeElement;
+    this.renderer.setStyle(betPlacement, 'display', 'inline-block');
+
+    // adding odds to the template
+    const oddsField = betPlacement.querySelector('.bet-info-odds > .field');
+    oddsField.innerHTML = market.odds;
+    console.log(oddsField);
 
     const betParent = this.renderer.parentNode(event.target);
     const betWrapper = this.renderer.parentNode(betParent);

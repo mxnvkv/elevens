@@ -74,8 +74,13 @@
 
     .bet-placement {
         width: 100%;
-        height: 100px;
+        padding: 10px;
         background-color: $dark-08;
+        margin-bottom: 10px;
+        border: 1px solid darken($orange, 10%);
+
+        // !!!
+        display: none;
 
         .bet-info {
             display: flex;
@@ -83,14 +88,79 @@
             &-odds,
             &-stake {
                 flex: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .name {
+                    font-size: 12px;
+                }
+
+                .field {
+                    margin: 10px 0;
+                    background-color: #fff;
+                    border: none;
+                    text-align: center;
+                    color: $dark-01;
+                    height: 30px;
+                    box-sizing: border-box;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-weight: bold;
+                    font-size: 16px;
+                }
+            }
+
+            &-stake {
+                margin-left: 5px;
             }
         }
 
         .buttons {
             display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
 
             button {
                 flex: 1;
+                color: white;
+                font-family: Lato;
+                font-weight: bold;
+                cursor: pointer;
+                height: 50px;
+                border: none;
+                border-radius: 2px;
+                transition: .3s;
+            }
+
+            .cancel {
+                background: none;
+                border: 1px solid $gray;
+                color: $gray;
+
+                &:hover {
+                    border: 1px solid $dark-06;
+                    background-color: $dark-06;
+                }
+
+                &:active {
+                    border: 1px solid $dark-04;
+                    background-color: $dark-04;
+                }
+            }
+
+            .place-bet {
+                margin-left: 5px;
+                background-color: $orange;
+
+                &:hover {
+                    background-color: darken($orange, 10%);
+                }
+
+                &:active {
+                    background-color: darken($orange, 15%);
+                }
             }
         }
     }

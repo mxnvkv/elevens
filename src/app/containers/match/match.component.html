@@ -15,9 +15,32 @@
             <div class="runner-detail">
                 {{ market.runnerDetails }}
             </div>
-            <button class="market-odds">
+            <button (click)="placeBet($event, market)" class="market-odds">
                 {{ market.odds }}
             </button>
+        </div>
+
+        <div class="bet-placement">
+            <div class="bet-info">
+                <div class="bet-info-odds">
+                    <div class="name">
+                        Odds
+                    </div>
+                    <input type="text">
+                </div>
+
+                <div class="bet-info-stake">
+                    <div class="name">
+                        Stake
+                    </div>
+                    <input type="text">
+                </div>
+            </div>
+
+            <div class="buttons">
+                <button class="cancel">Cancel</button>
+                <button class="place-bet">Place Bet</button>
+            </div>
         </div>
     </div>
 </div>

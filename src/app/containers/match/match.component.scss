@@ -71,4 +71,27 @@
             }
         }
     }
+
+    .bet-placement {
+        width: 100%;
+        height: 100px;
+        background-color: $dark-08;
+
+        .bet-info {
+            display: flex;
+
+            &-odds,
+            &-stake {
+                flex: 1;
+            }
+        }
+
+        .buttons {
+            display: flex;
+
+            button {
+                flex: 1;
+            }
+        }
+    }
 }

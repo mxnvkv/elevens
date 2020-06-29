@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Renderer2, ElementRef } from '@angular/core';
 import { Router } from '@angular/router';
 import { SportServiceService } from 'src/app/services/sport.service';
 import { Match } from 'src/app/models/match';
@@ -18,6 +18,7 @@ export class MatchComponent implements OnInit {
 
   constructor(
     private router: Router,
+    private renderer: Renderer2,
     private sportService: SportServiceService
   ) { 
     this.matchID = router.url.split('/').pop();
@@ -35,5 +36,20 @@ export class MatchComponent implements OnInit {
           { runnerDetails: 'The Draw', odds: data.site.odds.h2h[2] },
         ]
       });
+  }
+
+  placeBet(event: Event, market: OddsDetails) {
+    const betPlacement = this.renderer.createElement('div');
+    this.renderer.addClass(betPlacement, 'bet-placement');
+
+    const betParent = this.renderer.parentNode(event.target);
+    const betWrapper = this.renderer.parentNode(betParent);
+    const nextBetSibling = this.renderer.nextSibling(betParent);
+
+    if (market.runnerDetails === 'The Draw') {
+      this.renderer.appendChild(betWrapper, betPlacement);
+    } else {
+      this.renderer.insertBefore(betWrapper, betPlacement, nextBetSibling);
+    }
   }
 }

@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Match } from '../models/match';
 import { AccountSettings } from '../models/account-settings';
+import { PlacedBet } from '../models/placed-bet';
 
 const URL_API = "https://api.the-odds-api.com";
 const API_KEY = "0b828ef7dcd437bd5d0c2c53892bb40a";
@@ -31,6 +32,10 @@ export class SportServiceService {
 
   updateAccountSettings(data: AccountSettings): Observable<any> {
     return this.http.put(`http://localhost:4200/account_settings`, data);
+  }
+
+  placeBet(bet: PlacedBet): Observable<any> {
+    return this.http.post(`http://localhost:4200/bets`, bet);
   }
 
   getAllLeagueNames() {

@@ -27,5 +27,10 @@
     "/account_settings": {
         "target": "http://localhost:3000",
         "secure": false
+    },
+
+    "/bets": {
+        "target": "http://localhost:3000",
+        "secure": false
     }
 }

@@ -153,6 +153,7 @@
             .place-bet {
                 margin-left: 5px;
                 background-color: $orange;
+                transition: .3s;
 
                 &:hover {
                     background-color: darken($orange, 10%);
@@ -160,6 +161,10 @@
 
                 &:active {
                     background-color: darken($orange, 15%);
+                }
+
+                &:disabled {
+                    opacity: .5;
                 }
             }
         }

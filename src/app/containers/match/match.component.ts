@@ -3,6 +3,8 @@ import { Router } from '@angular/router';
 import { SportServiceService } from 'src/app/services/sport.service';
 import { Match } from 'src/app/models/match';
 import { OddsDetails } from 'src/app/models/odds-details';
+import { PlacedBet } from 'src/app/models/placed-bet';
+import { v4 as uuidv4 } from 'uuid';
 
 @Component({
   selector: 'app-match',
@@ -13,7 +15,9 @@ export class MatchComponent implements OnInit {
 
   match: Match;
   matchOdds: OddsDetails[] = [];
+  market: OddsDetails;
   matchID: string;
+  bet: PlacedBet;
   leagueName: string
 
   @ViewChild('betPlacement') betPlacement: ElementRef;
@@ -48,6 +52,8 @@ export class MatchComponent implements OnInit {
     const oddsField = betPlacement.querySelector('.bet-info-odds > .field');
     oddsField.innerHTML = market.odds;
 
+    this.market = market;
+
     const betParent = this.renderer.parentNode(event.target);
     const betWrapper = this.renderer.parentNode(betParent);
     const nextBetSibling = this.renderer.nextSibling(betParent);
@@ -63,7 +69,17 @@ export class MatchComponent implements OnInit {
     this.betPlacement.nativeElement.remove();
   }
 
-  placeBet() {
+  placeBet(stakeValue: number) {
+    this.bet = {
+      runnerDetails: this.market.runnerDetails,
+      odds: this.market.odds,
+      stake: stakeValue,
+      matchID: this.match.id,
+      id: uuidv4()
+    }
+    
+    this.sportService.placeBet(this.bet).subscribe(() => console.log('Bet placed: ' + this.bet.id))
 
+    this.betPlacement.nativeElement.remove();
   }
 }

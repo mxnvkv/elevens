@@ -34,13 +34,21 @@
                     <div class="name">
                         STAKE
                     </div>
-                    <input value="0" type="text" class="field">
+                    <input 
+                        #stake 
+                        value="100" 
+                        type="text" 
+                        class="field">
                 </div>
             </div>
 
             <div class="buttons">
                 <button (click)="cancel()" class="cancel">Cancel</button>
-                <button class="place-bet">Place Bet</button>
+                <button 
+                    (click)="placeBet(stake.value)" 
+                    class="place-bet">
+                    Place Bet
+                </button>
             </div>
         </div>
 

@@ -15,7 +15,7 @@
             <div class="runner-detail">
                 {{ market.runnerDetails }}
             </div>
-            <button (click)="placeBet($event, market)" class="market-odds">
+            <button (click)="showPlaceBet($event, market)" class="market-odds">
                 {{ market.odds }}
             </button>
         </div>
@@ -39,10 +39,10 @@
             </div>
 
             <div class="buttons">
-                <button class="cancel">Cancel</button>
+                <button (click)="cancel()" class="cancel">Cancel</button>
                 <button class="place-bet">Place Bet</button>
             </div>
         </div>
-        
+
     </div>
 </div>

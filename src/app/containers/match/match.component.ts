@@ -40,14 +40,13 @@ export class MatchComponent implements OnInit {
       });
   }
 
-  placeBet(event: Event, market: OddsDetails) {
+  showPlaceBet(event: Event, market: OddsDetails) {
     const betPlacement = this.betPlacement.nativeElement;
     this.renderer.setStyle(betPlacement, 'display', 'inline-block');
 
     // adding odds to the template
     const oddsField = betPlacement.querySelector('.bet-info-odds > .field');
     oddsField.innerHTML = market.odds;
-    console.log(oddsField);
 
     const betParent = this.renderer.parentNode(event.target);
     const betWrapper = this.renderer.parentNode(betParent);
@@ -58,5 +57,13 @@ export class MatchComponent implements OnInit {
     } else {
       this.renderer.insertBefore(betWrapper, betPlacement, nextBetSibling);
     }
+  }
+
+  cancel() {
+    this.betPlacement.nativeElement.remove();
+  }
+
+  placeBet() {
+
   }
 }

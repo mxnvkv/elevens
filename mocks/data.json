@@ -2065,7 +2065,7 @@
   ],
   "account_settings": {
     "username": "user_admin",
-    "available_credit": 9400,
+    "available_credit": 8090,
     "credit_limit": 10000,
     "net_exposure": 0
   },
@@ -2177,6 +2177,402 @@
         "start_time": 1577876400000
       },
       "id": "762d5d59-886e-4e8c-bf39-6ce6a3459710"
+    },
+    {
+      "runnerDetails": "Manchester City",
+      "odds": 1.84,
+      "stake": 100,
+      "placedTime": 1593631097089,
+      "match": {
+        "sport_key": "soccer_epl",
+        "sport_nice": "EPL",
+        "teams": [
+          "Chelsea",
+          "Manchester City"
+        ],
+        "commence_time": 1593112500,
+        "home_team": "Chelsea",
+        "site": {
+          "site_key": "betfair",
+          "site_nice": "Betfair",
+          "last_update": 1592902211,
+          "odds": {
+            "h2h": [
+              4.3,
+              1.84,
+              4.3
+            ],
+            "h2h_lay": [
+              4.5,
+              1.85,
+              4.4
+            ]
+          }
+        },
+        "id": "69df2bfc-60b6-4344-82c5-c0b9d8d75569",
+        "start_time": 1577867400000
+      },
+      "id": "4de54b18-0851-4875-8548-f8a4942f2eb0"
+    },
+    {
+      "runnerDetails": "Manchester City",
+      "odds": 1.84,
+      "stake": 100,
+      "placedTime": 1593632609580,
+      "match": {
+        "sport_key": "soccer_epl",
+        "sport_nice": "EPL",
+        "teams": [
+          "Chelsea",
+          "Manchester City"
+        ],
+        "commence_time": 1593112500,
+        "home_team": "Chelsea",
+        "site": {
+          "site_key": "betfair",
+          "site_nice": "Betfair",
+          "last_update": 1592902211,
+          "odds": {
+            "h2h": [
+              4.3,
+              1.84,
+              4.3
+            ],
+            "h2h_lay": [
+              4.5,
+              1.85,
+              4.4
+            ]
+          }
+        },
+        "id": "69df2bfc-60b6-4344-82c5-c0b9d8d75569",
+        "start_time": 1577867400000
+      },
+      "id": "2c68d858-a1d7-4852-ac61-47c1da5ea775"
+    },
+    {
+      "runnerDetails": "Manchester City",
+      "odds": 1.84,
+      "stake": 200,
+      "placedTime": 1593632622333,
+      "match": {
+        "sport_key": "soccer_epl",
+        "sport_nice": "EPL",
+        "teams": [
+          "Chelsea",
+          "Manchester City"
+        ],
+        "commence_time": 1593112500,
+        "home_team": "Chelsea",
+        "site": {
+          "site_key": "betfair",
+          "site_nice": "Betfair",
+          "last_update": 1592902211,
+          "odds": {
+            "h2h": [
+              4.3,
+              1.84,
+              4.3
+            ],
+            "h2h_lay": [
+              4.5,
+              1.85,
+              4.4
+            ]
+          }
+        },
+        "id": "69df2bfc-60b6-4344-82c5-c0b9d8d75569",
+        "start_time": 1577867400000
+      },
+      "id": "41b3e2fa-c026-414a-a376-73ff863a1d46"
+    },
+    {
+      "runnerDetails": "Manchester City",
+      "odds": 1.84,
+      "stake": 100,
+      "placedTime": 1593632649103,
+      "match": {
+        "sport_key": "soccer_epl",
+        "sport_nice": "EPL",
+        "teams": [
+          "Chelsea",
+          "Manchester City"
+        ],
+        "commence_time": 1593112500,
+        "home_team": "Chelsea",
+        "site": {
+          "site_key": "betfair",
+          "site_nice": "Betfair",
+          "last_update": 1592902211,
+          "odds": {
+            "h2h": [
+              4.3,
+              1.84,
+              4.3
+            ],
+            "h2h_lay": [
+              4.5,
+              1.85,
+              4.4
+            ]
+          }
+        },
+        "id": "69df2bfc-60b6-4344-82c5-c0b9d8d75569",
+        "start_time": 1577867400000
+      },
+      "id": "a29df7f8-fdd2-4924-85db-ae4bbb361fcd"
+    },
+    {
+      "runnerDetails": "Manchester City",
+      "odds": 1.84,
+      "stake": 100,
+      "placedTime": 1593633378027,
+      "match": {
+        "sport_key": "soccer_epl",
+        "sport_nice": "EPL",
+        "teams": [
+          "Chelsea",
+          "Manchester City"
+        ],
+        "commence_time": 1593112500,
+        "home_team": "Chelsea",
+        "site": {
+          "site_key": "betfair",
+          "site_nice": "Betfair",
+          "last_update": 1592902211,
+          "odds": {
+            "h2h": [
+              4.3,
+              1.84,
+              4.3
+            ],
+            "h2h_lay": [
+              4.5,
+              1.85,
+              4.4
+            ]
+          }
+        },
+        "id": "69df2bfc-60b6-4344-82c5-c0b9d8d75569",
+        "start_time": 1577867400000
+      },
+      "id": "2748d79c-87e8-4982-8649-76933216c167"
+    },
+    {
+      "runnerDetails": "Manchester City",
+      "odds": 1.84,
+      "stake": 150,
+      "placedTime": 1593633464145,
+      "match": {
+        "sport_key": "soccer_epl",
+        "sport_nice": "EPL",
+        "teams": [
+          "Chelsea",
+          "Manchester City"
+        ],
+        "commence_time": 1593112500,
+        "home_team": "Chelsea",
+        "site": {
+          "site_key": "betfair",
+          "site_nice": "Betfair",
+          "last_update": 1592902211,
+          "odds": {
+            "h2h": [
+              4.3,
+              1.84,
+              4.3
+            ],
+            "h2h_lay": [
+              4.5,
+              1.85,
+              4.4
+            ]
+          }
+        },
+        "id": "69df2bfc-60b6-4344-82c5-c0b9d8d75569",
+        "start_time": 1577867400000
+      },
+      "id": "f41bb408-eb14-4e6a-964b-b5b412b1b117"
+    },
+    {
+      "runnerDetails": "Manchester City",
+      "odds": 1.84,
+      "stake": 50,
+      "placedTime": 1593633556938,
+      "match": {
+        "sport_key": "soccer_epl",
+        "sport_nice": "EPL",
+        "teams": [
+          "Chelsea",
+          "Manchester City"
+        ],
+        "commence_time": 1593112500,
+        "home_team": "Chelsea",
+        "site": {
+          "site_key": "betfair",
+          "site_nice": "Betfair",
+          "last_update": 1592902211,
+          "odds": {
+            "h2h": [
+              4.3,
+              1.84,
+              4.3
+            ],
+            "h2h_lay": [
+              4.5,
+              1.85,
+              4.4
+            ]
+          }
+        },
+        "id": "69df2bfc-60b6-4344-82c5-c0b9d8d75569",
+        "start_time": 1577867400000
+      },
+      "id": "ed93cd57-3d4d-4d83-8efc-017f7099d029"
+    },
+    {
+      "runnerDetails": "Manchester City",
+      "odds": 1.84,
+      "stake": 400,
+      "placedTime": 1593633566773,
+      "match": {
+        "sport_key": "soccer_epl",
+        "sport_nice": "EPL",
+        "teams": [
+          "Chelsea",
+          "Manchester City"
+        ],
+        "commence_time": 1593112500,
+        "home_team": "Chelsea",
+        "site": {
+          "site_key": "betfair",
+          "site_nice": "Betfair",
+          "last_update": 1592902211,
+          "odds": {
+            "h2h": [
+              4.3,
+              1.84,
+              4.3
+            ],
+            "h2h_lay": [
+              4.5,
+              1.85,
+              4.4
+            ]
+          }
+        },
+        "id": "69df2bfc-60b6-4344-82c5-c0b9d8d75569",
+        "start_time": 1577867400000
+      },
+      "id": "671028e0-cc17-4964-955e-c1bd2f911b4e"
+    },
+    {
+      "runnerDetails": "Manchester City",
+      "odds": 1.84,
+      "stake": 50,
+      "placedTime": 1593633635971,
+      "match": {
+        "sport_key": "soccer_epl",
+        "sport_nice": "EPL",
+        "teams": [
+          "Chelsea",
+          "Manchester City"
+        ],
+        "commence_time": 1593112500,
+        "home_team": "Chelsea",
+        "site": {
+          "site_key": "betfair",
+          "site_nice": "Betfair",
+          "last_update": 1592902211,
+          "odds": {
+            "h2h": [
+              4.3,
+              1.84,
+              4.3
+            ],
+            "h2h_lay": [
+              4.5,
+              1.85,
+              4.4
+            ]
+          }
+        },
+        "id": "69df2bfc-60b6-4344-82c5-c0b9d8d75569",
+        "start_time": 1577867400000
+      },
+      "id": "70f6d509-f61f-4fbb-9f8f-06235425eef9"
+    },
+    {
+      "runnerDetails": "Manchester City",
+      "odds": 1.84,
+      "stake": 50,
+      "placedTime": 1593633743314,
+      "match": {
+        "sport_key": "soccer_epl",
+        "sport_nice": "EPL",
+        "teams": [
+          "Chelsea",
+          "Manchester City"
+        ],
+        "commence_time": 1593112500,
+        "home_team": "Chelsea",
+        "site": {
+          "site_key": "betfair",
+          "site_nice": "Betfair",
+          "last_update": 1592902211,
+          "odds": {
+            "h2h": [
+              4.3,
+              1.84,
+              4.3
+            ],
+            "h2h_lay": [
+              4.5,
+              1.85,
+              4.4
+            ]
+          }
+        },
+        "id": "69df2bfc-60b6-4344-82c5-c0b9d8d75569",
+        "start_time": 1577867400000
+      },
+      "id": "2613a466-fb0b-48bc-bef8-3804f5fa6960"
+    },
+    {
+      "runnerDetails": "Manchester City",
+      "odds": 1.84,
+      "stake": 10,
+      "placedTime": 1593633790035,
+      "match": {
+        "sport_key": "soccer_epl",
+        "sport_nice": "EPL",
+        "teams": [
+          "Chelsea",
+          "Manchester City"
+        ],
+        "commence_time": 1593112500,
+        "home_team": "Chelsea",
+        "site": {
+          "site_key": "betfair",
+          "site_nice": "Betfair",
+          "last_update": 1592902211,
+          "odds": {
+            "h2h": [
+              4.3,
+              1.84,
+              4.3
+            ],
+            "h2h_lay": [
+              4.5,
+              1.85,
+              4.4
+            ]
+          }
+        },
+        "id": "69df2bfc-60b6-4344-82c5-c0b9d8d75569",
+        "start_time": 1577867400000
+      },
+      "id": "bee915f2-da8d-483c-83bd-b126a712dacf"
     }
   ]
 }

@@ -5,6 +5,8 @@ import { Match } from 'src/app/models/match';
 import { OddsDetails } from 'src/app/models/odds-details';
 import { PlacedBet } from 'src/app/models/placed-bet';
 import { v4 as uuidv4 } from 'uuid';
+import { AccountSettings } from 'src/app/models/account-settings';
+import { AppComponent } from 'src/app/app.component';
 
 @Component({
   selector: 'app-match',
@@ -13,6 +15,7 @@ import { v4 as uuidv4 } from 'uuid';
 })
 export class MatchComponent implements OnInit {
 
+  account: AccountSettings;
   match: Match;
   matchOdds: OddsDetails[] = [];
   market: OddsDetails;
@@ -27,7 +30,8 @@ export class MatchComponent implements OnInit {
   constructor(
     private router: Router,
     private renderer: Renderer2,
-    private sportService: SportServiceService
+    private sportService: SportServiceService,
+    private appComponent: AppComponent
   ) { 
     this.matchID = router.url.split('/').pop();
     this.leagueName = router.url.split('/')[2];
@@ -44,6 +48,9 @@ export class MatchComponent implements OnInit {
           { runnerDetails: 'The Draw', odds: data.site.odds.h2h[2] },
         ]
       });
+
+    this.sportService.getAccountSettings()
+      .subscribe((data: AccountSettings) => this.account = data);
   }
 
   showPlaceBet(event: Event, market: OddsDetails) {
@@ -77,7 +84,7 @@ export class MatchComponent implements OnInit {
     this.bet = {
       runnerDetails: this.market.runnerDetails,
       odds: this.market.odds,
-      stake: stakeValue,
+      stake: parseFloat(parseFloat(stakeValue.toString()).toFixed(2)),
       placedTime: + new Date(),
       match: this.match,
       id: uuidv4()
@@ -85,11 +92,23 @@ export class MatchComponent implements OnInit {
     
     this.sportService.placeBet(this.bet).subscribe(() => console.log('Bet placed: ' + this.bet.id));
 
+    this.account.available_credit -= this.bet.stake;
+    this.sportService.updateAccountSettings(this.account).subscribe(() => {
+      console.log('Account settings updated');
+    });
+
     this.betPlacement.nativeElement.remove();
+
+    this.appComponent.updateAvailableStake();
   }
 
   checkStake(stakeValue: any) {
-    if (stakeValue && /^[0-9,.]*$/.test(stakeValue) && parseFloat(stakeValue) !== NaN) {
+    if (
+        stakeValue && 
+        /^[0-9,.]*$/.test(stakeValue) && 
+        parseFloat(stakeValue) !== NaN &&
+        this.account?.available_credit >= stakeValue
+      ) {
       this.isBetInvalid = false;
     } else {
       this.isBetInvalid = true;

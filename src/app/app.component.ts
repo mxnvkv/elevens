@@ -1,4 +1,4 @@
-import { Component, ViewChild, ElementRef, Renderer2, OnInit } from '@angular/core';
+import { Component, ViewChild, ElementRef, Renderer2, OnInit, AfterViewInit } from '@angular/core';
 import { Observable, fromEvent } from 'rxjs';
 import { map, skip, takeWhile, finalize } from 'rxjs/operators';
 import { SportServiceService } from './services/sport.service';
@@ -74,5 +74,10 @@ export class AppComponent implements OnInit {
 
   back() {
     this.currentLocation.back();
+  }
+
+  updateAvailableStake(): void {
+    this.sportService.getAccountSettings()
+      .subscribe((data: AccountSettings) => this.accountSettings = data);
   }
 }

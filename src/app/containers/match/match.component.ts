@@ -18,9 +18,11 @@ export class MatchComponent implements OnInit {
   market: OddsDetails;
   matchID: string;
   bet: PlacedBet;
+  isBetInvalid: boolean = true;
   leagueName: string
 
   @ViewChild('betPlacement') betPlacement: ElementRef;
+  @ViewChild('stake') stake: ElementRef;
 
   constructor(
     private router: Router,
@@ -63,6 +65,8 @@ export class MatchComponent implements OnInit {
     } else {
       this.renderer.insertBefore(betWrapper, betPlacement, nextBetSibling);
     }
+
+    this.stake.nativeElement.focus();
   }
 
   cancel() {
@@ -82,5 +86,13 @@ export class MatchComponent implements OnInit {
     this.sportService.placeBet(this.bet).subscribe(() => console.log('Bet placed: ' + this.bet.id));
 
     this.betPlacement.nativeElement.remove();
+  }
+
+  checkStake(stakeValue: any) {
+    if (stakeValue && /^[0-9,.]*$/.test(stakeValue) && parseFloat(stakeValue) !== NaN) {
+      this.isBetInvalid = false;
+    } else {
+      this.isBetInvalid = true;
+    }
   }
 }

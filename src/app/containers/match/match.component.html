@@ -34,9 +34,9 @@
                     <div class="name">
                         STAKE
                     </div>
-                    <input 
+                    <input
+                        (input)="checkStake(stake.value)" 
                         #stake 
-                        value="100" 
                         type="text" 
                         class="field">
                 </div>
@@ -45,7 +45,8 @@
             <div class="buttons">
                 <button (click)="cancel()" class="cancel">Cancel</button>
                 <button 
-                    (click)="placeBet(stake.value)" 
+                    (click)="placeBet(stake.value)"
+                    [disabled]="isBetInvalid" 
                     class="place-bet">
                     Place Bet
                 </button>

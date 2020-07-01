@@ -5,7 +5,7 @@
     height: 100%;
     background-color: $dark-02;
     margin-left: -300px;
-    position: absolute;
+    position: fixed;
     border-right: 1px solid $dark-01;
     transition: .3s ease-out;
 
@@ -71,6 +71,7 @@
 
 .top-bar {
     width: 100%;
+    position: fixed;
     height: $top-bar-height;
     background-color: $dark-02;
 
@@ -166,4 +167,8 @@
 
 * {
     color: $gray;
+}
+
+router-outlet + * {
+    margin-top: $top-bar-height;
 }

@@ -1,1 +1,48 @@
-<p>my-markets works!</p>
+<div class="my-markets">
+    <div *ngIf="bets && !bets.length" class="no-bets">
+        You have no bets
+    </div>
+
+    <div *ngIf="bets" class="bet-list">
+        <div *ngFor="let bet of bets.slice().reverse()" class="bet">
+            
+            <div class="top-row">
+                <div class="result">
+                    {{ bet.runnerDetails }}
+                </div>
+    
+                <div class="odds">
+                    {{ bet.odds }}
+                </div>
+            </div>
+
+            <div class="middle-row">
+                <div class="event">
+                    <div class="sport-icon"></div>
+                    <div class="match">
+                        {{ bet.match.teams[0] }} - {{ bet.match.teams[1] }}
+                    </div>
+                </div>
+
+                <div class="match-date">
+                    {{ bet.match.start_time | date: 'dd MMM, H:mm' }}
+                </div>
+
+                <div class="placed-time">
+                    #{{ bet.betNumber }} Placed: {{ bet.placedTime | date: 'dd MMM, H:mm' }}
+                </div>
+            </div>
+
+            <div class="bottom-row">
+                <div class="bet-stake">
+                    Bet: {{ bet.stake | number: '1.2-2' }}
+                </div>
+
+                <div class="bet-status">
+                    Live
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

@@ -1,1 +1,65 @@
 @import '../../../styles.scss';
+
+.my-markets {
+    width: 100%;
+    padding: 30px 20px;
+
+    .no-bets {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .bet-list {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bet {
+        flex: 1;
+        // flex-basis: 50px;
+        padding: 30px;
+        background-color: $dark-04;
+        margin-bottom: 20px;
+
+        .top-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .result {
+            font-size: 23px;
+            font-weight: bold;
+        }
+
+        .middle-row {
+            margin: 30px 0;
+        }
+
+        .event, .match-date {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+
+        .sport-icon {
+            width: 20px;
+            height: 20px;
+            background-image: url('../../../assets/img/football.png');
+            background-position: 50% 70%;
+            background-repeat: no-repeat;
+            background-size: 70%;
+            margin-right: 5px;
+        }
+
+        .bottom-row {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .bet-status {
+            color: $orange;
+        }
+    }
+}

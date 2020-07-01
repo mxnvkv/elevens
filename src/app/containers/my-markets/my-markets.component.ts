@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { SportServiceService } from 'src/app/services/sport.service';
+import { PlacedBet } from 'src/app/models/placed-bet';
 
 @Component({
   selector: 'app-my-markets',
@@ -7,9 +9,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MyMarketsComponent implements OnInit {
 
-  constructor() { }
+  bets: PlacedBet[] = [];
+
+  constructor(
+    private sportService: SportServiceService
+  ) {}
 
   ngOnInit(): void {
+    this.sportService.getAllPlacedBets()
+      .subscribe((data: PlacedBet[]) => {
+        data.forEach((bet: PlacedBet, i) => {
+          bet.betNumber = i + 1;
+        })
+        this.bets = data;
+      });
   }
 
 }

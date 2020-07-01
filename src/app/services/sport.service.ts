@@ -38,6 +38,10 @@ export class SportServiceService {
     return this.http.post(`http://localhost:4200/bets`, bet);
   }
 
+  getAllPlacedBets(): Observable<any> {
+    return this.http.get(`http://localhost:4200/bets`);
+  }
+
   getAllLeagueNames() {
     return [
       'soccer_epl',

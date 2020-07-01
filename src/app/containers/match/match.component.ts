@@ -74,11 +74,12 @@ export class MatchComponent implements OnInit {
       runnerDetails: this.market.runnerDetails,
       odds: this.market.odds,
       stake: stakeValue,
-      matchID: this.match.id,
+      placedTime: + new Date(),
+      match: this.match,
       id: uuidv4()
     }
     
-    this.sportService.placeBet(this.bet).subscribe(() => console.log('Bet placed: ' + this.bet.id))
+    this.sportService.placeBet(this.bet).subscribe(() => console.log('Bet placed: ' + this.bet.id));
 
     this.betPlacement.nativeElement.remove();
   }

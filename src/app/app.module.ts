@@ -13,6 +13,7 @@ import { CompetitionComponent } from './containers/competition/competition.compo
 import { MatchComponent } from './containers/match/match.component';
 import { AccountSettingsComponent } from './containers/account-settings/account-settings.component';
 import { AccountSettingsKeyPipe } from './pipes/account-settings-key.pipe';
+import { ReversePipe } from './pipes/reverse/reverse.pipe';
 
 @NgModule({
   declarations: [
@@ -25,14 +26,14 @@ import { AccountSettingsKeyPipe } from './pipes/account-settings-key.pipe';
     CompetitionComponent,
     MatchComponent,
     AccountSettingsComponent,
-    AccountSettingsKeyPipe
+    AccountSettingsKeyPipe,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [ReversePipe],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

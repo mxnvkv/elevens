@@ -5,11 +5,25 @@ import { SportServiceService } from './services/sport.service';
 import { Router, NavigationEnd } from '@angular/router';
 import { Location } from '@angular/common';
 import { AccountSettings } from './models/account-settings';
+import { animate, state, style, transition, trigger } from '@angular/animations';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
+  animations: [
+    trigger('OpenCloseMenu', [
+      state('true', style({ marginLeft: '0px' })),
+      state('false', style({ marginLeft: '-300px' })),
+      transition('false <=> true', [animate(300)])
+    ]),
+
+    trigger('OpenCloseApp', [
+      state('true', style({ marginLeft: '300px' })),
+      state('false', style({ marginLeft: '0' })),
+      transition('false <=> true', [animate(300)])
+    ])
+  ]
 })
 export class AppComponent implements OnInit {
   @ViewChild('app') app: ElementRef;
@@ -21,6 +35,7 @@ export class AppComponent implements OnInit {
   currentUrl: string;
   currentUrlLength: number;
   currentLocation;
+  isMenuOpen: boolean = false;
 
   constructor(
     private renderer: Renderer2,
@@ -48,8 +63,7 @@ export class AppComponent implements OnInit {
   ngOnInit() {}
 
   toggleMenu() {
-    this.renderer.setStyle(this.menu.nativeElement, 'margin-left', '0px');
-    this.renderer.setStyle(this.app.nativeElement, 'margin-left', '300px');
+    this.isMenuOpen = true;
 
     // removing toggle-menu down, because when
     // we click on it, menu closes but new observable
@@ -63,8 +77,8 @@ export class AppComponent implements OnInit {
       skip(1),
       takeWhile(value => value === 'menu'),
       finalize(() => {
-        this.renderer.setStyle(this.menu.nativeElement, 'margin-left', '-300px');
-        this.renderer.setStyle(this.app.nativeElement, 'margin-left', '0px');
+
+        this.isMenuOpen = false;
 
         // bringing toggle-menu up
         this.renderer.setStyle(this.toggleMenuElement.nativeElement, 'z-index', '1');

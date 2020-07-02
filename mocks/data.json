@@ -2065,7 +2065,7 @@
   ],
   "account_settings": {
     "username": "user_admin",
-    "available_credit": 8090,
+    "available_credit": 8015,
     "credit_limit": 10000,
     "net_exposure": 0
   },
@@ -2573,6 +2573,42 @@
         "start_time": 1577867400000
       },
       "id": "bee915f2-da8d-483c-83bd-b126a712dacf"
+    },
+    {
+      "runnerDetails": "FC Internazionale",
+      "odds": 1.56,
+      "stake": 75,
+      "placedTime": 1593634153366,
+      "match": {
+        "sport_key": "soccer_italy_serie_a",
+        "sport_nice": "Serie A - Italy",
+        "teams": [
+          "FC Internazionale",
+          "Parma"
+        ],
+        "commence_time": 1593373500,
+        "home_team": "Parma",
+        "site": {
+          "site_key": "betfair",
+          "site_nice": "Betfair",
+          "last_update": 1592903174,
+          "odds": {
+            "h2h": [
+              1.56,
+              6.6,
+              4.1
+            ],
+            "h2h_lay": [
+              1.66,
+              7.6,
+              4.9
+            ]
+          }
+        },
+        "id": "1dcaada2-78cd-4b75-8d35-e3b12932961e",
+        "start_time": 1577867400000
+      },
+      "id": "80a39b9c-54f1-461b-84f7-7cd477bb6f34"
     }
   ]
 }

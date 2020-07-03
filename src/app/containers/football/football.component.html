@@ -1,7 +1,18 @@
 <app-sport>
     <h1>Football</h1>
 
+    <div class="in-play">
+        <div class="title">
+            <div class="icon"></div>
+            <div class="text">In Play</div>
+        </div>
+
+        <!-- <div class="in-play-matches"></div> -->
+    </div>
+
     <ul class="competitions-list">
+        <div class="title">Competitions</div>
+
         <div 
             class="competition"
             *ngFor="let league of allLeaguesData"

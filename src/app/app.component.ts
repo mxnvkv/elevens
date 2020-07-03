@@ -25,6 +25,7 @@ import { animate, state, style, transition, trigger } from '@angular/animations'
     ])
   ]
 })
+
 export class AppComponent implements OnInit {
   @ViewChild('app') app: ElementRef;
   @ViewChild('menu') menu: ElementRef;

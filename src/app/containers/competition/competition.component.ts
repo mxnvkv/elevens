@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { Match } from 'src/app/models/match';
 import { Router } from '@angular/router';
 import { SportServiceService } from 'src/app/services/sport.service';
-import { forkJoin, concat } from 'rxjs';
-import { delay } from 'rxjs/operators';
 import { HttpClient } from '@angular/common/http';
 import { AccountSettings } from 'src/app/models/account-settings';
+import { concat } from 'rxjs';
+import { v4 as uuidv4 } from 'uuid';
 
 @Component({
   selector: 'app-competition',
@@ -88,6 +88,7 @@ export class CompetitionComponent implements OnInit {
       let matchNewStartTime = tomorrowDate + matchStartTime;
 
       match.start_time = matchNewStartTime;
+      match.id = uuidv4();
 
       return this.sportService.addMatchToSchedule(match);
     })

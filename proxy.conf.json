@@ -4,6 +4,8 @@
         "secure": false
     },
 
+
+
     "/soccer_epl": {
         "target": "http://localhost:3000",
         "secure": false
@@ -24,12 +26,36 @@
         "secure": false
     },
 
+
+
     "/account_settings": {
         "target": "http://localhost:3000",
         "secure": false
     },
 
     "/bets": {
+        "target": "http://localhost:3000",
+        "secure": false
+    },
+
+
+
+    "/soccer_epl_schedule": {
+        "target": "http://localhost:3000",
+        "secure": false
+    },
+
+    "/soccer_germany_bundesliga_schedule": {
+        "target": "http://localhost:3000",
+        "secure": false
+    },
+
+    "/soccer_italy_serie_a_schedule": {
+        "target": "http://localhost:3000",
+        "secure": false
+    },
+
+    "/soccer_spain_la_liga_schedule": {
         "target": "http://localhost:3000",
         "secure": false
     }

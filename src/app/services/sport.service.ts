@@ -4,6 +4,8 @@ import { Observable } from 'rxjs';
 import { Match } from '../models/match';
 import { AccountSettings } from '../models/account-settings';
 import { PlacedBet } from '../models/placed-bet';
+import { interval } from 'rxjs';
+import { map, share, delay } from 'rxjs/operators';
 
 const URL_API = "https://api.the-odds-api.com";
 const API_KEY = "0b828ef7dcd437bd5d0c2c53892bb40a";
@@ -12,7 +14,14 @@ const API_KEY = "0b828ef7dcd437bd5d0c2c53892bb40a";
   providedIn: 'root'
 })
 export class SportServiceService {
-  constructor(private http: HttpClient) {}
+  private clock: Observable<Date>;
+
+  constructor(private http: HttpClient) {
+    this.clock = interval(1000).pipe(
+      map(tick => new Date()),
+      share()
+    );
+  }
 
   getLeague(leagueName: string): Observable<any> {
     return this.http.get(`http://localhost:4200/${leagueName}`);
@@ -24,6 +33,11 @@ export class SportServiceService {
 
   updateMatch(match: Match): Observable<any> {
     return this.http.put(`http://localhost:4200/${match.sport_key}/${match.id}`, match)
+  }
+
+  addMatchToSchedule(match: Match): Observable<any> {
+    return this.http.post(`http://localhost:4200/${match.sport_key}_schedule`, match)
+        .pipe(delay(1000));
   }
 
   getAccountSettings(): Observable<any> {
@@ -40,6 +54,10 @@ export class SportServiceService {
 
   getAllPlacedBets(): Observable<any> {
     return this.http.get(`http://localhost:4200/bets`);
+  }
+
+  getClock(): Observable<Date> {
+    return this.clock;
   }
 
   getAllLeagueNames() {

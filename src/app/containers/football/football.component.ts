@@ -146,27 +146,42 @@ export class FootballComponent implements OnInit {
 
     let allMatches = [].concat( ...this.allScheduledMatches );
     let allLiveMatches = [ ...this.allLiveMatches ];
+    let observables = [];
     
-    allMatches.forEach((match: Match) => {
+    // allMatches.forEach((match: Match) => {
 
-      /* 
-        If match is already live, exclude it
-        from allMatches, so we won't check it
-      */
+      
 
-      allLiveMatches.forEach((liveMatch: Match) => {
-        if (liveMatch.id === match.id) {
-          allMatches.splice(allMatches.indexOf(match), 1);
+    //   allLiveMatches.forEach((liveMatch: Match) => {
+    //     if (liveMatch.id === match.id) {
+    //       allMatches.splice(allMatches.indexOf(match), 1);
+    //     }
+    //   })
+    // })
+
+    /* 
+      If match is already live, exclude it
+      from allMatches, so we won't check it
+    */
+
+    for (let i = 0; i < allLiveMatches.length; i++) {
+      for (let j = 0; j < allMatches.length; j++) {
+
+        if (allLiveMatches[i].id === allMatches[j].id) {
+          allMatches.splice(allMatches.indexOf(allLiveMatches[i]));
+          j--;
         }
-      })
 
-      if (date.getTime() > match.start_time) {
-        this.sportService.addMatchToLive(match)
-          .subscribe(() => {
-            this.allLiveMatches.push(match);
-          })
       }
+    }
 
+    allMatches.forEach((match: Match) => {
+      if (date.getTime() > match.start_time) {
+        observables.push(this.sportService.addMatchToLive(match))
+      }
     })
+
+    concat(...observables).subscribe((match: Match) => this.allLiveMatches.push(match));
+
   }
 }

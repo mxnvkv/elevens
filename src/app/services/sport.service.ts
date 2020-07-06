@@ -51,7 +51,8 @@ export class SportServiceService {
   }
 
   addMatchToLive(match: Match): Observable<any> {
-    return this.http.post(`http://localhost:4200/live_football_matches`, match);
+    return this.http.post(`http://localhost:4200/live_football_matches`, match)
+      .pipe(delay(200));  
   }
 
 

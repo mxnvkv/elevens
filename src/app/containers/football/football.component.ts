@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { SportServiceService } from 'src/app/services/sport.service';
 import { Match } from 'src/app/models/match';
+import { AccountSettings } from 'src/app/models/account-settings';
+import { concat } from 'rxjs';
+import { v4 as uuidv4 } from 'uuid';
 
 @Component({
   selector: 'app-football',
@@ -11,6 +14,9 @@ export class FootballComponent implements OnInit {
   
   allLeagueNames: string[] = [];
   allLeaguesData: Match[][] = [];
+
+  accountSettings: AccountSettings;
+  currentTime: Date;
 
   leagueKeys = [
     'soccer_epl',
@@ -40,7 +46,22 @@ export class FootballComponent implements OnInit {
 
           this.allLeaguesData.length >= 4 ? this.sortLeagues() : '';
         })
-    })
+    });
+
+    this.sportService.getAccountSettings()
+      .subscribe((data: AccountSettings) => {
+        this.accountSettings = data;
+      });
+
+    this.sportService.getClock()
+      .subscribe((data: Date) => {
+        this.currentTime = data;
+
+        if (data.getTime() > this.accountSettings.soccer_schedule_time) {
+          console.log('Time!');
+          this.createSchedule();
+        }
+      });
   }
 
   returnLeagueDisplayTitle(leagueKey) {
@@ -51,5 +72,49 @@ export class FootballComponent implements OnInit {
     this.allLeaguesData.sort((a, b) => {
       return a[0].sport_key.localeCompare(b[0].sport_key);
     })
+  }
+
+  getDayTime(date: number) {
+    let dayInMiliseconds = this.getDayInMiliseconds(date);
+
+    return date - dayInMiliseconds;
+  }
+
+  getDayInMiliseconds(date: number) {
+    const hours = new Date(date).getHours() * 60;
+    const minutes = (new Date(date).getMinutes() + hours) * 60;
+    const seconds = (new Date(date).getSeconds() + minutes) * 1000;
+    const miliseconds = new Date(date).getMilliseconds() + seconds;
+
+    date -= miliseconds;
+
+    return date;
+  }
+
+  createSchedule() {
+    console.log(`Schedule creation for all 4 leagues has started`);
+    console.log(this.accountSettings);
+
+    let leagues = [ ...this.allLeaguesData ];
+    let observables = [];
+
+    leagues.forEach((league: Match[]) => {
+      league.forEach((match: Match) => {
+        let dayInMiliseconds = 24 * 60 * 60 * 1000;
+        let tomorrowDate = this.getDayInMiliseconds(new Date().getTime()) + dayInMiliseconds; 
+        let matchStartTime = this.getDayTime(match.start_time);
+        let matchNewStartTime = tomorrowDate + matchStartTime;
+
+        match.start_time = matchNewStartTime;
+        match.id = uuidv4();
+
+        observables.push(this.sportService.addMatchToSchedule(match))
+      })
+    })
+
+    this.accountSettings.soccer_schedule_time += 24 * 60 * 60 * 1000;
+    let updateAccount = this.sportService.updateAccountSettings(this.accountSettings);
+
+    concat(...observables, updateAccount).subscribe(console.log);
   }
 }

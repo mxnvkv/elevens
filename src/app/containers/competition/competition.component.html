@@ -10,14 +10,14 @@
 
         <div class="match-time">
             <!-- {{ match.start_time | date: 'H:mm' }} -->
-            {{ match.start_time | date: 'MMM d, y, h:mm' }}
+            {{ match.start_time | date: 'MMM d, y, H:mm' }}
         </div>
     </div>
 
     <!-- to delete -->
-    <div *ngIf="currentTime" class="match-time">
+    <!-- <div *ngIf="currentTime" class="match-time">
         {{ currentTime | date: 'MMM d, y, H:mm:ss' }}
         <br>
         {{ currentTime.getTime() }}
-    </div>
+    </div> -->
 </div>

@@ -37,7 +37,7 @@ export class SportServiceService {
 
   addMatchToSchedule(match: Match): Observable<any> {
     return this.http.post(`http://localhost:4200/${match.sport_key}_schedule`, match)
-        .pipe(delay(1000));
+        .pipe(delay(200));
   }
 
   getAccountSettings(): Observable<any> {

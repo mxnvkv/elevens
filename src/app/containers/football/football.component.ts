@@ -14,6 +14,8 @@ export class FootballComponent implements OnInit {
   
   allLeagueNames: string[] = [];
   allLeaguesData: Match[][] = [];
+  allScheduledMatches: Match[][] = [];
+  allLiveMatches: Match[];
 
   accountSettings: AccountSettings;
   currentTime: Date;
@@ -47,19 +49,40 @@ export class FootballComponent implements OnInit {
           this.allLeaguesData.length >= 4 ? this.sortLeagues() : '';
         })
     });
+    
+    this.allLeagueNames.forEach((leagueName) => {
+      this.sportService.getLeague(`${leagueName}_schedule`)
+        .subscribe((data: Match[]) => {
+          this.allScheduledMatches.push(data);
+        })
+    });
 
     this.sportService.getAccountSettings()
       .subscribe((data: AccountSettings) => {
         this.accountSettings = data;
       });
 
+    this.sportService.getAllLiveFootballMatches()
+      .subscribe((data: Match[]) => {
+        this.allLiveMatches = data;
+      });
+
     this.sportService.getClock()
       .subscribe((data: Date) => {
         this.currentTime = data;
 
-        if (data.getTime() > this.accountSettings.soccer_schedule_time) {
+        if (data.getTime() > this.accountSettings?.soccer_schedule_time) {
           console.log('Time!');
           this.createSchedule();
+        }
+
+        /* 
+          Add match to 'live' section,
+          if it started
+        */
+
+        if (data.getSeconds() === 0) {
+          this.checkForLiveMatches(data);
         }
       });
   }
@@ -116,5 +139,34 @@ export class FootballComponent implements OnInit {
     let updateAccount = this.sportService.updateAccountSettings(this.accountSettings);
 
     concat(...observables, updateAccount).subscribe(console.log);
+  }
+
+  checkForLiveMatches(date: Date) {
+    console.log('Checking for live matches');
+
+    let allMatches = [].concat( ...this.allScheduledMatches );
+    let allLiveMatches = [ ...this.allLiveMatches ];
+    
+    allMatches.forEach((match: Match) => {
+
+      /* 
+        If match is already live, exclude it
+        from allMatches, so we won't check it
+      */
+
+      allLiveMatches.forEach((liveMatch: Match) => {
+        if (liveMatch.id === match.id) {
+          allMatches.splice(allMatches.indexOf(match), 1);
+        }
+      })
+
+      if (date.getTime() > match.start_time) {
+        this.sportService.addMatchToLive(match)
+          .subscribe(() => {
+            this.allLiveMatches.push(match);
+          })
+      }
+
+    })
   }
 }

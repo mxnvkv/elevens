@@ -23,22 +23,40 @@ export class SportServiceService {
     );
   }
 
+  // league
+
   getLeague(leagueName: string): Observable<any> {
     return this.http.get(`http://localhost:4200/${leagueName}`);
   }
+
+
+
+  // match
 
   getMatch(leagueName: string, matchID: string): Observable<any> {
     return this.http.get(`http://localhost:4200/${leagueName}/${matchID}`);
   }
 
   updateMatch(match: Match): Observable<any> {
-    return this.http.put(`http://localhost:4200/${match.sport_key}/${match.id}`, match)
+    return this.http.put(`http://localhost:4200/${match.sport_key}/${match.id}`, match);
   }
 
   addMatchToSchedule(match: Match): Observable<any> {
     return this.http.post(`http://localhost:4200/${match.sport_key}_schedule`, match)
         .pipe(delay(200));
   }
+
+  getAllLiveFootballMatches(): Observable<any> {
+    return this.http.get(`http://localhost:4200/live_football_matches`);
+  }
+
+  addMatchToLive(match: Match): Observable<any> {
+    return this.http.post(`http://localhost:4200/live_football_matches`, match);
+  }
+
+
+
+  // account - settings
 
   getAccountSettings(): Observable<any> {
     return this.http.get(`http://localhost:4200/account_settings`);
@@ -48,6 +66,10 @@ export class SportServiceService {
     return this.http.put(`http://localhost:4200/account_settings`, data);
   }
 
+
+
+  // bets
+
   placeBet(bet: PlacedBet): Observable<any> {
     return this.http.post(`http://localhost:4200/bets`, bet);
   }
@@ -55,6 +77,10 @@ export class SportServiceService {
   getAllPlacedBets(): Observable<any> {
     return this.http.get(`http://localhost:4200/bets`);
   }
+
+
+
+  // other
 
   getClock(): Observable<Date> {
     return this.clock;

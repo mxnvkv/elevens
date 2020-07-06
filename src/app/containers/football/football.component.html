@@ -1,13 +1,32 @@
 <app-sport>
     <h1>Football</h1>
 
-    <div class="in-play">
+    <div *ngIf="allLiveMatches && allLiveMatches.length > 0" class="in-play">
         <div class="title">
             <div class="icon"></div>
             <div class="text">In Play</div>
         </div>
 
-        <!-- <div class="in-play-matches"></div> -->
+        <div class="in-play-matches">
+            
+
+            <div 
+                class="match"
+                *ngFor="let match of allLiveMatches"
+                [routerLink]="match.id">
+
+                <div class="match-title">
+                    {{ match.teams[0] }} - {{ match.teams[1] }}
+                </div>
+
+                <div class="match-time">
+                    <!-- {{ match.start_time | date: 'H:mm' }} -->
+                    {{ match.start_time | date: 'MMM d, y, H:mm' }}
+                </div>
+            </div>
+
+
+        </div>
     </div>
 
     <ul class="competitions-list">
@@ -22,3 +41,7 @@
         </div>
     </ul>
 </app-sport>
+
+<div>
+    {{ currentTime | date: 'H:mm:ss' }}
+</div>

@@ -15,6 +15,7 @@ export class FootballComponent implements OnInit {
   allLeagueNames: string[] = [];
   allLeaguesData: Match[][] = [];
   allScheduledMatches: Match[][] = [];
+  allScheduledMatches_dublicate: Match[][] = [];
   allLiveMatches: Match[];
   showAllLiveMatches: boolean = false;
   accountSettings: AccountSettings;
@@ -55,6 +56,7 @@ export class FootballComponent implements OnInit {
       this.sportService.getLeague(`${leagueName}_schedule`)
         .subscribe((data: Match[]) => {
           this.allScheduledMatches.push(data);
+          this.allScheduledMatches_dublicate.push(data);
         })
     });
 
@@ -144,9 +146,6 @@ export class FootballComponent implements OnInit {
 
   checkForLiveMatches(date: Date) {
     console.log('Checking for live matches');
-
-    let allMatches = [].concat( ...this.allScheduledMatches );
-    let allLiveMatches = [ ...this.allLiveMatches ];
     let observables = [];
 
     /* 
@@ -154,21 +153,24 @@ export class FootballComponent implements OnInit {
       from allMatches, so we won't check it
     */
 
-    for (let i = 0; i < allLiveMatches.length; i++) {
-      for (let j = 0; j < allMatches.length; j++) {
-
-        if (allLiveMatches[i].id === allMatches[j].id) {
-          allMatches.splice(allMatches.indexOf(allLiveMatches[i]));
-          j--;
-        }
-
+    for (let i = 0; i < this.allLiveMatches.length; i++) {
+      for (let j = 0; j < this.allScheduledMatches_dublicate.length; j++) {
+        for (let z = 0; z < this.allScheduledMatches_dublicate[j].length; z++) {
+          if (this.allLiveMatches[i].id === this.allScheduledMatches_dublicate[j][z].id) {
+            this.allScheduledMatches_dublicate[j].splice(z, 1);
+          }
+        } 
       }
     }
 
-    allMatches.forEach((match: Match) => {
-      if (date.getTime() > match.start_time) {
-        observables.push(this.sportService.addMatchToLive(match))
-      }
+    // rewrite code above ↑↑↑
+
+    this.allScheduledMatches_dublicate.forEach((league: Match[]) => {
+      league.forEach((match: Match) => {
+        if (date.getTime() > match.start_time) {
+          observables.push(this.sportService.addMatchToLive(match));
+        }
+      })
     })
 
     concat(...observables).subscribe((match: Match) => this.allLiveMatches.push(match));

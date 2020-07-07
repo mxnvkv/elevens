@@ -22,9 +22,12 @@
                     {{ match.teams[0] }} - {{ match.teams[1] }}
                 </div>
 
-                <div class="match-time">
-                    <!-- {{ match.start_time | date: 'H:mm' }} -->
+                <!-- <div class="match-time">
                     {{ match.start_time | date: 'MMM d, y, H:mm' }}
+                </div> -->
+
+                <div class="live-icon">
+                    
                 </div>
             </div>
         </div>
@@ -51,7 +54,3 @@
         </div>
     </ul>
 </app-sport>
-
-<div>
-    {{ currentTime | date: 'H:mm:ss' }}
-</div>

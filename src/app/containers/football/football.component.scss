@@ -32,14 +32,13 @@
 
         .match {
             width: 100%;
-            height: 75px;
+            height: 55px;
             background-color: $dark-04;
             color: $gray;
-            flex-direction: column;
             font-weight: bold;
             display: flex;
-            align-items: flex-start;
-            justify-content: center;
+            align-items: center;
+            justify-content: space-between;
             padding: 0 15px;
             cursor: pointer;
             margin-bottom: 5px;
@@ -50,11 +49,16 @@
                 margin-top: 5px;
                 font-size: 12px;
             }
-        }
 
-        // .hide-match {
-        //     display: none;
-        // }
+            .live-icon {
+                width: 20px;
+                height: 20px;
+                background-image: url('../../../assets/img/play-button.png');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+            }
+        }
 
         [hidden] {
             display: none;

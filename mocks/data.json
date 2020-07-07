@@ -5570,6 +5570,412 @@
       },
       "id": "2214b1c3-30d0-4251-9180-ebe84c264776",
       "start_time": 1594123200000
+    },
+    {
+      "sport_key": "soccer_epl",
+      "sport_nice": "EPL",
+      "teams": [
+        "Tottenham Hotspur",
+        "West Ham United"
+      ],
+      "commence_time": 1592939700,
+      "home_team": "Tottenham Hotspur",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592902211,
+        "odds": {
+          "h2h": [
+            1.7,
+            5.6,
+            4.1
+          ],
+          "h2h_lay": [
+            1.72,
+            5.8,
+            4.2
+          ]
+        }
+      },
+      "id": "3eebd8e1-d730-46c8-b9a0-1e2d6e30807c",
+      "start_time": 1594132200000
+    },
+    {
+      "sport_key": "soccer_epl",
+      "sport_nice": "EPL",
+      "teams": [
+        "Arsenal",
+        "Southampton"
+      ],
+      "commence_time": 1593104400,
+      "home_team": "Southampton",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592902211,
+        "odds": {
+          "h2h": [
+            2.72,
+            2.8,
+            3.55
+          ],
+          "h2h_lay": [
+            2.78,
+            2.82,
+            3.6
+          ]
+        }
+      },
+      "id": "f37c2250-7e5c-4716-9b9c-12782b8e6a8b",
+      "start_time": 1594132200000
+    },
+    {
+      "sport_key": "soccer_epl",
+      "sport_nice": "EPL",
+      "teams": [
+        "Everton",
+        "Leicester City"
+      ],
+      "commence_time": 1593622800,
+      "home_team": "Everton",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592902211,
+        "odds": {
+          "h2h": [
+            2.74,
+            2.68,
+            3.45
+          ],
+          "h2h_lay": [
+            2.88,
+            2.86,
+            3.6
+          ]
+        }
+      },
+      "id": "a277514c-f67b-42a5-bd7b-b142260f5948",
+      "start_time": 1594132200000
+    },
+    {
+      "sport_key": "soccer_epl",
+      "sport_nice": "EPL",
+      "teams": [
+        "Chelsea",
+        "West Ham United"
+      ],
+      "commence_time": 1593630900,
+      "home_team": "West Ham United",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592902211,
+        "odds": {
+          "h2h": [
+            1.69,
+            5.1,
+            4.2
+          ],
+          "h2h_lay": [
+            1.73,
+            5.7,
+            4.4
+          ]
+        }
+      },
+      "id": "2ed8282f-9e72-494b-a73e-3c226321f1fa",
+      "start_time": 1594132200000
+    },
+    {
+      "sport_key": "soccer_germany_bundesliga",
+      "sport_nice": "Bundesliga - Germany",
+      "teams": [
+        "Borussia Dortmund",
+        "TSG Hoffenheim"
+      ],
+      "commence_time": 1593264600,
+      "home_team": "Borussia Dortmund",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592902813,
+        "odds": {
+          "h2h": [
+            1.83,
+            4.3,
+            4.3
+          ],
+          "h2h_lay": [
+            1.87,
+            4.4,
+            4.6
+          ]
+        }
+      },
+      "id": "08ec70c6-0781-4682-b58f-97774dfa525b",
+      "start_time": 1594132200000
+    },
+    {
+      "sport_key": "soccer_germany_bundesliga",
+      "sport_nice": "Bundesliga - Germany",
+      "teams": [
+        "Borussia Monchengladbach",
+        "Hertha Berlin"
+      ],
+      "commence_time": 1593264600,
+      "home_team": "Borussia Monchengladbach",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592902813,
+        "odds": {
+          "h2h": [
+            1.37,
+            9,
+            5.9
+          ],
+          "h2h_lay": [
+            1.38,
+            10,
+            6.4
+          ]
+        }
+      },
+      "id": "1c3c9c53-2a2c-4450-9440-c419ec0cc737",
+      "start_time": 1594132200000
+    },
+    {
+      "sport_key": "soccer_italy_serie_a",
+      "sport_nice": "Serie A - Italy",
+      "teams": [
+        "Cagliari",
+        "SPAL"
+      ],
+      "commence_time": 1592933400,
+      "home_team": "SPAL",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903174,
+        "odds": {
+          "h2h": [
+            2.86,
+            2.82,
+            3.3
+          ],
+          "h2h_lay": [
+            2.9,
+            2.84,
+            3.35
+          ]
+        }
+      },
+      "id": "dc51e663-ce88-4667-9a8c-1bbb4361828b",
+      "start_time": 1594132200000
+    },
+    {
+      "sport_key": "soccer_italy_serie_a",
+      "sport_nice": "Serie A - Italy",
+      "teams": [
+        "AS Roma",
+        "Sampdoria"
+      ],
+      "commence_time": 1593027900,
+      "home_team": "AS Roma",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903174,
+        "odds": {
+          "h2h": [
+            1.5,
+            7.2,
+            4.9
+          ],
+          "h2h_lay": [
+            1.52,
+            7.8,
+            5
+          ]
+        }
+      },
+      "id": "2aa9580c-0bda-438d-8fae-3bc39e0ddcc1",
+      "start_time": 1594132200000
+    },
+    {
+      "sport_key": "soccer_italy_serie_a",
+      "sport_nice": "Serie A - Italy",
+      "teams": [
+        "Brescia",
+        "Genoa"
+      ],
+      "commence_time": 1593270900,
+      "home_team": "Brescia",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903174,
+        "odds": {
+          "h2h": [
+            2.96,
+            2.44,
+            3.5
+          ],
+          "h2h_lay": [
+            3.15,
+            2.58,
+            3.75
+          ]
+        }
+      },
+      "id": "6d59f59c-03f6-409e-a0b5-392bc0a49edf",
+      "start_time": 1594132200000
+    },
+    {
+      "sport_key": "soccer_italy_serie_a",
+      "sport_nice": "Serie A - Italy",
+      "teams": [
+        "Cagliari",
+        "Torino"
+      ],
+      "commence_time": 1593279000,
+      "home_team": "Cagliari",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903174,
+        "odds": {
+          "h2h": [
+            2.54,
+            2.94,
+            3.35
+          ],
+          "h2h_lay": [
+            2.78,
+            3.25,
+            3.8
+          ]
+        }
+      },
+      "id": "042729c3-618d-4032-991b-42f1ac72ba56",
+      "start_time": 1594132200000
+    },
+    {
+      "sport_key": "soccer_spain_la_liga",
+      "sport_nice": "La Liga - Spain",
+      "teams": [
+        "Eibar",
+        "Valencia"
+      ],
+      "commence_time": 1593106200,
+      "home_team": "Eibar",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903465,
+        "odds": {
+          "h2h": [
+            2.9,
+            2.64,
+            3.45
+          ],
+          "h2h_lay": [
+            2.98,
+            2.72,
+            3.5
+          ]
+        }
+      },
+      "id": "458b0643-5339-4735-8168-c94525c21e43",
+      "start_time": 1594132200000
+    },
+    {
+      "sport_key": "soccer_spain_la_liga",
+      "sport_nice": "La Liga - Spain",
+      "teams": [
+        "Athletic Bilbao",
+        "Mallorca"
+      ],
+      "commence_time": 1593259200,
+      "home_team": "Athletic Bilbao",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903465,
+        "odds": {
+          "h2h": [
+            1.46,
+            8.6,
+            4.3
+          ],
+          "h2h_lay": [
+            1.54,
+            9.6,
+            5.1
+          ]
+        }
+      },
+      "id": "d18831ba-25ce-4667-9c12-eca006579000",
+      "start_time": 1594132200000
+    },
+    {
+      "sport_key": "soccer_spain_la_liga",
+      "sport_nice": "La Liga - Spain",
+      "teams": [
+        "Valencia",
+        "Villarreal"
+      ],
+      "commence_time": 1593356400,
+      "home_team": "Villarreal",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903465,
+        "odds": {
+          "h2h": [
+            3,
+            2.34,
+            3.5
+          ],
+          "h2h_lay": [
+            3.3,
+            2.52,
+            3.85
+          ]
+        }
+      },
+      "id": "80700d44-ee8e-4500-97c9-62a435462ab4",
+      "start_time": 1594132200000
+    },
+    {
+      "sport_key": "soccer_spain_la_liga",
+      "sport_nice": "La Liga - Spain",
+      "teams": [
+        "Eibar",
+        "Granada"
+      ],
+      "commence_time": 1593365400,
+      "home_team": "Granada",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903465,
+        "odds": {
+          "h2h": [
+            3.85,
+            2.28,
+            3.1
+          ],
+          "h2h_lay": [
+            4.2,
+            2.34,
+            3.35
+          ]
+        }
+      },
+      "id": "af2a458e-3210-48f5-8023-b71a54bc9b0d",
+      "start_time": 1594132200000
     }
   ],
   "soccer_epl_schedule": [

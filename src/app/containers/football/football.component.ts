@@ -84,7 +84,7 @@ export class FootballComponent implements OnInit {
           if it started
         */
 
-        if (data.getSeconds() === 0) {
+        if (data.getSeconds() === 5) {
           this.checkForLiveMatches(data);
         }
       });

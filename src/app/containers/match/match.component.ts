@@ -38,7 +38,7 @@ export class MatchComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.sportService.getMatch(this.leagueName, this.matchID)
+    this.sportService.getMatch(`${this.leagueName}_schedule`, this.matchID)
       .subscribe((data: Match) => {
         this.match = data;
 

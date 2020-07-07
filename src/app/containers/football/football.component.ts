@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Renderer2, ViewChildren, ElementRef } from '@angular/core';
 import { SportServiceService } from 'src/app/services/sport.service';
 import { Match } from 'src/app/models/match';
 import { AccountSettings } from 'src/app/models/account-settings';
@@ -16,7 +16,7 @@ export class FootballComponent implements OnInit {
   allLeaguesData: Match[][] = [];
   allScheduledMatches: Match[][] = [];
   allLiveMatches: Match[];
-
+  showAllLiveMatches: boolean = false;
   accountSettings: AccountSettings;
   currentTime: Date;
 
@@ -35,7 +35,8 @@ export class FootballComponent implements OnInit {
   ];
 
   constructor(
-    private sportService: SportServiceService
+    private sportService: SportServiceService,
+    private renderer: Renderer2
   ) { }
 
   ngOnInit(): void {
@@ -147,17 +148,6 @@ export class FootballComponent implements OnInit {
     let allMatches = [].concat( ...this.allScheduledMatches );
     let allLiveMatches = [ ...this.allLiveMatches ];
     let observables = [];
-    
-    // allMatches.forEach((match: Match) => {
-
-      
-
-    //   allLiveMatches.forEach((liveMatch: Match) => {
-    //     if (liveMatch.id === match.id) {
-    //       allMatches.splice(allMatches.indexOf(match), 1);
-    //     }
-    //   })
-    // })
 
     /* 
       If match is already live, exclude it
@@ -182,6 +172,13 @@ export class FootballComponent implements OnInit {
     })
 
     concat(...observables).subscribe((match: Match) => this.allLiveMatches.push(match));
+  }
 
+  showOtherLiveMatches() {
+    this.showAllLiveMatches = true;
+  }
+
+  hideElement(index: number) {
+    return index >= 5;
   }
 }

@@ -13,7 +13,7 @@
             <div 
                 class="match"
                 *ngFor="let match of allLiveMatches"
-                [routerLink]="match.id">
+                [routerLink]="[match.sport_key, match.id]">
 
                 <div class="match-title">
                     {{ match.teams[0] }} - {{ match.teams[1] }}

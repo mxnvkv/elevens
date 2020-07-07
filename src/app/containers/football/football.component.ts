@@ -176,6 +176,12 @@ export class FootballComponent implements OnInit {
 
   showOtherLiveMatches() {
     this.showAllLiveMatches = true;
+
+    // hiding "see-more" element
+    const parent = document.querySelector('.in-play');
+    const child = document.querySelector('.see-more-button');
+
+    this.renderer.removeChild(parent, child);
   }
 
   hideElement(index: number) {

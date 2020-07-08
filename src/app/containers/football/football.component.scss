@@ -11,8 +11,8 @@
         align-items: center;
 
         .icon {
-            width: 20px;
-            height: 20px;
+            width: 18px;
+            height: 18px;
             background-image: url('../../../assets/img/play-button.png');
             background-position: center;
             background-size: contain;
@@ -21,7 +21,7 @@
     
         .text {
             color: $orange;
-            font-size: 20px;
+            font-size: 18px;
             font-weight: bold;
             margin-left: 5px;
         }
@@ -44,10 +44,8 @@
             margin-bottom: 5px;
             outline: none;
 
-            &-time {
-                font-weight: normal;
-                margin-top: 5px;
-                font-size: 12px;
+            .match-title {
+                font-size: 16px;
             }
 
             .live-icon {
@@ -67,7 +65,7 @@
 
     .see-more-button {
         width: 100%;
-        height: 50px;
+        height: 30px;
         background-color: $dark-04;
         display: flex;
         justify-content: center;
@@ -76,18 +74,16 @@
 
         .text {
             text-transform: uppercase;
-            font-size: 12px;
+            font-size: 10px;
         }
 
         .icon {
-            width: 30px;
-            height: 30px;
+            width: 18px;
+            height: 18px;
             background-image: url('../../../assets/img/down-arrow.png');
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
-            width: 25px;
-            height: 25px;
             margin-left: 10px;
         }
     }

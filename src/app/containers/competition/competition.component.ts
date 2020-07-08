@@ -2,7 +2,7 @@ import { Component, OnInit, Renderer2, ElementRef, ContentChildren, ContentChild
 import { Match } from 'src/app/models/match';
 import { Router } from '@angular/router';
 import { SportServiceService } from 'src/app/services/sport.service';
-import { concat } from 'rxjs';
+import { concat, observable } from 'rxjs';
 // import { HttpClient } from '@angular/common/http';
 // import { AccountSettings } from 'src/app/models/account-settings';
 // import { concat } from 'rxjs';
@@ -39,8 +39,12 @@ export class CompetitionComponent implements OnInit {
       .subscribe((data: Match[]) => {
         data.sort((a, b) => a.start_time - b.start_time);
         this.scheduledMatches = data;
-      });
 
+        this.getLiveMatches()
+      });    
+  }
+
+  getLiveMatches() {
     this.sportService.getAllLiveFootballMatches()
       .subscribe((data: Match[]) => {
         this.allLiveMatches = data;  

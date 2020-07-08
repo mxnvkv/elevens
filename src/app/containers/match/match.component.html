@@ -1,4 +1,4 @@
-<div *ngIf="match" class="match">
+<div *ngIf="match && currentMatchTime" class="match">
     <div class="match-title">
 
         <div
@@ -18,7 +18,7 @@
             class="live-match"
             *ngIf="match.isMatchLive">
             <div class="minute">
-                23'
+                {{ currentMatchTime === 91 ? 'FT' : currentMatchTime + "'" }}
             </div>
             <div class="score">
                 <div class="home-team-score">2</div>

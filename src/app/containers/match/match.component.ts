@@ -1,4 +1,4 @@
-import { Component, OnInit, Renderer2, ElementRef, ViewChild } from '@angular/core';
+import { Component, OnInit, Renderer2, ElementRef, ViewChild, OnDestroy } from '@angular/core';
 import { Router } from '@angular/router';
 import { SportServiceService } from 'src/app/services/sport.service';
 import { Match } from 'src/app/models/match';
@@ -7,13 +7,15 @@ import { PlacedBet } from 'src/app/models/placed-bet';
 import { v4 as uuidv4 } from 'uuid';
 import { AccountSettings } from 'src/app/models/account-settings';
 import { AppComponent } from 'src/app/app.component';
+import { Subscription, interval } from 'rxjs';
+import { map, takeWhile, finalize } from 'rxjs/operators';
 
 @Component({
   selector: 'app-match',
   templateUrl: './match.component.html',
   styleUrls: ['./match.component.scss']
 })
-export class MatchComponent implements OnInit {
+export class MatchComponent implements OnInit, OnDestroy {
 
   account: AccountSettings;
   match: Match;
@@ -23,6 +25,8 @@ export class MatchComponent implements OnInit {
   bet: PlacedBet;
   isBetInvalid: boolean = true;
   leagueName: string
+  currentMatchTime: number;
+  matchTimeSubscription: Subscription;
 
   @ViewChild('betPlacement') betPlacement: ElementRef;
   @ViewChild('stake') stake: ElementRef;
@@ -46,11 +50,17 @@ export class MatchComponent implements OnInit {
           { runnerDetails: data.teams[0], odds: data.site.odds.h2h[0] },
           { runnerDetails: data.teams[1], odds: data.site.odds.h2h[1] },
           { runnerDetails: 'The Draw', odds: data.site.odds.h2h[2] },
-        ]
+        ];
+
+        this.setMatchTime()
       });
 
     this.sportService.getAccountSettings()
       .subscribe((data: AccountSettings) => this.account = data);
+  }
+
+  ngOnDestroy() {
+    this.matchTimeSubscription.unsubscribe();
   }
 
   showPlaceBet(event: Event, market: OddsDetails) {
@@ -112,6 +122,20 @@ export class MatchComponent implements OnInit {
       this.isBetInvalid = false;
     } else {
       this.isBetInvalid = true;
+    }
+  }
+
+  setMatchTime() {
+    if (this.match.isMatchLive && new Date().getTime() >= this.match.start_time) {
+      this.matchTimeSubscription = interval(1000).pipe(
+        map(tick => {
+          return Math.floor((new Date().getTime() - this.match.start_time) / 1000 / 60)
+        }),
+        takeWhile(minutes => minutes < 91),
+        finalize(() => {
+          this.currentMatchTime = 91
+        })
+      ).subscribe(val => this.currentMatchTime = val);
     }
   }
 }

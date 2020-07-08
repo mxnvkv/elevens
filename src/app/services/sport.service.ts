@@ -51,14 +51,9 @@ export class SportServiceService {
         .pipe(delay(200));
   }
 
-  // getAllLiveFootballMatches(): Observable<any> {
-  //   return this.http.get(`http://localhost:4200/live_football_matches`);
-  // }
-
-  // addMatchToLive(match: Match): Observable<any> {
-  //   return this.http.post(`http://localhost:4200/live_football_matches`, match)
-  //     .pipe(delay(200));  
-  // }
+  deleteMatchFromSchedule(match: Match): Observable<any> {
+    return this.http.delete(`http://localhost:4200/${match.sport_key}_schedule/${match.id}`)
+  }
 
 
 

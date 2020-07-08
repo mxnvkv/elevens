@@ -1,8 +1,8 @@
-import { Component, OnInit, Renderer2, ViewChildren, ElementRef } from '@angular/core';
+import { Component, OnInit, Renderer2, OnDestroy } from '@angular/core';
 import { SportServiceService } from 'src/app/services/sport.service';
 import { Match } from 'src/app/models/match';
 import { AccountSettings } from 'src/app/models/account-settings';
-import { concat } from 'rxjs';
+import { concat, Subscription } from 'rxjs';
 import { v4 as uuidv4 } from 'uuid';
 
 @Component({
@@ -10,7 +10,7 @@ import { v4 as uuidv4 } from 'uuid';
   templateUrl: './football.component.html',
   styleUrls: ['./football.component.scss']
 })
-export class FootballComponent implements OnInit {
+export class FootballComponent implements OnInit, OnDestroy {
   
   allLeagueNames: string[] = [];
   allLeaguesData: Match[][] = [];
@@ -20,6 +20,7 @@ export class FootballComponent implements OnInit {
   showAllLiveMatches: boolean = false;
   accountSettings: AccountSettings;
   currentTime: Date;
+  clockSubscripion: Subscription;
 
   leagueKeys = [
     'soccer_epl',
@@ -70,7 +71,7 @@ export class FootballComponent implements OnInit {
         this.allLiveMatches = data;
       });
 
-    this.sportService.getClock()
+    this.clockSubscripion = this.sportService.getClock()
       .subscribe((data: Date) => {
         this.currentTime = data;
 
@@ -88,6 +89,10 @@ export class FootballComponent implements OnInit {
           this.checkForLiveMatches(data);
         }
       });
+  }
+
+  ngOnDestroy() {
+    this.clockSubscripion.unsubscribe();
   }
 
   returnLeagueDisplayTitle(leagueKey) {

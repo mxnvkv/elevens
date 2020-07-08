@@ -1,6 +1,11 @@
-<div class="competition">
+<div 
+    class="competition"
+    *ngIf="scheduledMatches && allLiveMatches">
     <div 
         class="match"
+        [ngClass]="{
+            'live-match': match.isMatchLive
+        }"
         *ngFor="let match of scheduledMatches"
         [routerLink]="match.id">
 
@@ -8,16 +13,11 @@
             {{ match.teams[0] }} - {{ match.teams[1] }}
         </div>
 
-        <div class="match-time">
+        <div *ngIf="!match.isMatchLive" class="match-time">
             <!-- {{ match.start_time | date: 'H:mm' }} -->
             {{ match.start_time | date: 'MMM d, y, H:mm' }}
         </div>
-    </div>
 
-    <!-- to delete -->
-    <!-- <div *ngIf="currentTime" class="match-time">
-        {{ currentTime | date: 'MMM d, y, H:mm:ss' }}
-        <br>
-        {{ currentTime.getTime() }}
-    </div> -->
+        <div *ngIf="match.isMatchLive" class="live-icon"></div>
+    </div>
 </div>

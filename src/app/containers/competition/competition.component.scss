@@ -21,13 +21,34 @@
     margin-bottom: 5px;
     outline: none;
 
-    &-title {
+    // &-title {
 
-    }
+    // }
 
     &-time {
         font-weight: normal;
         margin-top: 5px;
         font-size: 12px;
     }
+
+    .live-icon {
+        width: 20px;
+        height: 20px;
+        background-image: url('../../../assets/img/play-button.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+}
+
+.live-match {
+    @extend .match;
+    height: 55px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.red {
+    background-color: red;
 }

@@ -168,6 +168,7 @@ export class FootballComponent implements OnInit {
     this.allScheduledMatches_dublicate.forEach((league: Match[]) => {
       league.forEach((match: Match) => {
         if (date.getTime() > match.start_time) {
+          match.isMatchLive = true;
           observables.push(this.sportService.addMatchToLive(match));
         }
       })

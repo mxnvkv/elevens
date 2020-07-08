@@ -1,8 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Renderer2, ElementRef, ContentChildren, ContentChild, ViewChildren, QueryList, AfterViewInit } from '@angular/core';
 import { Match } from 'src/app/models/match';
 import { Router } from '@angular/router';
 import { SportServiceService } from 'src/app/services/sport.service';
-import { HttpClient } from '@angular/common/http';
+import { concat } from 'rxjs';
+// import { HttpClient } from '@angular/common/http';
 // import { AccountSettings } from 'src/app/models/account-settings';
 // import { concat } from 'rxjs';
 // import { v4 as uuidv4 } from 'uuid';
@@ -17,10 +18,11 @@ export class CompetitionComponent implements OnInit {
   scheduledMatches: Match[];
   leagueKeyName: string;
   currentTimeInMLS: Number;
+  allLiveMatches: Match[];
 
   constructor(
     private router: Router,
-    private http: HttpClient,
+    private renderer: Renderer2,
     private sportService: SportServiceService,
   ) {
     this.leagueKeyName = this.router.url.split('/').pop();
@@ -38,5 +40,18 @@ export class CompetitionComponent implements OnInit {
         data.sort((a, b) => a.start_time - b.start_time);
         this.scheduledMatches = data;
       });
+
+    this.sportService.getAllLiveFootballMatches()
+      .subscribe((data: Match[]) => {
+        this.allLiveMatches = data;  
+        
+        this.scheduledMatches.forEach((match: Match) => {
+          data.forEach((liveMatch: Match) => {
+            if (liveMatch.id === match.id) {
+              match.isMatchLive = true;
+            }
+          })
+        })
+      })
   }
 }

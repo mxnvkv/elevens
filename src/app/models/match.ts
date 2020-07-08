@@ -8,5 +8,6 @@ export interface Match {
     sport_nice: string,
     teams: string[],
     start_time?: number,
+    isMatchLive?: boolean,
     id: string
 }

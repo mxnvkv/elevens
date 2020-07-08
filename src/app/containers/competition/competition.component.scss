@@ -6,6 +6,19 @@
     margin-top: $top-bar-height;
 }
 
+.day {
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.day-date {
+    width: 100%;
+    padding: 15px 15px;
+    background-color: $dark-02;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
 .match {
     width: 100%;
     height: 75px;

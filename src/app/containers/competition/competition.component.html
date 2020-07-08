@@ -1,23 +1,39 @@
 <div 
     class="competition"
     *ngIf="scheduledMatches">
-    <div 
-        class="match"
-        [ngClass]="{
-            'live-match': match.isMatchLive
-        }"
-        *ngFor="let match of scheduledMatches"
-        [routerLink]="match.id">
 
-        <div class="match-title">
-            {{ match.teams[0] }} - {{ match.teams[1] }}
+    <div
+        class="day" 
+        *ngFor="let day of scheduledMatches; let lastDay = last"
+        [ngStyle]="{
+            'margin-bottom': lastDay ? '0px' : null
+        }">
+
+        <div class="day-date">
+            {{ day[0].start_time | date: 'dd MMMM yyyy' }}
         </div>
 
-        <div *ngIf="!match.isMatchLive" class="match-time">
-            <!-- {{ match.start_time | date: 'H:mm' }} -->
-            {{ match.start_time | date: 'MMM d, y, H:mm' }}
-        </div>
+        <div 
+            class="match"
+            [ngClass]="{
+                'live-match': match.isMatchLive
+            }"
+            *ngFor="let match of day; let lastMatch = last"
+            [ngStyle]="{
+                'margin-bottom': lastMatch ? '0px' : null
+            }"
+            [routerLink]="match.id">
 
-        <div *ngIf="match.isMatchLive" class="live-icon"></div>
-    </div>
+            <div class="match-title">
+                {{ match.teams[0] }} - {{ match.teams[1] }}
+            </div>
+
+            <div *ngIf="!match.isMatchLive" class="match-time">
+                {{ match.start_time | date: 'MM/dd/yyyy H:mm' }}
+            </div>
+
+            <div *ngIf="match.isMatchLive" class="live-icon"></div>
+        </div>
+    </div
+    >
 </div>

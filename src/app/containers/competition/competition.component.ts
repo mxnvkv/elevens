@@ -2,11 +2,6 @@ import { Component, OnInit, Renderer2, ElementRef, ContentChildren, ContentChild
 import { Match } from 'src/app/models/match';
 import { Router } from '@angular/router';
 import { SportServiceService } from 'src/app/services/sport.service';
-import { concat, observable } from 'rxjs';
-// import { HttpClient } from '@angular/common/http';
-// import { AccountSettings } from 'src/app/models/account-settings';
-// import { concat } from 'rxjs';
-// import { v4 as uuidv4 } from 'uuid';
 
 @Component({
   selector: 'app-competition',
@@ -15,14 +10,13 @@ import { concat, observable } from 'rxjs';
 })
 export class CompetitionComponent implements OnInit {
   league: Match[];
-  scheduledMatches: Match[];
+  scheduledMatches: Match[][] = [];
   leagueKeyName: string;
   currentTimeInMLS: Number;
   allLiveMatches: Match[];
 
   constructor(
     private router: Router,
-    private renderer: Renderer2,
     private sportService: SportServiceService,
   ) {
     this.leagueKeyName = this.router.url.split('/').pop();
@@ -38,24 +32,26 @@ export class CompetitionComponent implements OnInit {
     this.sportService.getLeague(`${this.leagueKeyName}_schedule`)
       .subscribe((data: Match[]) => {
         data.sort((a, b) => a.start_time - b.start_time);
-        this.scheduledMatches = data;
 
-        // this.getLiveMatches()
+        this.groupMatchesByDays(data);
       });    
   }
 
-  // getLiveMatches() {
-  //   this.sportService.getAllLiveFootballMatches()
-  //     .subscribe((data: Match[]) => {
-  //       this.allLiveMatches = data;  
-        
-  //       this.scheduledMatches.forEach((match: Match) => {
-  //         data.forEach((liveMatch: Match) => {
-  //           if (liveMatch.id === match.id) {
-  //             match.isMatchLive = true;
-  //           }
-  //         })
-  //       })
-  //     })
-  // }
+  groupMatchesByDays(data: Match[]) {
+    let matchesByDays = [];
+
+    // getting unique days without hours, minutes etc.
+    let days = [
+      ...new Set(
+        data.map((match: Match) => 
+        new Date(match.start_time).setHours(0,0,0,0))
+      )
+    ];
+    
+    // grouping matches by days
+    days.forEach((time: number) => {
+      this.scheduledMatches.push(data.filter((match: Match) => 
+        new Date(match.start_time).setHours(0,0,0,0) === time));
+    })
+  }
 }

@@ -38,8 +38,7 @@ export class CompetitionComponent implements OnInit {
   }
 
   groupMatchesByDays(data: Match[]) {
-    let matchesByDays = [];
-
+    
     // getting unique days without hours, minutes etc.
     let days = [
       ...new Set(

@@ -4020,7 +4020,8 @@
         }
       },
       "id": "8538f40e-bd70-4d4c-99da-abcecf04c15b",
-      "start_time": 1594227600000
+      "start_time": 1594227600000,
+      "isMatchLive": true
     },
     {
       "sport_key": "soccer_epl",
@@ -4079,7 +4080,8 @@
         }
       },
       "id": "7e59f845-c3a4-45f9-9bba-42a7c4c94eb4",
-      "start_time": 1594227600000
+      "start_time": 1594227600000,
+      "isMatchLive": true
     },
     {
       "sport_key": "soccer_epl",
@@ -4318,7 +4320,8 @@
         }
       },
       "id": "16f8ebde-1e5a-49b7-8ae2-d2399de43092",
-      "start_time": 1594227600000
+      "start_time": 1594227600000,
+      "isMatchLive": true
     },
     {
       "sport_key": "soccer_epl",
@@ -5530,7 +5533,8 @@
         }
       },
       "id": "ec65fcff-b529-4292-b59f-b5bc0061a730",
-      "start_time": 1594227600000
+      "start_time": 1594227600000,
+      "isMatchLive": true
     },
     {
       "sport_key": "soccer_germany_bundesliga",
@@ -7142,7 +7146,8 @@
         }
       },
       "id": "4cd5f34c-66eb-4e4b-9f41-dd73da95166d",
-      "start_time": 1594227600000
+      "start_time": 1594227600000,
+      "isMatchLive": true
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -7321,7 +7326,8 @@
         }
       },
       "id": "f716230f-c9fa-4c20-9197-0c3d5ed2e8ba",
-      "start_time": 1594227600000
+      "start_time": 1594227600000,
+      "isMatchLive": true
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -7350,7 +7356,8 @@
         }
       },
       "id": "36251af5-5345-4f84-a0c3-9457194847bf",
-      "start_time": 1594227600000
+      "start_time": 1594227600000,
+      "isMatchLive": true
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -9074,7 +9081,8 @@
         }
       },
       "id": "1db411ae-7544-40b0-a583-70121810a78a",
-      "start_time": 1594227600000
+      "start_time": 1594227600000,
+      "isMatchLive": true
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -9133,7 +9141,8 @@
         }
       },
       "id": "b689e00b-d914-4145-9eba-e58646b9584a",
-      "start_time": 1594227600000
+      "start_time": 1594227600000,
+      "isMatchLive": true
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -9282,7 +9291,8 @@
         }
       },
       "id": "22a47322-e73a-4d20-bb4d-87aae1a893f1",
-      "start_time": 1594227600000
+      "start_time": 1594227600000,
+      "isMatchLive": true
     },
     {
       "sport_key": "soccer_spain_la_liga",

@@ -1,11 +1,37 @@
 <div *ngIf="match" class="match">
     <div class="match-title">
-        <div class="match-name">
-            {{ match.teams[0] }} v {{ match.teams[1] }}
+
+        <div
+            class="pre-match" 
+            *ngIf="!match.isMatchLive">
+
+            <div class="match-name">
+                {{ match.teams[0] }} v {{ match.teams[1] }}
+            </div>
+    
+            <div class="match-time">
+                {{ match.start_time | date:'H:mm' }}
+            </div>
         </div>
 
-        <div class="match-time">
-            {{ match.start_time | date:'H:mm' }}
+        <div 
+            class="live-match"
+            *ngIf="match.isMatchLive">
+            <div class="minute">
+                23'
+            </div>
+            <div class="score">
+                <div class="home-team-score">2</div>
+                <div class="away-team-score">0</div>
+            </div>
+            <div class="teams">
+                <div class="home-team">
+                    {{ match.teams[0] }}
+                </div>
+                <div class="away-team">
+                    {{ match.teams[1] }}
+                </div>
+            </div>
         </div>
     </div>
 

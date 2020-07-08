@@ -15,8 +15,8 @@ export class FootballComponent implements OnInit, OnDestroy {
   allLeagueNames: string[] = [];
   allLeaguesData: Match[][] = [];
   allScheduledMatches: Match[][] = [];
-  allScheduledMatches_dublicate: Match[][] = [];
-  allLiveMatches: Match[];
+  // allScheduledMatches_dublicate: Match[][] = [];
+  allLiveMatches: Match[] = [];
   showAllLiveMatches: boolean = false;
   accountSettings: AccountSettings;
   currentTime: Date;
@@ -57,18 +57,19 @@ export class FootballComponent implements OnInit, OnDestroy {
       this.sportService.getLeague(`${leagueName}_schedule`)
         .subscribe((data: Match[]) => {
           this.allScheduledMatches.push(data);
-          this.allScheduledMatches_dublicate.push(data);
+          
+          // add match to Live if it has started
+          data.forEach((match: Match) => {
+            if (match.isMatchLive) {
+              this.allLiveMatches.push(match);
+            }
+          })
         })
     });
 
     this.sportService.getAccountSettings()
       .subscribe((data: AccountSettings) => {
         this.accountSettings = data;
-      });
-
-    this.sportService.getAllLiveFootballMatches()
-      .subscribe((data: Match[]) => {
-        this.allLiveMatches = data;
       });
 
     this.clockSubscripion = this.sportService.getClock()
@@ -81,8 +82,8 @@ export class FootballComponent implements OnInit, OnDestroy {
         }
 
         /* 
-          Add match to 'live' section,
-          if it started
+          While running, add matches
+          to live, if they have started
         */
 
         if (data.getSeconds() === 5) {
@@ -154,27 +155,15 @@ export class FootballComponent implements OnInit, OnDestroy {
     let observables = [];
 
     /* 
-      If match is already live, exclude it
-      from allMatches, so we won't check it
+      Checking for all scheduled matches
+      If match has started → isMatchLive = true
     */
 
-    for (let i = 0; i < this.allLiveMatches.length; i++) {
-      for (let j = 0; j < this.allScheduledMatches_dublicate.length; j++) {
-        for (let z = 0; z < this.allScheduledMatches_dublicate[j].length; z++) {
-          if (this.allLiveMatches[i].id === this.allScheduledMatches_dublicate[j][z].id) {
-            this.allScheduledMatches_dublicate[j].splice(z, 1);
-          }
-        } 
-      }
-    }
-
-    // rewrite code above ↑↑↑
-
-    this.allScheduledMatches_dublicate.forEach((league: Match[]) => {
-      league.forEach((match: Match) => {
-        if (date.getTime() > match.start_time) {
+    this.allScheduledMatches.forEach((league: Match[]) => {
+      league.forEach((match: Match) => { 
+        if (new Date().getTime() > match.start_time && !match.isMatchLive) {
           match.isMatchLive = true;
-          observables.push(this.sportService.addMatchToLive(match));
+          observables.push(this.sportService.updateMatchInSchedule(match));
         }
       })
     })

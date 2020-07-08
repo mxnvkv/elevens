@@ -38,11 +38,6 @@
         "secure": false
     },
 
-    "/live_football_matches": {
-        "target": "http://localhost:3000",
-        "secure": false
-    },
-
 
 
     "/soccer_epl_schedule": {

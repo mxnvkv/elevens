@@ -41,19 +41,24 @@ export class SportServiceService {
     return this.http.put(`http://localhost:4200/${match.sport_key}/${match.id}`, match);
   }
 
+  updateMatchInSchedule(match: Match): Observable<any> {
+    return this.http.put(`http://localhost:4200/${match.sport_key}_schedule/${match.id}`, match)
+      .pipe(delay(200));
+  }
+
   addMatchToSchedule(match: Match): Observable<any> {
     return this.http.post(`http://localhost:4200/${match.sport_key}_schedule`, match)
         .pipe(delay(200));
   }
 
-  getAllLiveFootballMatches(): Observable<any> {
-    return this.http.get(`http://localhost:4200/live_football_matches`);
-  }
+  // getAllLiveFootballMatches(): Observable<any> {
+  //   return this.http.get(`http://localhost:4200/live_football_matches`);
+  // }
 
-  addMatchToLive(match: Match): Observable<any> {
-    return this.http.post(`http://localhost:4200/live_football_matches`, match)
-      .pipe(delay(200));  
-  }
+  // addMatchToLive(match: Match): Observable<any> {
+  //   return this.http.post(`http://localhost:4200/live_football_matches`, match)
+  //     .pipe(delay(200));  
+  // }
 
 
 

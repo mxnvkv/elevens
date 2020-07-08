@@ -40,22 +40,22 @@ export class CompetitionComponent implements OnInit {
         data.sort((a, b) => a.start_time - b.start_time);
         this.scheduledMatches = data;
 
-        this.getLiveMatches()
+        // this.getLiveMatches()
       });    
   }
 
-  getLiveMatches() {
-    this.sportService.getAllLiveFootballMatches()
-      .subscribe((data: Match[]) => {
-        this.allLiveMatches = data;  
+  // getLiveMatches() {
+  //   this.sportService.getAllLiveFootballMatches()
+  //     .subscribe((data: Match[]) => {
+  //       this.allLiveMatches = data;  
         
-        this.scheduledMatches.forEach((match: Match) => {
-          data.forEach((liveMatch: Match) => {
-            if (liveMatch.id === match.id) {
-              match.isMatchLive = true;
-            }
-          })
-        })
-      })
-  }
+  //       this.scheduledMatches.forEach((match: Match) => {
+  //         data.forEach((liveMatch: Match) => {
+  //           if (liveMatch.id === match.id) {
+  //             match.isMatchLive = true;
+  //           }
+  //         })
+  //       })
+  //     })
+  // }
 }

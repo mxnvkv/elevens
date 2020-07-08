@@ -32,6 +32,7 @@
 
         <div
             (click)="showOtherLiveMatches()"
+            *ngIf="allLiveMatches.length > 5"
             class="see-more-button">
             <div class="text">
                 See More

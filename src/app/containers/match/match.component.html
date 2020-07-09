@@ -41,9 +41,20 @@
             <div class="runner-detail">
                 {{ market.runnerDetails }}
             </div>
-            <button (click)="showPlaceBet($event, market)" class="market-odds">
+
+            <button 
+                *ngIf="!match.isMatchLive" 
+                (click)="showPlaceBet($event, market)" 
+                class="market-odds">
                 {{ market.odds }}
             </button>
+
+            <div
+                *ngIf="match.isMatchLive"
+                class="market-odds-suspended">
+                Suspended
+            </div
+            >
         </div>
 
         <!-- bet-placement div (shouldn't've displayed) -->

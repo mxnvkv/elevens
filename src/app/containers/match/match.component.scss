@@ -115,6 +115,21 @@
                 background-color: darken($orange, 15%);
             }
         }
+
+        .market-odds-suspended {
+            @extend .market-odds;
+            width: auto;
+            padding: 0 30px;
+            display: flex;
+            align-items: center;
+            text-transform: uppercase;
+            background-color: $dark-02;
+            color: lighten($dark-08, 15%);
+
+            &:hover {
+                background-color: darken($dark-04, 5%);
+            }
+        }
     }
 
     .bet-placement {

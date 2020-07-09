@@ -2617,93 +2617,6 @@
       "sport_key": "soccer_epl",
       "sport_nice": "EPL",
       "teams": [
-        "Brighton and Hove Albion",
-        "Leicester City"
-      ],
-      "commence_time": 1592931600,
-      "home_team": "Leicester City",
-      "site": {
-        "site_key": "betfair",
-        "site_nice": "Betfair",
-        "last_update": 1592902211,
-        "odds": {
-          "h2h": [
-            6,
-            1.66,
-            4.2
-          ],
-          "h2h_lay": [
-            6.2,
-            1.67,
-            4.3
-          ]
-        }
-      },
-      "id": "bfcc3d3c-58d0-4ec9-b745-1ea4494858be",
-      "start_time": 1594288800000
-    },
-    {
-      "sport_key": "soccer_epl",
-      "sport_nice": "EPL",
-      "teams": [
-        "Tottenham Hotspur",
-        "West Ham United"
-      ],
-      "commence_time": 1592939700,
-      "home_team": "Tottenham Hotspur",
-      "site": {
-        "site_key": "betfair",
-        "site_nice": "Betfair",
-        "last_update": 1592902211,
-        "odds": {
-          "h2h": [
-            1.7,
-            5.6,
-            4.1
-          ],
-          "h2h_lay": [
-            1.72,
-            5.8,
-            4.2
-          ]
-        }
-      },
-      "id": "072d6d6d-ab0b-4520-aec3-6d0ac60939e2",
-      "start_time": 1594305000000
-    },
-    {
-      "sport_key": "soccer_epl",
-      "sport_nice": "EPL",
-      "teams": [
-        "Bournemouth",
-        "Wolverhampton Wanderers"
-      ],
-      "commence_time": 1593018000,
-      "home_team": "Wolverhampton Wanderers",
-      "site": {
-        "site_key": "betfair",
-        "site_nice": "Betfair",
-        "last_update": 1592902211,
-        "odds": {
-          "h2h": [
-            6.6,
-            1.61,
-            4.2
-          ],
-          "h2h_lay": [
-            7,
-            1.63,
-            4.3
-          ]
-        }
-      },
-      "id": "09de2c13-e138-4edd-babc-c24b8abe1564",
-      "start_time": 1594288800000
-    },
-    {
-      "sport_key": "soccer_epl",
-      "sport_nice": "EPL",
-      "teams": [
         "Manchester United",
         "Sheffield United"
       ],
@@ -2757,35 +2670,6 @@
       },
       "id": "01434c97-2ffd-4c32-a8e8-a881dd89c3bd",
       "start_time": 1594296000000
-    },
-    {
-      "sport_key": "soccer_epl",
-      "sport_nice": "EPL",
-      "teams": [
-        "Aston Villa",
-        "Newcastle United"
-      ],
-      "commence_time": 1593018000,
-      "home_team": "Newcastle United",
-      "site": {
-        "site_key": "betfair",
-        "site_nice": "Betfair",
-        "last_update": 1592902211,
-        "odds": {
-          "h2h": [
-            3.3,
-            2.44,
-            3.4
-          ],
-          "h2h_lay": [
-            3.35,
-            2.48,
-            3.45
-          ]
-        }
-      },
-      "id": "1aabebe9-d67c-4dd2-a3f4-747e4ce4ed7a",
-      "start_time": 1594288800000
     },
     {
       "sport_key": "soccer_epl",
@@ -2902,35 +2786,6 @@
       },
       "id": "c343081b-19dc-4712-9e2e-6f43d226549a",
       "start_time": 1594314000000
-    },
-    {
-      "sport_key": "soccer_epl",
-      "sport_nice": "EPL",
-      "teams": [
-        "Burnley",
-        "Crystal Palace"
-      ],
-      "commence_time": 1593457200,
-      "home_team": "Crystal Palace",
-      "site": {
-        "site_key": "betfair",
-        "site_nice": "Betfair",
-        "last_update": 1592902211,
-        "odds": {
-          "h2h": [
-            3.55,
-            2.26,
-            3.3
-          ],
-          "h2h_lay": [
-            3.95,
-            2.32,
-            3.45
-          ]
-        }
-      },
-      "id": "0a7dee9d-f169-4305-a0e6-734f30ff985f",
-      "start_time": 1594288800000
     },
     {
       "sport_key": "soccer_epl",
@@ -3605,35 +3460,6 @@
       "sport_key": "soccer_germany_bundesliga",
       "sport_nice": "Bundesliga - Germany",
       "teams": [
-        "Eintracht Frankfurt",
-        "SC Paderborn"
-      ],
-      "commence_time": 1593264600,
-      "home_team": "Eintracht Frankfurt",
-      "site": {
-        "site_key": "betfair",
-        "site_nice": "Betfair",
-        "last_update": 1592902813,
-        "odds": {
-          "h2h": [
-            1.38,
-            7.6,
-            5.8
-          ],
-          "h2h_lay": [
-            1.41,
-            9.2,
-            6.4
-          ]
-        }
-      },
-      "id": "799abfdc-0222-4ae3-a971-1b44b7882b4a",
-      "start_time": 1594288800000
-    },
-    {
-      "sport_key": "soccer_germany_bundesliga",
-      "sport_nice": "Bundesliga - Germany",
-      "teams": [
         "SC Freiburg",
         "Schalke 04"
       ],
@@ -3658,35 +3484,6 @@
       },
       "id": "c541e86f-7866-457b-a93b-036a16748222",
       "start_time": 1594314000000
-    },
-    {
-      "sport_key": "soccer_germany_bundesliga",
-      "sport_nice": "Bundesliga - Germany",
-      "teams": [
-        "Bayer Leverkusen",
-        "FSV Mainz 05"
-      ],
-      "commence_time": 1593264600,
-      "home_team": "Bayer Leverkusen",
-      "site": {
-        "site_key": "betfair",
-        "site_nice": "Betfair",
-        "last_update": 1592902813,
-        "odds": {
-          "h2h": [
-            1.28,
-            11,
-            6.6
-          ],
-          "h2h_lay": [
-            1.31,
-            13,
-            7.4
-          ]
-        }
-      },
-      "id": "1148c7dd-91e4-483f-88c8-acd4de847e67",
-      "start_time": 1594288800000
     },
     {
       "sport_key": "soccer_germany_bundesliga",
@@ -4100,35 +3897,6 @@
       "sport_key": "soccer_italy_serie_a",
       "sport_nice": "Serie A - Italy",
       "teams": [
-        "Hellas Verona FC",
-        "Napoli"
-      ],
-      "commence_time": 1592933400,
-      "home_team": "Hellas Verona FC",
-      "site": {
-        "site_key": "betfair",
-        "site_nice": "Betfair",
-        "last_update": 1592903174,
-        "odds": {
-          "h2h": [
-            4.4,
-            1.98,
-            3.65
-          ],
-          "h2h_lay": [
-            4.5,
-            1.99,
-            3.7
-          ]
-        }
-      },
-      "id": "d407f858-af80-4527-9f70-fb977157d21e",
-      "start_time": 1594288800000
-    },
-    {
-      "sport_key": "soccer_italy_serie_a",
-      "sport_nice": "Serie A - Italy",
-      "teams": [
         "Torino",
         "Udinese"
       ],
@@ -4182,35 +3950,6 @@
       },
       "id": "a04f18a3-7629-48c4-ab14-a1e611c52271",
       "start_time": 1594296000000
-    },
-    {
-      "sport_key": "soccer_italy_serie_a",
-      "sport_nice": "Serie A - Italy",
-      "teams": [
-        "FC Internazionale",
-        "Sassuolo"
-      ],
-      "commence_time": 1593019800,
-      "home_team": "FC Internazionale",
-      "site": {
-        "site_key": "betfair",
-        "site_nice": "Betfair",
-        "last_update": 1592903174,
-        "odds": {
-          "h2h": [
-            1.42,
-            8.8,
-            5.3
-          ],
-          "h2h_lay": [
-            1.43,
-            9.4,
-            5.5
-          ]
-        }
-      },
-      "id": "85460aee-3052-44f7-840c-c9c6faaef844",
-      "start_time": 1594288800000
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -4361,35 +4100,6 @@
       "sport_key": "soccer_italy_serie_a",
       "sport_nice": "Serie A - Italy",
       "teams": [
-        "Fiorentina",
-        "Lazio"
-      ],
-      "commence_time": 1593287100,
-      "home_team": "Lazio",
-      "site": {
-        "site_key": "betfair",
-        "site_nice": "Betfair",
-        "last_update": 1592903174,
-        "odds": {
-          "h2h": [
-            6.2,
-            1.55,
-            4.5
-          ],
-          "h2h_lay": [
-            7,
-            1.58,
-            5.2
-          ]
-        }
-      },
-      "id": "0263f906-921f-4448-baef-973c4283f765",
-      "start_time": 1594288800000
-    },
-    {
-      "sport_key": "soccer_italy_serie_a",
-      "sport_nice": "Serie A - Italy",
-      "teams": [
         "AC Milan",
         "AS Roma"
       ],
@@ -4443,35 +4153,6 @@
       },
       "id": "ac24b91f-d192-4a83-bd83-70656aae8ee4",
       "start_time": 1594314000000
-    },
-    {
-      "sport_key": "soccer_italy_serie_a",
-      "sport_nice": "Serie A - Italy",
-      "teams": [
-        "Atalanta BC",
-        "Udinese"
-      ],
-      "commence_time": 1593365400,
-      "home_team": "Udinese",
-      "site": {
-        "site_key": "betfair",
-        "site_nice": "Betfair",
-        "last_update": 1592903174,
-        "odds": {
-          "h2h": [
-            1.58,
-            5.7,
-            4.3
-          ],
-          "h2h_lay": [
-            1.69,
-            7.4,
-            5.3
-          ]
-        }
-      },
-      "id": "82e3493b-a5bf-4394-9d27-8380f52adac3",
-      "start_time": 1594288800000
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -5059,64 +4740,6 @@
       "sport_key": "soccer_spain_la_liga",
       "sport_nice": "La Liga - Spain",
       "teams": [
-        "Alavés",
-        "Osasuna"
-      ],
-      "commence_time": 1593019800,
-      "home_team": "Alavés",
-      "site": {
-        "site_key": "betfair",
-        "site_nice": "Betfair",
-        "last_update": 1592903465,
-        "odds": {
-          "h2h": [
-            2.72,
-            3.05,
-            3.15
-          ],
-          "h2h_lay": [
-            2.76,
-            3.15,
-            3.2
-          ]
-        }
-      },
-      "id": "2fcaeba2-674d-446e-9884-002748e72953",
-      "start_time": 1594288800000
-    },
-    {
-      "sport_key": "soccer_spain_la_liga",
-      "sport_nice": "La Liga - Spain",
-      "teams": [
-        "Mallorca",
-        "Real Madrid"
-      ],
-      "commence_time": 1593028800,
-      "home_team": "Real Madrid",
-      "site": {
-        "site_key": "betfair",
-        "site_nice": "Betfair",
-        "last_update": 1592903465,
-        "odds": {
-          "h2h": [
-            23,
-            1.16,
-            10
-          ],
-          "h2h_lay": [
-            25,
-            1.17,
-            10.5
-          ]
-        }
-      },
-      "id": "454c35ac-4bd4-4026-bb2b-a6854ae73c75",
-      "start_time": 1594288800000
-    },
-    {
-      "sport_key": "soccer_spain_la_liga",
-      "sport_nice": "La Liga - Spain",
-      "teams": [
         "Eibar",
         "Valencia"
       ],
@@ -5262,35 +4885,6 @@
       "sport_key": "soccer_spain_la_liga",
       "sport_nice": "La Liga - Spain",
       "teams": [
-        "Alavés",
-        "Atlético Madrid"
-      ],
-      "commence_time": 1593288000,
-      "home_team": "Atlético Madrid",
-      "site": {
-        "site_key": "betfair",
-        "site_nice": "Betfair",
-        "last_update": 1592903465,
-        "odds": {
-          "h2h": [
-            13.5,
-            1.34,
-            5.1
-          ],
-          "h2h_lay": [
-            17,
-            1.38,
-            5.8
-          ]
-        }
-      },
-      "id": "bbc1d114-ef39-47fb-bfa9-5ad9e58b78a1",
-      "start_time": 1594288800000
-    },
-    {
-      "sport_key": "soccer_spain_la_liga",
-      "sport_nice": "La Liga - Spain",
-      "teams": [
         "Levante",
         "Real Betis"
       ],
@@ -5373,35 +4967,6 @@
       },
       "id": "97467a27-6daf-4674-ae4f-59c073344327",
       "start_time": 1594305000000
-    },
-    {
-      "sport_key": "soccer_spain_la_liga",
-      "sport_nice": "La Liga - Spain",
-      "teams": [
-        "Getafe",
-        "Real Sociedad"
-      ],
-      "commence_time": 1593460800,
-      "home_team": "Getafe",
-      "site": {
-        "site_key": "betfair",
-        "site_nice": "Betfair",
-        "last_update": 1592903465,
-        "odds": {
-          "h2h": [
-            2.62,
-            3.1,
-            3.05
-          ],
-          "h2h_lay": [
-            2.86,
-            3.45,
-            3.4
-          ]
-        }
-      },
-      "id": "53878adb-a8b7-452b-90a1-fcbac04eb0fb",
-      "start_time": 1594288800000
     },
     {
       "sport_key": "soccer_spain_la_liga",

@@ -48,11 +48,12 @@ export class SportServiceService {
 
   addMatchToSchedule(match: Match): Observable<any> {
     return this.http.post(`http://localhost:4200/${match.sport_key}_schedule`, match)
-        .pipe(delay(200));
+      .pipe(delay(200));
   }
 
   deleteMatchFromSchedule(match: Match): Observable<any> {
     return this.http.delete(`http://localhost:4200/${match.sport_key}_schedule/${match.id}`)
+      .pipe(delay(100));
   }
 
 

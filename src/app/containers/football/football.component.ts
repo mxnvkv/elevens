@@ -15,7 +15,6 @@ export class FootballComponent implements OnInit, OnDestroy {
   allLeagueNames: string[] = [];
   allLeaguesData: Match[][] = [];
   allScheduledMatches: Match[][] = [];
-  // allScheduledMatches_dublicate: Match[][] = [];
   allLiveMatches: Match[] = [];
   showAllLiveMatches: boolean = false;
   accountSettings: AccountSettings;

@@ -1,11 +1,12 @@
 import { Component, ViewChild, ElementRef, Renderer2, OnInit, AfterViewInit } from '@angular/core';
-import { Observable, fromEvent } from 'rxjs';
+import { Observable, fromEvent, concat } from 'rxjs';
 import { map, skip, takeWhile, finalize } from 'rxjs/operators';
 import { SportServiceService } from './services/sport.service';
 import { Router, NavigationEnd } from '@angular/router';
 import { Location } from '@angular/common';
 import { AccountSettings } from './models/account-settings';
 import { animate, state, style, transition, trigger } from '@angular/animations';
+import { Match } from './models/match';
 
 @Component({
   selector: 'app-root',
@@ -37,6 +38,9 @@ export class AppComponent implements OnInit {
   currentUrlLength: number;
   currentLocation;
   isMenuOpen: boolean = false;
+  currentTime: Date;
+  allLeagueNames: string[];
+  allScheduledMatches: Match[][] = [];
 
   constructor(
     private renderer: Renderer2,
@@ -45,8 +49,11 @@ export class AppComponent implements OnInit {
     private sportService: SportServiceService
   ) {
     this.currentLocation = location;
+  }
 
-    router.events.subscribe((event) => {
+  ngOnInit() {
+
+    this.router.events.subscribe((event) => {
       if (event instanceof NavigationEnd) {
         this.currentUrl = event.url;
 
@@ -59,9 +66,24 @@ export class AppComponent implements OnInit {
 
     this.sportService.getAccountSettings()
       .subscribe((data: AccountSettings) => this.accountSettings = data);
-  }
 
-  ngOnInit() {}
+    this.allLeagueNames = this.sportService.getAllLeagueNames();
+    
+    this.allLeagueNames.forEach((leagueName) => {
+      this.sportService.getLeague(`${leagueName}_schedule`)
+        .subscribe((data: Match[]) => {
+          data = data.filter((match: Match) => new Date().getTime() >= match.start_time)
+          this.allScheduledMatches.push(data);
+        })
+    });
+
+    this.sportService.getClock()
+      .subscribe((data: Date) => {
+        if (data.getSeconds() === 10) {
+          this.deleteFinishedMatches();
+        }
+      })
+  }
 
   toggleMenu() {
     this.isMenuOpen = true;
@@ -94,5 +116,25 @@ export class AppComponent implements OnInit {
   updateAvailableStake(): void {
     this.sportService.getAccountSettings()
       .subscribe((data: AccountSettings) => this.accountSettings = data);
+  }
+
+  deleteFinishedMatches() {
+    let observables = [];
+
+    this.allScheduledMatches.forEach((league: Match[]) => {
+
+      league.forEach((match: Match) => {
+        const matchMinutes = Math.floor((new Date().getTime() - match.start_time) / 1000 / 60);
+
+        if (match.isMatchLive && matchMinutes > 90) {
+
+          observables.push(
+            this.sportService.deleteMatchFromSchedule(match)
+          )
+        }
+      })
+    })
+
+    concat(...observables).subscribe();
   }
 }

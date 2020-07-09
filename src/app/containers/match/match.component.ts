@@ -60,7 +60,9 @@ export class MatchComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy() {
-    this.matchTimeSubscription.unsubscribe();
+    if (this.currentMatchTime) {
+      this.matchTimeSubscription.unsubscribe();
+    }
   }
 
   showPlaceBet(event: Event, market: OddsDetails) {

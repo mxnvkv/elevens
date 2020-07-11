@@ -88,6 +88,10 @@ export class FootballComponent implements OnInit, OnDestroy {
         if (data.getSeconds() === 5) {
           this.checkForLiveMatches(data);
         }
+
+        if (data.getSeconds() === 10) {
+          this.deleteFinishedMatchesFromPage();
+        }
       });
   }
 
@@ -182,5 +186,17 @@ export class FootballComponent implements OnInit, OnDestroy {
 
   hideElement(index: number) {
     return index >= 5;
+  }
+
+  deleteFinishedMatchesFromPage() {
+    console.log('Deleting finished matches from page');
+
+    this.allLiveMatches.forEach((match: Match, index: number) => {
+      const matchMinutes = Math.floor((new Date().getTime() - match.start_time) / 1000 / 60);
+
+      if (match.isMatchLive && matchMinutes > 90) {
+        this.allLiveMatches = this.allLiveMatches.filter((m: Match) => m.id !== match.id)
+      }
+    })
   }
 }

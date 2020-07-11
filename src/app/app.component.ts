@@ -46,7 +46,7 @@ export class AppComponent implements OnInit {
     private renderer: Renderer2,
     private router: Router,
     private location: Location,
-    private sportService: SportServiceService
+    private sportService: SportServiceService,
   ) {
     this.currentLocation = location;
   }
@@ -127,7 +127,7 @@ export class AppComponent implements OnInit {
         const matchMinutes = Math.floor((new Date().getTime() - match.start_time) / 1000 / 60);
 
         if (match.isMatchLive && matchMinutes > 90) {
-
+          
           observables.push(
             this.sportService.deleteMatchFromSchedule(match)
           )

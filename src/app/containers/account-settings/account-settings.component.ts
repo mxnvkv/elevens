@@ -21,6 +21,7 @@ export class AccountSettingsComponent implements OnInit {
 
         this.balanceInformation = { ...data };
         delete this.balanceInformation.username;
+        delete this.balanceInformation.soccer_schedule_time;
       });
   }
 }

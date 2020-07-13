@@ -1,4 +1,11 @@
 <div *ngIf="match" class="match">
+
+    <div
+        *ngIf="match.isMatchLive && !currentMatchTime" 
+        class="loading">
+        <div class="loader"></div>
+    </div>
+
     <div class="match-title">
 
         <div

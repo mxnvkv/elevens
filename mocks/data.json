@@ -2065,10 +2065,10 @@
   ],
   "account_settings": {
     "username": "user_admin",
-    "available_credit": 8015,
+    "available_credit": 7405,
     "credit_limit": 10000,
     "net_exposure": 0,
-    "soccer_schedule_time": 1594501200000
+    "soccer_schedule_time": 1594674000000
   },
   "bets": [
     {
@@ -2610,6 +2610,78 @@
         "start_time": 1577867400000
       },
       "id": "80a39b9c-54f1-461b-84f7-7cd477bb6f34"
+    },
+    {
+      "runnerDetails": "Crystal Palace",
+      "odds": 2.26,
+      "stake": 210,
+      "placedTime": 1594502834699,
+      "match": {
+        "sport_key": "soccer_epl",
+        "sport_nice": "EPL",
+        "teams": [
+          "Burnley",
+          "Crystal Palace"
+        ],
+        "commence_time": 1593457200,
+        "home_team": "Crystal Palace",
+        "site": {
+          "site_key": "betfair",
+          "site_nice": "Betfair",
+          "last_update": 1592902211,
+          "odds": {
+            "h2h": [
+              3.55,
+              2.26,
+              3.3
+            ],
+            "h2h_lay": [
+              3.95,
+              2.32,
+              3.45
+            ]
+          }
+        },
+        "id": "ddaf9970-daae-455b-852f-d5f775cdc69c",
+        "start_time": 1594548000000
+      },
+      "id": "71a8b200-b177-4da1-8ee3-85171726911e"
+    },
+    {
+      "runnerDetails": "The Draw",
+      "odds": 4.2,
+      "stake": 400,
+      "placedTime": 1594502857252,
+      "match": {
+        "sport_key": "soccer_epl",
+        "sport_nice": "EPL",
+        "teams": [
+          "Bournemouth",
+          "Wolverhampton Wanderers"
+        ],
+        "commence_time": 1593018000,
+        "home_team": "Wolverhampton Wanderers",
+        "site": {
+          "site_key": "betfair",
+          "site_nice": "Betfair",
+          "last_update": 1592902211,
+          "odds": {
+            "h2h": [
+              6.6,
+              1.61,
+              4.2
+            ],
+            "h2h_lay": [
+              7,
+              1.63,
+              4.3
+            ]
+          }
+        },
+        "id": "ed145f52-c140-40e2-8fe1-91bce1f31c62",
+        "start_time": 1594548000000
+      },
+      "id": "ff7a18f6-3370-4ff0-844d-2307ec3b3595"
     }
   ],
   "soccer_epl_schedule": [
@@ -2617,66 +2689,6 @@
       "sport_key": "soccer_epl",
       "sport_nice": "EPL",
       "teams": [
-        "Aston Villa",
-        "Wolverhampton Wanderers"
-      ],
-      "commence_time": 1593257400,
-      "home_team": "Aston Villa",
-      "site": {
-        "site_key": "betfair",
-        "site_nice": "Betfair",
-        "last_update": 1592902211,
-        "odds": {
-          "h2h": [
-            4.6,
-            1.86,
-            3.55
-          ],
-          "h2h_lay": [
-            5.5,
-            1.9,
-            3.9
-          ]
-        }
-      },
-      "id": "5ca922a5-b5b0-48d2-b297-b1f75f6e8f2f",
-      "start_time": 1594486800000,
-      "isMatchLive": true
-    },
-    {
-      "sport_key": "soccer_epl",
-      "sport_nice": "EPL",
-      "teams": [
-        "Sheffield United",
-        "Tottenham Hotspur"
-      ],
-      "commence_time": 1593709200,
-      "home_team": "Sheffield United",
-      "site": {
-        "site_key": "betfair",
-        "site_nice": "Betfair",
-        "last_update": 1592902211,
-        "odds": {
-          "h2h": [
-            3.3,
-            2.42,
-            3.3
-          ],
-          "h2h_lay": [
-            3.45,
-            2.5,
-            3.5
-          ]
-        }
-      },
-      "id": "fa60248b-5f7f-4f9e-af07-106c468bde0d",
-      "start_time": 1594486800000,
-      "isMatchLive": true
-    },
-    {
-      "sport_key": "soccer_epl",
-      "sport_nice": "EPL",
-      "teams": [
         "Brighton and Hove Albion",
         "Leicester City"
       ],
@@ -2699,8 +2711,8 @@
           ]
         }
       },
-      "id": "03abae58-88e1-4a0d-8172-104f2fd39dbc",
-      "start_time": 1594548000000
+      "id": "0674c4b4-9a74-4427-ada0-1e9953d15af5",
+      "start_time": 1594720800000
     },
     {
       "sport_key": "soccer_epl",
@@ -2728,8 +2740,8 @@
           ]
         }
       },
-      "id": "69899220-3c33-45ab-8d08-e33fbe95c110",
-      "start_time": 1594564200000
+      "id": "f87da49c-72fe-4332-b644-e0aa8a675f9b",
+      "start_time": 1594737000000
     },
     {
       "sport_key": "soccer_epl",
@@ -2757,8 +2769,8 @@
           ]
         }
       },
-      "id": "d783175e-58ae-4c7c-afe1-f4b4d8c80a4c",
-      "start_time": 1594548000000
+      "id": "839f2283-1998-4f76-8223-094ad93cb39b",
+      "start_time": 1594720800000
     },
     {
       "sport_key": "soccer_epl",
@@ -2786,8 +2798,8 @@
           ]
         }
       },
-      "id": "053dba1d-d59d-4772-8d09-21e0cd755d25",
-      "start_time": 1594555200000
+      "id": "612fc6e0-394a-4c38-8a11-d76cf3e3d46f",
+      "start_time": 1594728000000
     },
     {
       "sport_key": "soccer_epl",
@@ -2815,8 +2827,8 @@
           ]
         }
       },
-      "id": "b3fcde6c-4350-4873-868e-4c99976407ad",
-      "start_time": 1594555200000
+      "id": "b8ac1341-3be5-40ed-b3b3-4fc95df6e1f0",
+      "start_time": 1594728000000
     },
     {
       "sport_key": "soccer_epl",
@@ -2844,8 +2856,8 @@
           ]
         }
       },
-      "id": "f493e961-8285-4ba1-9358-eb0f382404fe",
-      "start_time": 1594548000000
+      "id": "51bb206c-a2c2-48e7-b32e-c73aeadad6cf",
+      "start_time": 1594720800000
     },
     {
       "sport_key": "soccer_epl",
@@ -2873,8 +2885,8 @@
           ]
         }
       },
-      "id": "a4b42180-73dd-4032-81da-ca84dec70094",
-      "start_time": 1594555200000
+      "id": "a1f2a20d-0013-4733-a87c-b7d64c1e0908",
+      "start_time": 1594728000000
     },
     {
       "sport_key": "soccer_epl",
@@ -2902,8 +2914,8 @@
           ]
         }
       },
-      "id": "1aaaad19-10bd-4a45-a6fe-aacbda8aee2d",
-      "start_time": 1594564200000
+      "id": "abad0153-15f5-464d-9009-998aded56e01",
+      "start_time": 1594737000000
     },
     {
       "sport_key": "soccer_epl",
@@ -2931,8 +2943,8 @@
           ]
         }
       },
-      "id": "a89473c3-74d3-4a9b-b10c-051dccf7be84",
-      "start_time": 1594573200000
+      "id": "9e42453c-e4c2-4408-8318-fb584e8078f3",
+      "start_time": 1594746000000
     },
     {
       "sport_key": "soccer_epl",
@@ -2960,8 +2972,8 @@
           ]
         }
       },
-      "id": "16892e61-e4a4-43b9-b5c9-d5b2be3c0e35",
-      "start_time": 1594539000000
+      "id": "adf9b6db-ad37-43f6-95ae-199480a1fe4b",
+      "start_time": 1594711800000
     },
     {
       "sport_key": "soccer_epl",
@@ -2989,8 +3001,8 @@
           ]
         }
       },
-      "id": "b0865710-e7db-452a-ba88-a916169394b1",
-      "start_time": 1594573200000
+      "id": "b01d17a3-c7db-4585-a54c-902b85c69eba",
+      "start_time": 1594746000000
     },
     {
       "sport_key": "soccer_epl",
@@ -3018,8 +3030,8 @@
           ]
         }
       },
-      "id": "c164e5a8-0f7b-457a-9526-99eedc729875",
-      "start_time": 1594539000000
+      "id": "bf0d9035-94e5-4d9f-a276-0f7e0224e01d",
+      "start_time": 1594711800000
     },
     {
       "sport_key": "soccer_epl",
@@ -3047,8 +3059,8 @@
           ]
         }
       },
-      "id": "d804d284-1bad-4f55-9dd3-7ed19c8d2078",
-      "start_time": 1594548000000
+      "id": "d5bc3a26-0924-4adb-898c-05f673226e51",
+      "start_time": 1594720800000
     },
     {
       "sport_key": "soccer_epl",
@@ -3076,8 +3088,8 @@
           ]
         }
       },
-      "id": "3b3fd02a-63cf-4696-912e-04bd0facd761",
-      "start_time": 1594539000000
+      "id": "6d54e8e1-cde1-4810-8881-54c0c77d6d62",
+      "start_time": 1594711800000
     },
     {
       "sport_key": "soccer_epl",
@@ -3105,8 +3117,8 @@
           ]
         }
       },
-      "id": "b7799b37-d960-4d51-ac17-bee88f633d4e",
-      "start_time": 1594564200000
+      "id": "08f78c18-46fb-43be-8acf-b2f2fea9a87a",
+      "start_time": 1594737000000
     },
     {
       "sport_key": "soccer_epl",
@@ -3134,8 +3146,8 @@
           ]
         }
       },
-      "id": "1191b42b-2df3-45e4-94fd-a74c121e7ab7",
-      "start_time": 1594555200000
+      "id": "d6fb4f8e-7c5d-4489-9198-cbd4cc7f8c12",
+      "start_time": 1594728000000
     },
     {
       "sport_key": "soccer_epl",
@@ -3163,8 +3175,8 @@
           ]
         }
       },
-      "id": "1a4eac5f-b447-4738-a67b-ced5d6246a04",
-      "start_time": 1594539000000
+      "id": "24322974-2add-49e2-9c59-20a3124d42df",
+      "start_time": 1594711800000
     },
     {
       "sport_key": "soccer_epl",
@@ -3192,8 +3204,8 @@
           ]
         }
       },
-      "id": "32498777-9238-4719-b5b2-bad2ed6d0f0b",
-      "start_time": 1594564200000
+      "id": "52f23c04-2c95-4c92-aed7-6292ef0e0d0e",
+      "start_time": 1594737000000
     },
     {
       "sport_key": "soccer_epl",
@@ -3221,8 +3233,8 @@
           ]
         }
       },
-      "id": "91e6ce47-8787-4fe4-99d9-2a6d032cab4a",
-      "start_time": 1594573200000
+      "id": "1375f1eb-762d-4607-b179-f4e620f4472f",
+      "start_time": 1594746000000
     },
     {
       "sport_key": "soccer_epl",
@@ -3250,8 +3262,8 @@
           ]
         }
       },
-      "id": "0082ff9c-b123-4aed-b9f9-5babb3f8f168",
-      "start_time": 1594548000000
+      "id": "082bba67-5b24-4bcb-a853-d14d6d64587c",
+      "start_time": 1594634400000
     },
     {
       "sport_key": "soccer_epl",
@@ -3279,8 +3291,8 @@
           ]
         }
       },
-      "id": "6ce1ff2b-bb4e-45b9-99b1-d81ebdd776fd",
-      "start_time": 1594564200000
+      "id": "a8356ee2-88af-4ec7-a66a-9338263a5c74",
+      "start_time": 1594650600000
     },
     {
       "sport_key": "soccer_epl",
@@ -3308,8 +3320,8 @@
           ]
         }
       },
-      "id": "ed145f52-c140-40e2-8fe1-91bce1f31c62",
-      "start_time": 1594548000000
+      "id": "5fd42f6f-85e5-48fa-9c1d-e006061f9050",
+      "start_time": 1594634400000
     },
     {
       "sport_key": "soccer_epl",
@@ -3337,8 +3349,8 @@
           ]
         }
       },
-      "id": "f7aebded-73d7-4b5c-a564-ad103c94834c",
-      "start_time": 1594555200000
+      "id": "35902dc8-f27c-48b4-8c14-2edcf6cbfb55",
+      "start_time": 1594641600000
     },
     {
       "sport_key": "soccer_epl",
@@ -3366,8 +3378,8 @@
           ]
         }
       },
-      "id": "396cb0d9-8d9c-405f-976d-f9b173f99b4b",
-      "start_time": 1594555200000
+      "id": "ebc5e899-2995-4ee4-82e2-c0e4e1c73f65",
+      "start_time": 1594641600000
     },
     {
       "sport_key": "soccer_epl",
@@ -3395,8 +3407,8 @@
           ]
         }
       },
-      "id": "431b8845-d7bf-442f-afee-8dacb4745f93",
-      "start_time": 1594548000000
+      "id": "d4db2cd9-779b-43bb-8922-1172c58bbebf",
+      "start_time": 1594634400000
     },
     {
       "sport_key": "soccer_epl",
@@ -3424,8 +3436,8 @@
           ]
         }
       },
-      "id": "f9f2e98f-0dd9-4e10-9e1f-d4c8aaadf2fc",
-      "start_time": 1594555200000
+      "id": "ea731e96-d5a4-4ba0-bd33-f756f30e494a",
+      "start_time": 1594641600000
     },
     {
       "sport_key": "soccer_epl",
@@ -3453,8 +3465,8 @@
           ]
         }
       },
-      "id": "f9c61797-596f-4dc3-8e93-48e4b1bbd48a",
-      "start_time": 1594564200000
+      "id": "1aaa63c0-f90d-4a75-91fa-ad9d82af0c4c",
+      "start_time": 1594650600000
     },
     {
       "sport_key": "soccer_epl",
@@ -3482,8 +3494,8 @@
           ]
         }
       },
-      "id": "896fd0d1-d630-4bda-8306-b593f856a191",
-      "start_time": 1594573200000
+      "id": "04a6562d-3a1a-427b-a069-0af63a2df6e9",
+      "start_time": 1594659600000
     },
     {
       "sport_key": "soccer_epl",
@@ -3511,8 +3523,8 @@
           ]
         }
       },
-      "id": "9e0ce598-257b-4436-a312-678dd2e26aa2",
-      "start_time": 1594539000000
+      "id": "0a93c469-1552-48ca-bc0c-4a409ea1137a",
+      "start_time": 1594625400000
     },
     {
       "sport_key": "soccer_epl",
@@ -3540,8 +3552,8 @@
           ]
         }
       },
-      "id": "6a571a0c-4bd7-4fb4-a888-490f8494474b",
-      "start_time": 1594573200000
+      "id": "f35afd3b-6fdc-4dbb-9001-6133b5d8dc7d",
+      "start_time": 1594659600000
     },
     {
       "sport_key": "soccer_epl",
@@ -3569,8 +3581,8 @@
           ]
         }
       },
-      "id": "2e2ab685-c817-44ce-bfba-3340c4c622c9",
-      "start_time": 1594539000000
+      "id": "6e161677-d6f9-4931-8669-61a54f9ffad2",
+      "start_time": 1594625400000
     },
     {
       "sport_key": "soccer_epl",
@@ -3598,8 +3610,8 @@
           ]
         }
       },
-      "id": "ddaf9970-daae-455b-852f-d5f775cdc69c",
-      "start_time": 1594548000000
+      "id": "7c476cce-7a96-4a3e-9e1b-5dc183211626",
+      "start_time": 1594634400000
     },
     {
       "sport_key": "soccer_epl",
@@ -3627,8 +3639,8 @@
           ]
         }
       },
-      "id": "949f703b-5204-4f0e-9428-9b8276d81786",
-      "start_time": 1594539000000
+      "id": "7707815a-77f0-48bb-a450-2336e8ccd383",
+      "start_time": 1594625400000
     },
     {
       "sport_key": "soccer_epl",
@@ -3656,8 +3668,8 @@
           ]
         }
       },
-      "id": "59e1d42b-a0c4-4160-85d9-99889d18c080",
-      "start_time": 1594564200000
+      "id": "fbdc8b71-a7a9-4bb9-9b5a-a580829d22bb",
+      "start_time": 1594650600000
     },
     {
       "sport_key": "soccer_epl",
@@ -3685,8 +3697,8 @@
           ]
         }
       },
-      "id": "9ab88967-9038-41d8-b266-3a56d85a9482",
-      "start_time": 1594555200000
+      "id": "d7c99042-1f08-4077-a6b4-11dfb0c7b024",
+      "start_time": 1594641600000
     },
     {
       "sport_key": "soccer_epl",
@@ -3714,8 +3726,8 @@
           ]
         }
       },
-      "id": "07ab410f-0a29-4673-9cf0-63c68951ce91",
-      "start_time": 1594539000000
+      "id": "16e02ca9-fb69-40b6-9285-de788a9d027a",
+      "start_time": 1594625400000
     },
     {
       "sport_key": "soccer_epl",
@@ -3743,8 +3755,8 @@
           ]
         }
       },
-      "id": "82290071-abfd-4458-a499-6f6e5a8fd72d",
-      "start_time": 1594564200000
+      "id": "c7e612e6-4e74-46c6-be89-f8be98de2648",
+      "start_time": 1594650600000
     },
     {
       "sport_key": "soccer_epl",
@@ -3772,8 +3784,8 @@
           ]
         }
       },
-      "id": "de2cabe9-f72f-43fe-9c11-a56672c77de5",
-      "start_time": 1594573200000
+      "id": "05eeafa3-55cf-4909-92b3-afb7d146eec1",
+      "start_time": 1594659600000
     }
   ],
   "soccer_germany_bundesliga_schedule": [
@@ -3781,36 +3793,6 @@
       "sport_key": "soccer_germany_bundesliga",
       "sport_nice": "Bundesliga - Germany",
       "teams": [
-        "SC Freiburg",
-        "Schalke 04"
-      ],
-      "commence_time": 1593264600,
-      "home_team": "SC Freiburg",
-      "site": {
-        "site_key": "betfair",
-        "site_nice": "Betfair",
-        "last_update": 1592902813,
-        "odds": {
-          "h2h": [
-            1.85,
-            4.1,
-            4
-          ],
-          "h2h_lay": [
-            1.89,
-            4.6,
-            4.5
-          ]
-        }
-      },
-      "id": "2d51588e-a21d-4ec3-b212-1092f80fea0d",
-      "start_time": 1594486800000,
-      "isMatchLive": true
-    },
-    {
-      "sport_key": "soccer_germany_bundesliga",
-      "sport_nice": "Bundesliga - Germany",
-      "teams": [
         "Fortuna Dusseldorf",
         "Union Berlin"
       ],
@@ -3833,8 +3815,8 @@
           ]
         }
       },
-      "id": "a0324f32-6acb-4666-8416-0b5f8bea3a2b",
-      "start_time": 1594539000000
+      "id": "e572a6c6-ded3-4d3e-b9c5-5572cf05539b",
+      "start_time": 1594711800000
     },
     {
       "sport_key": "soccer_germany_bundesliga",
@@ -3862,8 +3844,8 @@
           ]
         }
       },
-      "id": "a7c4338b-59eb-47dd-a6ff-6aecebb43b9e",
-      "start_time": 1594539000000
+      "id": "287a77f1-5a46-450a-89ea-f8466a12b864",
+      "start_time": 1594711800000
     },
     {
       "sport_key": "soccer_germany_bundesliga",
@@ -3891,8 +3873,8 @@
           ]
         }
       },
-      "id": "832be2c2-2d01-49ed-9b9d-43c5213d5442",
-      "start_time": 1594548000000
+      "id": "86ef66d3-0bcd-4c88-82da-cd5112405585",
+      "start_time": 1594720800000
     },
     {
       "sport_key": "soccer_germany_bundesliga",
@@ -3920,8 +3902,8 @@
           ]
         }
       },
-      "id": "df40d7c3-11f5-4c33-9900-61f91548229c",
-      "start_time": 1594573200000
+      "id": "4aebead9-b5d8-4c20-8c74-74c54817cb1f",
+      "start_time": 1594746000000
     },
     {
       "sport_key": "soccer_germany_bundesliga",
@@ -3949,8 +3931,8 @@
           ]
         }
       },
-      "id": "6ade2cb4-95b1-4acf-8a3f-4773612584b2",
-      "start_time": 1594548000000
+      "id": "0b33180e-8881-41a6-bd0c-330a26e455a8",
+      "start_time": 1594720800000
     },
     {
       "sport_key": "soccer_germany_bundesliga",
@@ -3978,8 +3960,8 @@
           ]
         }
       },
-      "id": "9592f97a-ffea-46e0-bc28-460dd7d6728c",
-      "start_time": 1594564200000
+      "id": "944bd87b-aded-40ed-80b4-a4d0c96e41f4",
+      "start_time": 1594737000000
     },
     {
       "sport_key": "soccer_germany_bundesliga",
@@ -4007,8 +3989,8 @@
           ]
         }
       },
-      "id": "0d40d944-07a6-448c-978f-a7be7663866b",
-      "start_time": 1594564200000
+      "id": "0af0b282-138a-46bd-a869-646482b4d898",
+      "start_time": 1594737000000
     },
     {
       "sport_key": "soccer_germany_bundesliga",
@@ -4036,8 +4018,8 @@
           ]
         }
       },
-      "id": "297c38ed-8622-43bd-acda-6713a0d3e990",
-      "start_time": 1594555200000
+      "id": "3e5edea8-db78-462b-999b-6eed8ece9d4a",
+      "start_time": 1594728000000
     },
     {
       "sport_key": "soccer_germany_bundesliga",
@@ -4065,8 +4047,8 @@
           ]
         }
       },
-      "id": "b93f75fd-2ff5-43aa-83c8-ade88146f286",
-      "start_time": 1594555200000
+      "id": "7d010abf-4ad5-41c2-8237-ee777b990e63",
+      "start_time": 1594728000000
     },
     {
       "sport_key": "soccer_germany_bundesliga",
@@ -4094,8 +4076,8 @@
           ]
         }
       },
-      "id": "c63459d5-f2ad-477c-a6a5-440701c266a1",
-      "start_time": 1594539000000
+      "id": "ab661eae-0aa7-4ddf-b23b-cb464c2cbbb8",
+      "start_time": 1594625400000
     },
     {
       "sport_key": "soccer_germany_bundesliga",
@@ -4123,8 +4105,8 @@
           ]
         }
       },
-      "id": "96359e5d-eb00-4e8a-a862-9bc42c4c3819",
-      "start_time": 1594539000000
+      "id": "92893107-f857-4cc0-a3e4-e81165dd9239",
+      "start_time": 1594625400000
     },
     {
       "sport_key": "soccer_germany_bundesliga",
@@ -4152,8 +4134,8 @@
           ]
         }
       },
-      "id": "e3a53aa4-9ac7-456c-b901-8a0bb2315406",
-      "start_time": 1594548000000
+      "id": "531cf8b3-f801-4b83-902a-5c01006c1d02",
+      "start_time": 1594634400000
     },
     {
       "sport_key": "soccer_germany_bundesliga",
@@ -4181,8 +4163,8 @@
           ]
         }
       },
-      "id": "3dfdf6fe-d319-48f2-89f3-294167e5cd19",
-      "start_time": 1594573200000
+      "id": "12253570-7077-47c1-97a5-fc4d8384a4d5",
+      "start_time": 1594659600000
     },
     {
       "sport_key": "soccer_germany_bundesliga",
@@ -4210,8 +4192,8 @@
           ]
         }
       },
-      "id": "27abdea7-28dd-44d6-8685-eedca588244e",
-      "start_time": 1594548000000
+      "id": "54e5adac-2371-4ed6-82a5-099d249342dc",
+      "start_time": 1594634400000
     },
     {
       "sport_key": "soccer_germany_bundesliga",
@@ -4239,8 +4221,8 @@
           ]
         }
       },
-      "id": "0c5abd5f-81b8-438b-bfc8-e2887a3e1ff7",
-      "start_time": 1594564200000
+      "id": "a716e915-1a84-40fb-91ad-74fb2aea2581",
+      "start_time": 1594650600000
     },
     {
       "sport_key": "soccer_germany_bundesliga",
@@ -4268,8 +4250,8 @@
           ]
         }
       },
-      "id": "e3454231-4711-452e-b49d-63b08cf20751",
-      "start_time": 1594564200000
+      "id": "a38f8b9c-b50a-4632-bde8-5348b1c19670",
+      "start_time": 1594650600000
     },
     {
       "sport_key": "soccer_germany_bundesliga",
@@ -4297,8 +4279,8 @@
           ]
         }
       },
-      "id": "53134fc2-e76a-4291-a94f-000269cb5ea4",
-      "start_time": 1594555200000
+      "id": "df201acc-cb99-42f4-8267-f96183df51d1",
+      "start_time": 1594641600000
     },
     {
       "sport_key": "soccer_germany_bundesliga",
@@ -4326,8 +4308,8 @@
           ]
         }
       },
-      "id": "4f0e8c02-a060-4ec4-adf4-8470ab685c6f",
-      "start_time": 1594555200000
+      "id": "a6e0fbcf-e8e3-4978-861d-d1d115cb226f",
+      "start_time": 1594641600000
     }
   ],
   "soccer_italy_serie_a_schedule": [
@@ -4335,96 +4317,6 @@
       "sport_key": "soccer_italy_serie_a",
       "sport_nice": "Serie A - Italy",
       "teams": [
-        "Atalanta BC",
-        "Lazio"
-      ],
-      "commence_time": 1593027900,
-      "home_team": "Atalanta BC",
-      "site": {
-        "site_key": "betfair",
-        "site_nice": "Betfair",
-        "last_update": 1592903174,
-        "odds": {
-          "h2h": [
-            2.2,
-            3.35,
-            3.9
-          ],
-          "h2h_lay": [
-            2.24,
-            3.4,
-            4
-          ]
-        }
-      },
-      "id": "899257d3-b1ec-4bb2-8541-74452dde84af",
-      "start_time": 1594486800000,
-      "isMatchLive": true
-    },
-    {
-      "sport_key": "soccer_italy_serie_a",
-      "sport_nice": "Serie A - Italy",
-      "teams": [
-        "AC Milan",
-        "AS Roma"
-      ],
-      "commence_time": 1593357300,
-      "home_team": "AC Milan",
-      "site": {
-        "site_key": "betfair",
-        "site_nice": "Betfair",
-        "last_update": 1592903174,
-        "odds": {
-          "h2h": [
-            2.64,
-            2.76,
-            3.45
-          ],
-          "h2h_lay": [
-            2.88,
-            2.98,
-            3.9
-          ]
-        }
-      },
-      "id": "1e8afe3d-8a9d-4a58-8207-c2c5fd604ae0",
-      "start_time": 1594486800000,
-      "isMatchLive": true
-    },
-    {
-      "sport_key": "soccer_italy_serie_a",
-      "sport_nice": "Serie A - Italy",
-      "teams": [
-        "Napoli",
-        "SPAL"
-      ],
-      "commence_time": 1593365400,
-      "home_team": "Napoli",
-      "site": {
-        "site_key": "betfair",
-        "site_nice": "Betfair",
-        "last_update": 1592903174,
-        "odds": {
-          "h2h": [
-            1.35,
-            9.8,
-            5.4
-          ],
-          "h2h_lay": [
-            1.39,
-            13.5,
-            6.6
-          ]
-        }
-      },
-      "id": "56b689aa-9f46-4aa3-84aa-4db807b2fa0e",
-      "start_time": 1594486800000,
-      "isMatchLive": true
-    },
-    {
-      "sport_key": "soccer_italy_serie_a",
-      "sport_nice": "Serie A - Italy",
-      "teams": [
         "Cagliari",
         "SPAL"
       ],
@@ -4447,8 +4339,8 @@
           ]
         }
       },
-      "id": "3198f2c5-cd59-4b30-9e42-8a9f57825462",
-      "start_time": 1594564200000
+      "id": "62ba43b9-923e-4051-8dfa-f655b7c4999a",
+      "start_time": 1594737000000
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -4476,8 +4368,8 @@
           ]
         }
       },
-      "id": "961421ef-ed28-4d20-bfd8-6ffce4a27309",
-      "start_time": 1594548000000
+      "id": "0ee47b5b-ecb6-4145-bb6b-5dfd3999de4d",
+      "start_time": 1594720800000
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -4505,8 +4397,8 @@
           ]
         }
       },
-      "id": "7087c25b-477d-40ea-9c62-bf5d84a632f4",
-      "start_time": 1594555200000
+      "id": "98caccf9-146a-4a45-977b-1c3541e02ed3",
+      "start_time": 1594728000000
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -4534,8 +4426,8 @@
           ]
         }
       },
-      "id": "98abfb72-397f-4cc9-862b-61f3a663a909",
-      "start_time": 1594555200000
+      "id": "bdec41fe-6bdc-4383-bb6a-9b0d9d28f81f",
+      "start_time": 1594728000000
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -4563,8 +4455,8 @@
           ]
         }
       },
-      "id": "aea2c88b-9af2-48d5-aa8a-6c6466c3a897",
-      "start_time": 1594548000000
+      "id": "9c713d36-96e2-4dee-8436-58aa43dcd4f5",
+      "start_time": 1594720800000
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -4592,8 +4484,8 @@
           ]
         }
       },
-      "id": "31da9b40-050c-4c8e-9feb-6b38ae95a6c1",
-      "start_time": 1594573200000
+      "id": "402e833e-2ddb-47a3-8bc2-f03cc6a1b928",
+      "start_time": 1594746000000
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -4621,8 +4513,8 @@
           ]
         }
       },
-      "id": "0a365e4c-249c-4df4-b76f-e6d14d4a7b1f",
-      "start_time": 1594564200000
+      "id": "ed303165-6b73-411b-a35b-073d39d7b6a6",
+      "start_time": 1594737000000
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -4650,8 +4542,8 @@
           ]
         }
       },
-      "id": "63edc1ba-98b7-4c70-8913-adf98912dde9",
-      "start_time": 1594555200000
+      "id": "3f5c3753-5915-432b-8ba6-c58a1be7b83c",
+      "start_time": 1594728000000
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -4679,269 +4571,8 @@
           ]
         }
       },
-      "id": "a990bffd-7e14-4711-be8d-ba15f560966b",
-      "start_time": 1594564200000
-    },
-    {
-      "sport_key": "soccer_italy_serie_a",
-      "sport_nice": "Serie A - Italy",
-      "teams": [
-        "Cagliari",
-        "SPAL"
-      ],
-      "commence_time": 1592933400,
-      "home_team": "SPAL",
-      "site": {
-        "site_key": "betfair",
-        "site_nice": "Betfair",
-        "last_update": 1592903174,
-        "odds": {
-          "h2h": [
-            2.86,
-            2.82,
-            3.3
-          ],
-          "h2h_lay": [
-            2.9,
-            2.84,
-            3.35
-          ]
-        }
-      },
-      "id": "286bc7c3-ba27-4c3b-b009-abcf679c3efd",
-      "start_time": 1594564200000
-    },
-    {
-      "sport_key": "soccer_italy_serie_a",
-      "sport_nice": "Serie A - Italy",
-      "teams": [
-        "Hellas Verona FC",
-        "Napoli"
-      ],
-      "commence_time": 1592933400,
-      "home_team": "Hellas Verona FC",
-      "site": {
-        "site_key": "betfair",
-        "site_nice": "Betfair",
-        "last_update": 1592903174,
-        "odds": {
-          "h2h": [
-            4.4,
-            1.98,
-            3.65
-          ],
-          "h2h_lay": [
-            4.5,
-            1.99,
-            3.7
-          ]
-        }
-      },
-      "id": "85a0868c-d991-4151-b72e-53047d30b548",
-      "start_time": 1594548000000
-    },
-    {
-      "sport_key": "soccer_italy_serie_a",
-      "sport_nice": "Serie A - Italy",
-      "teams": [
-        "Torino",
-        "Udinese"
-      ],
-      "commence_time": 1592941500,
-      "home_team": "Torino",
-      "site": {
-        "site_key": "betfair",
-        "site_nice": "Betfair",
-        "last_update": 1592903174,
-        "odds": {
-          "h2h": [
-            2.62,
-            3.2,
-            3.15
-          ],
-          "h2h_lay": [
-            2.64,
-            3.25,
-            3.2
-          ]
-        }
-      },
-      "id": "cac34e7c-82eb-4c30-9ff2-b58c3a3e4431",
-      "start_time": 1594555200000
-    },
-    {
-      "sport_key": "soccer_italy_serie_a",
-      "sport_nice": "Serie A - Italy",
-      "teams": [
-        "Genoa",
-        "Parma"
-      ],
-      "commence_time": 1592941500,
-      "home_team": "Genoa",
-      "site": {
-        "site_key": "betfair",
-        "site_nice": "Betfair",
-        "last_update": 1592903174,
-        "odds": {
-          "h2h": [
-            2.26,
-            3.7,
-            3.4
-          ],
-          "h2h_lay": [
-            2.28,
-            3.8,
-            3.45
-          ]
-        }
-      },
-      "id": "4eae21bc-3e6b-46a2-b354-926b98163f72",
-      "start_time": 1594555200000
-    },
-    {
-      "sport_key": "soccer_italy_serie_a",
-      "sport_nice": "Serie A - Italy",
-      "teams": [
-        "FC Internazionale",
-        "Sassuolo"
-      ],
-      "commence_time": 1593019800,
-      "home_team": "FC Internazionale",
-      "site": {
-        "site_key": "betfair",
-        "site_nice": "Betfair",
-        "last_update": 1592903174,
-        "odds": {
-          "h2h": [
-            1.42,
-            8.8,
-            5.3
-          ],
-          "h2h_lay": [
-            1.43,
-            9.4,
-            5.5
-          ]
-        }
-      },
-      "id": "27ed0ea3-d211-423c-94d5-e920be4f5694",
-      "start_time": 1594548000000
-    },
-    {
-      "sport_key": "soccer_italy_serie_a",
-      "sport_nice": "Serie A - Italy",
-      "teams": [
-        "Atalanta BC",
-        "Lazio"
-      ],
-      "commence_time": 1593027900,
-      "home_team": "Atalanta BC",
-      "site": {
-        "site_key": "betfair",
-        "site_nice": "Betfair",
-        "last_update": 1592903174,
-        "odds": {
-          "h2h": [
-            2.2,
-            3.35,
-            3.9
-          ],
-          "h2h_lay": [
-            2.24,
-            3.4,
-            4
-          ]
-        }
-      },
-      "id": "4c9afb0d-c4ea-46d5-96ce-9debc0dbef09",
-      "start_time": 1594573200000
-    },
-    {
-      "sport_key": "soccer_italy_serie_a",
-      "sport_nice": "Serie A - Italy",
-      "teams": [
-        "AS Roma",
-        "Sampdoria"
-      ],
-      "commence_time": 1593027900,
-      "home_team": "AS Roma",
-      "site": {
-        "site_key": "betfair",
-        "site_nice": "Betfair",
-        "last_update": 1592903174,
-        "odds": {
-          "h2h": [
-            1.5,
-            7.2,
-            4.9
-          ],
-          "h2h_lay": [
-            1.52,
-            7.8,
-            5
-          ]
-        }
-      },
-      "id": "f021ee9b-dac2-499a-8f61-67614092170b",
-      "start_time": 1594564200000
-    },
-    {
-      "sport_key": "soccer_italy_serie_a",
-      "sport_nice": "Serie A - Italy",
-      "teams": [
-        "Juventus",
-        "Lecce"
-      ],
-      "commence_time": 1593200700,
-      "home_team": "Juventus",
-      "site": {
-        "site_key": "betfair",
-        "site_nice": "Betfair",
-        "last_update": 1592903174,
-        "odds": {
-          "h2h": [
-            1.17,
-            18,
-            8.4
-          ],
-          "h2h_lay": [
-            1.19,
-            24,
-            10.5
-          ]
-        }
-      },
-      "id": "a489217f-deed-4407-942b-7a6174035256",
-      "start_time": 1594555200000
-    },
-    {
-      "sport_key": "soccer_italy_serie_a",
-      "sport_nice": "Serie A - Italy",
-      "teams": [
-        "Brescia",
-        "Genoa"
-      ],
-      "commence_time": 1593270900,
-      "home_team": "Brescia",
-      "site": {
-        "site_key": "betfair",
-        "site_nice": "Betfair",
-        "last_update": 1592903174,
-        "odds": {
-          "h2h": [
-            2.96,
-            2.44,
-            3.5
-          ],
-          "h2h_lay": [
-            3.15,
-            2.58,
-            3.75
-          ]
-        }
-      },
-      "id": "cdf91974-0892-4dbb-a010-66dd600b3c6c",
-      "start_time": 1594564200000
+      "id": "3117f3db-1371-449c-99a1-fe37e424c084",
+      "start_time": 1594737000000
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -4969,8 +4600,8 @@
           ]
         }
       },
-      "id": "4350ced4-bddb-43b6-950b-0c65187f81ab",
-      "start_time": 1594564200000
+      "id": "11740cad-ecfe-4100-9423-040da6907539",
+      "start_time": 1594737000000
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -4998,8 +4629,8 @@
           ]
         }
       },
-      "id": "936812ce-91e6-4743-a766-9898fc5414a4",
-      "start_time": 1594548000000
+      "id": "9546eeda-a08f-4769-9c28-819280734ea1",
+      "start_time": 1594720800000
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -5027,8 +4658,8 @@
           ]
         }
       },
-      "id": "5369184f-7582-4083-b13d-eee73cf9f2d7",
-      "start_time": 1594573200000
+      "id": "3f689e69-04a7-4059-bda9-3d4ff62c63bc",
+      "start_time": 1594746000000
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -5056,8 +4687,8 @@
           ]
         }
       },
-      "id": "0dbe1e66-ffc9-4dd7-ba64-7f41e14f2dad",
-      "start_time": 1594573200000
+      "id": "b0db8f6b-8241-4a00-a184-d6a628fa0ae6",
+      "start_time": 1594746000000
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -5085,8 +4716,8 @@
           ]
         }
       },
-      "id": "925bb9a9-e05c-407f-8b79-9afef8f4fe15",
-      "start_time": 1594548000000
+      "id": "f02dfbb2-27f6-43d7-a088-57fc88d31fcb",
+      "start_time": 1594720800000
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -5114,8 +4745,8 @@
           ]
         }
       },
-      "id": "67605ac6-c58a-4432-94a7-4796c2b44400",
-      "start_time": 1594539000000
+      "id": "f2e37676-8ef2-4682-b80f-75c11f587d7d",
+      "start_time": 1594711800000
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -5143,8 +4774,8 @@
           ]
         }
       },
-      "id": "6623c600-e9a7-4474-93b9-5f5fc7febd85",
-      "start_time": 1594539000000
+      "id": "dcb7f903-71ae-42bc-a9be-4deb749f313e",
+      "start_time": 1594711800000
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -5172,8 +4803,501 @@
           ]
         }
       },
-      "id": "4f652f16-09ce-405d-bdd8-a795230be52c",
-      "start_time": 1594539000000
+      "id": "f51cdea6-9207-4441-9dc8-15b417313455",
+      "start_time": 1594711800000
+    },
+    {
+      "sport_key": "soccer_italy_serie_a",
+      "sport_nice": "Serie A - Italy",
+      "teams": [
+        "Cagliari",
+        "SPAL"
+      ],
+      "commence_time": 1592933400,
+      "home_team": "SPAL",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903174,
+        "odds": {
+          "h2h": [
+            2.86,
+            2.82,
+            3.3
+          ],
+          "h2h_lay": [
+            2.9,
+            2.84,
+            3.35
+          ]
+        }
+      },
+      "id": "2435ca47-63fb-4986-b481-0da78606565a",
+      "start_time": 1594650600000
+    },
+    {
+      "sport_key": "soccer_italy_serie_a",
+      "sport_nice": "Serie A - Italy",
+      "teams": [
+        "Hellas Verona FC",
+        "Napoli"
+      ],
+      "commence_time": 1592933400,
+      "home_team": "Hellas Verona FC",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903174,
+        "odds": {
+          "h2h": [
+            4.4,
+            1.98,
+            3.65
+          ],
+          "h2h_lay": [
+            4.5,
+            1.99,
+            3.7
+          ]
+        }
+      },
+      "id": "70295dd6-ffbb-4562-b89a-5a24c6d12c19",
+      "start_time": 1594634400000
+    },
+    {
+      "sport_key": "soccer_italy_serie_a",
+      "sport_nice": "Serie A - Italy",
+      "teams": [
+        "Torino",
+        "Udinese"
+      ],
+      "commence_time": 1592941500,
+      "home_team": "Torino",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903174,
+        "odds": {
+          "h2h": [
+            2.62,
+            3.2,
+            3.15
+          ],
+          "h2h_lay": [
+            2.64,
+            3.25,
+            3.2
+          ]
+        }
+      },
+      "id": "4a352318-6000-4981-b271-e9825c35fc65",
+      "start_time": 1594641600000
+    },
+    {
+      "sport_key": "soccer_italy_serie_a",
+      "sport_nice": "Serie A - Italy",
+      "teams": [
+        "Genoa",
+        "Parma"
+      ],
+      "commence_time": 1592941500,
+      "home_team": "Genoa",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903174,
+        "odds": {
+          "h2h": [
+            2.26,
+            3.7,
+            3.4
+          ],
+          "h2h_lay": [
+            2.28,
+            3.8,
+            3.45
+          ]
+        }
+      },
+      "id": "bb33958c-b6c0-4e52-abd7-8a24b0750efe",
+      "start_time": 1594641600000
+    },
+    {
+      "sport_key": "soccer_italy_serie_a",
+      "sport_nice": "Serie A - Italy",
+      "teams": [
+        "FC Internazionale",
+        "Sassuolo"
+      ],
+      "commence_time": 1593019800,
+      "home_team": "FC Internazionale",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903174,
+        "odds": {
+          "h2h": [
+            1.42,
+            8.8,
+            5.3
+          ],
+          "h2h_lay": [
+            1.43,
+            9.4,
+            5.5
+          ]
+        }
+      },
+      "id": "0486c419-afb8-4a79-a842-8035c8680ba7",
+      "start_time": 1594634400000
+    },
+    {
+      "sport_key": "soccer_italy_serie_a",
+      "sport_nice": "Serie A - Italy",
+      "teams": [
+        "Atalanta BC",
+        "Lazio"
+      ],
+      "commence_time": 1593027900,
+      "home_team": "Atalanta BC",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903174,
+        "odds": {
+          "h2h": [
+            2.2,
+            3.35,
+            3.9
+          ],
+          "h2h_lay": [
+            2.24,
+            3.4,
+            4
+          ]
+        }
+      },
+      "id": "16ff98df-773c-44db-9dfb-26274efae76c",
+      "start_time": 1594659600000
+    },
+    {
+      "sport_key": "soccer_italy_serie_a",
+      "sport_nice": "Serie A - Italy",
+      "teams": [
+        "AS Roma",
+        "Sampdoria"
+      ],
+      "commence_time": 1593027900,
+      "home_team": "AS Roma",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903174,
+        "odds": {
+          "h2h": [
+            1.5,
+            7.2,
+            4.9
+          ],
+          "h2h_lay": [
+            1.52,
+            7.8,
+            5
+          ]
+        }
+      },
+      "id": "370659de-9d2f-466a-a280-c3e397a9bdb6",
+      "start_time": 1594650600000
+    },
+    {
+      "sport_key": "soccer_italy_serie_a",
+      "sport_nice": "Serie A - Italy",
+      "teams": [
+        "Juventus",
+        "Lecce"
+      ],
+      "commence_time": 1593200700,
+      "home_team": "Juventus",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903174,
+        "odds": {
+          "h2h": [
+            1.17,
+            18,
+            8.4
+          ],
+          "h2h_lay": [
+            1.19,
+            24,
+            10.5
+          ]
+        }
+      },
+      "id": "51a0bb15-291e-4f74-9fe7-c531d3139608",
+      "start_time": 1594641600000
+    },
+    {
+      "sport_key": "soccer_italy_serie_a",
+      "sport_nice": "Serie A - Italy",
+      "teams": [
+        "Brescia",
+        "Genoa"
+      ],
+      "commence_time": 1593270900,
+      "home_team": "Brescia",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903174,
+        "odds": {
+          "h2h": [
+            2.96,
+            2.44,
+            3.5
+          ],
+          "h2h_lay": [
+            3.15,
+            2.58,
+            3.75
+          ]
+        }
+      },
+      "id": "13ec5c3c-1189-4415-aba0-ae62becf9bd2",
+      "start_time": 1594650600000
+    },
+    {
+      "sport_key": "soccer_italy_serie_a",
+      "sport_nice": "Serie A - Italy",
+      "teams": [
+        "Cagliari",
+        "Torino"
+      ],
+      "commence_time": 1593279000,
+      "home_team": "Cagliari",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903174,
+        "odds": {
+          "h2h": [
+            2.54,
+            2.94,
+            3.35
+          ],
+          "h2h_lay": [
+            2.78,
+            3.25,
+            3.8
+          ]
+        }
+      },
+      "id": "3c49c13d-374f-498c-b620-71509cc4c63a",
+      "start_time": 1594650600000
+    },
+    {
+      "sport_key": "soccer_italy_serie_a",
+      "sport_nice": "Serie A - Italy",
+      "teams": [
+        "Fiorentina",
+        "Lazio"
+      ],
+      "commence_time": 1593287100,
+      "home_team": "Lazio",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903174,
+        "odds": {
+          "h2h": [
+            6.2,
+            1.55,
+            4.5
+          ],
+          "h2h_lay": [
+            7,
+            1.58,
+            5.2
+          ]
+        }
+      },
+      "id": "5d1f76fb-a702-457e-b663-56c447144dcf",
+      "start_time": 1594634400000
+    },
+    {
+      "sport_key": "soccer_italy_serie_a",
+      "sport_nice": "Serie A - Italy",
+      "teams": [
+        "AC Milan",
+        "AS Roma"
+      ],
+      "commence_time": 1593357300,
+      "home_team": "AC Milan",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903174,
+        "odds": {
+          "h2h": [
+            2.64,
+            2.76,
+            3.45
+          ],
+          "h2h_lay": [
+            2.88,
+            2.98,
+            3.9
+          ]
+        }
+      },
+      "id": "bc58d91f-e4aa-45bb-b411-a4e47e236c5a",
+      "start_time": 1594659600000
+    },
+    {
+      "sport_key": "soccer_italy_serie_a",
+      "sport_nice": "Serie A - Italy",
+      "teams": [
+        "Napoli",
+        "SPAL"
+      ],
+      "commence_time": 1593365400,
+      "home_team": "Napoli",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903174,
+        "odds": {
+          "h2h": [
+            1.35,
+            9.8,
+            5.4
+          ],
+          "h2h_lay": [
+            1.39,
+            13.5,
+            6.6
+          ]
+        }
+      },
+      "id": "9c943ef5-7e73-491c-a74e-1e3c1e8f5941",
+      "start_time": 1594659600000
+    },
+    {
+      "sport_key": "soccer_italy_serie_a",
+      "sport_nice": "Serie A - Italy",
+      "teams": [
+        "Atalanta BC",
+        "Udinese"
+      ],
+      "commence_time": 1593365400,
+      "home_team": "Udinese",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903174,
+        "odds": {
+          "h2h": [
+            1.58,
+            5.7,
+            4.3
+          ],
+          "h2h_lay": [
+            1.69,
+            7.4,
+            5.3
+          ]
+        }
+      },
+      "id": "e20f36f0-b153-4c95-8afb-9001ec202c68",
+      "start_time": 1594634400000
+    },
+    {
+      "sport_key": "soccer_italy_serie_a",
+      "sport_nice": "Serie A - Italy",
+      "teams": [
+        "Bologna",
+        "Sampdoria"
+      ],
+      "commence_time": 1593365400,
+      "home_team": "Sampdoria",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903174,
+        "odds": {
+          "h2h": [
+            3,
+            2.46,
+            3.55
+          ],
+          "h2h_lay": [
+            3.05,
+            2.56,
+            3.85
+          ]
+        }
+      },
+      "id": "eacbc881-38fa-4f13-b57f-ad50cec5e838",
+      "start_time": 1594625400000
+    },
+    {
+      "sport_key": "soccer_italy_serie_a",
+      "sport_nice": "Serie A - Italy",
+      "teams": [
+        "Hellas Verona FC",
+        "Sassuolo"
+      ],
+      "commence_time": 1593365400,
+      "home_team": "Sassuolo",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903174,
+        "odds": {
+          "h2h": [
+            2.86,
+            2.6,
+            3.45
+          ],
+          "h2h_lay": [
+            3.1,
+            2.72,
+            3.8
+          ]
+        }
+      },
+      "id": "d546e7da-5515-41b5-93ed-a884a6adce13",
+      "start_time": 1594625400000
+    },
+    {
+      "sport_key": "soccer_italy_serie_a",
+      "sport_nice": "Serie A - Italy",
+      "teams": [
+        "FC Internazionale",
+        "Parma"
+      ],
+      "commence_time": 1593373500,
+      "home_team": "Parma",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903174,
+        "odds": {
+          "h2h": [
+            1.56,
+            6.6,
+            4.1
+          ],
+          "h2h_lay": [
+            1.66,
+            7.6,
+            4.9
+          ]
+        }
+      },
+      "id": "82101e38-2104-47fb-b620-f7419f33e4d9",
+      "start_time": 1594625400000
     }
   ],
   "soccer_spain_la_liga_schedule": [
@@ -5203,98 +5327,8 @@
           ]
         }
       },
-      "id": "c6f0031b-76e3-4890-9f02-26d9a14f3b38",
-      "start_time": 1594486800000,
-      "isMatchLive": true
-    },
-    {
-      "sport_key": "soccer_spain_la_liga",
-      "sport_nice": "La Liga - Spain",
-      "teams": [
-        "Athletic Bilbao",
-        "Barcelona"
-      ],
-      "commence_time": 1592942400,
-      "home_team": "Barcelona",
-      "site": {
-        "site_key": "betfair",
-        "site_nice": "Betfair",
-        "last_update": 1592903465,
-        "odds": {
-          "h2h": [
-            10,
-            1.36,
-            5.8
-          ],
-          "h2h_lay": [
-            11,
-            1.37,
-            5.9
-          ]
-        }
-      },
-      "id": "a2402dd0-45f8-48ca-bc1b-b73084bc6e0b",
-      "start_time": 1594486800000,
-      "isMatchLive": true
-    },
-    {
-      "sport_key": "soccer_spain_la_liga",
-      "sport_nice": "La Liga - Spain",
-      "teams": [
-        "Espanyol",
-        "Real Betis"
-      ],
-      "commence_time": 1593115200,
-      "home_team": "Real Betis",
-      "site": {
-        "site_key": "betfair",
-        "site_nice": "Betfair",
-        "last_update": 1592903465,
-        "odds": {
-          "h2h": [
-            3.45,
-            2.26,
-            3.5
-          ],
-          "h2h_lay": [
-            3.55,
-            2.3,
-            3.65
-          ]
-        }
-      },
-      "id": "b7d9fadb-057c-423e-894f-2e399468a37a",
-      "start_time": 1594486800000,
-      "isMatchLive": true
-    },
-    {
-      "sport_key": "soccer_spain_la_liga",
-      "sport_nice": "La Liga - Spain",
-      "teams": [
-        "Getafe",
-        "Valladolid"
-      ],
-      "commence_time": 1592933400,
-      "home_team": "Valladolid",
-      "site": {
-        "site_key": "betfair",
-        "site_nice": "Betfair",
-        "last_update": 1592903465,
-        "odds": {
-          "h2h": [
-            2.6,
-            3.65,
-            2.9
-          ],
-          "h2h_lay": [
-            2.64,
-            3.7,
-            2.92
-          ]
-        }
-      },
-      "id": "121aecc8-f717-4a00-b604-8726bf4b8fb8",
-      "start_time": 1594573200000
+      "id": "a5179de5-26ef-41ec-9216-18ad26a811bf",
+      "start_time": 1594746000000
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -5322,8 +5356,8 @@
           ]
         }
       },
-      "id": "ac2027a1-f555-4cc3-9f70-1572c4c1966e",
-      "start_time": 1594555200000
+      "id": "a453268d-9d2f-4d75-9eb9-f729f26de73e",
+      "start_time": 1594728000000
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -5351,8 +5385,8 @@
           ]
         }
       },
-      "id": "d5d5bf18-b776-4fc1-9fbf-47520681c1bc",
-      "start_time": 1594573200000
+      "id": "5bcaf51d-aa68-4708-9264-ab7e7067c56c",
+      "start_time": 1594746000000
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -5380,8 +5414,8 @@
           ]
         }
       },
-      "id": "ce0f9ed8-1e77-4cb3-bfde-830e48371f20",
-      "start_time": 1594539000000
+      "id": "dcb0364b-4542-499c-a4c9-c211749df68e",
+      "start_time": 1594711800000
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -5409,8 +5443,8 @@
           ]
         }
       },
-      "id": "84ca46a3-af8e-441f-80e4-b9d38a552c12",
-      "start_time": 1594548000000
+      "id": "391d2cb9-9aca-4586-89b8-d749f5a07238",
+      "start_time": 1594720800000
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -5438,8 +5472,8 @@
           ]
         }
       },
-      "id": "0358d403-d46f-4a49-85eb-1a7abe0b72aa",
-      "start_time": 1594548000000
+      "id": "781291a7-a860-4605-9862-8cf852ee0778",
+      "start_time": 1594720800000
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -5467,8 +5501,8 @@
           ]
         }
       },
-      "id": "947453b4-8bc5-47fd-b3ad-86860640c0a9",
-      "start_time": 1594564200000
+      "id": "c895be62-2ddd-421d-af37-075b7d197c51",
+      "start_time": 1594737000000
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -5496,8 +5530,8 @@
           ]
         }
       },
-      "id": "acc13873-cab2-4d4b-9ca6-0d4d91469ef3",
-      "start_time": 1594573200000
+      "id": "f58c9491-18e5-4eab-8858-74937064a780",
+      "start_time": 1594746000000
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -5525,8 +5559,8 @@
           ]
         }
       },
-      "id": "5f603914-b635-4bff-804d-4dfb8d3d7986",
-      "start_time": 1594555200000
+      "id": "c8bbfaa3-3566-4128-9244-1513e1695908",
+      "start_time": 1594728000000
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -5554,8 +5588,8 @@
           ]
         }
       },
-      "id": "e06da8b9-bc2f-4b81-b055-e7d7057687be",
-      "start_time": 1594564200000
+      "id": "68c35152-fdb4-450c-8674-be8b51c8e5a8",
+      "start_time": 1594737000000
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -5583,8 +5617,8 @@
           ]
         }
       },
-      "id": "da40810d-2d76-48e8-be65-8e4351368dce",
-      "start_time": 1594539000000
+      "id": "8d827950-58ca-477f-871e-4d1d440d70e3",
+      "start_time": 1594711800000
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -5612,8 +5646,8 @@
           ]
         }
       },
-      "id": "10eabe90-4ba6-4af4-b72d-e3cc3f05e776",
-      "start_time": 1594555200000
+      "id": "a534c963-2f5d-4d0e-a04d-338d4fa48b1a",
+      "start_time": 1594728000000
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -5641,8 +5675,8 @@
           ]
         }
       },
-      "id": "a76c59c5-8a5b-4ba2-91d3-d3e155af11a2",
-      "start_time": 1594548000000
+      "id": "9ee3230b-9414-4853-a113-bc557cee52aa",
+      "start_time": 1594720800000
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -5670,8 +5704,8 @@
           ]
         }
       },
-      "id": "79d00270-178e-452f-a856-7ac8830912f7",
-      "start_time": 1594555200000
+      "id": "7faefa4b-013f-4c85-a2fd-30a0945db44b",
+      "start_time": 1594728000000
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -5699,8 +5733,8 @@
           ]
         }
       },
-      "id": "85ccec9c-8ee3-411d-b66f-599fdd9ae280",
-      "start_time": 1594564200000
+      "id": "0faccef6-7de7-49ad-92a9-16ffbbf411b4",
+      "start_time": 1594737000000
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -5728,8 +5762,8 @@
           ]
         }
       },
-      "id": "10469bf0-4c07-4cf4-9f00-3d643eee8fcc",
-      "start_time": 1594564200000
+      "id": "c51c0760-ef1c-4b20-bdd7-0f067da7fee7",
+      "start_time": 1594737000000
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -5757,8 +5791,8 @@
           ]
         }
       },
-      "id": "cd30e140-a3fd-48a9-8dcd-0e082fcc1496",
-      "start_time": 1594539000000
+      "id": "cefd4ade-b2fd-49fd-add1-93e5d01e295f",
+      "start_time": 1594711800000
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -5786,8 +5820,530 @@
           ]
         }
       },
-      "id": "63c25802-a6f6-428b-ae08-0845532907ad",
-      "start_time": 1594548000000
+      "id": "b5b9b79e-ba9e-46ec-a1f6-51ab53c8dc0d",
+      "start_time": 1594720800000
+    },
+    {
+      "sport_key": "soccer_spain_la_liga",
+      "sport_nice": "La Liga - Spain",
+      "teams": [
+        "Getafe",
+        "Valladolid"
+      ],
+      "commence_time": 1592933400,
+      "home_team": "Valladolid",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903465,
+        "odds": {
+          "h2h": [
+            2.6,
+            3.65,
+            2.9
+          ],
+          "h2h_lay": [
+            2.64,
+            3.7,
+            2.92
+          ]
+        }
+      },
+      "id": "329c08ef-0ed2-466c-9ac1-7f28e2382275",
+      "start_time": 1594659600000
+    },
+    {
+      "sport_key": "soccer_spain_la_liga",
+      "sport_nice": "La Liga - Spain",
+      "teams": [
+        "Atlético Madrid",
+        "Levante"
+      ],
+      "commence_time": 1592933400,
+      "home_team": "Levante",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903465,
+        "odds": {
+          "h2h": [
+            1.67,
+            6.8,
+            3.85
+          ],
+          "h2h_lay": [
+            1.68,
+            7,
+            3.9
+          ]
+        }
+      },
+      "id": "a7e984cc-ccd8-40b6-84d9-c54be6a418fc",
+      "start_time": 1594641600000
+    },
+    {
+      "sport_key": "soccer_spain_la_liga",
+      "sport_nice": "La Liga - Spain",
+      "teams": [
+        "Athletic Bilbao",
+        "Barcelona"
+      ],
+      "commence_time": 1592942400,
+      "home_team": "Barcelona",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903465,
+        "odds": {
+          "h2h": [
+            10,
+            1.36,
+            5.8
+          ],
+          "h2h_lay": [
+            11,
+            1.37,
+            5.9
+          ]
+        }
+      },
+      "id": "850838e1-fb34-44fe-ab49-2221f9fcd1d8",
+      "start_time": 1594659600000
+    },
+    {
+      "sport_key": "soccer_spain_la_liga",
+      "sport_nice": "La Liga - Spain",
+      "teams": [
+        "Celta Vigo",
+        "Real Sociedad"
+      ],
+      "commence_time": 1593019800,
+      "home_team": "Real Sociedad",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903465,
+        "odds": {
+          "h2h": [
+            4.3,
+            2.12,
+            3.3
+          ],
+          "h2h_lay": [
+            4.4,
+            2.16,
+            3.35
+          ]
+        }
+      },
+      "id": "aeed5b4c-3a4f-45b4-894c-3177aec43259",
+      "start_time": 1594625400000
+    },
+    {
+      "sport_key": "soccer_spain_la_liga",
+      "sport_nice": "La Liga - Spain",
+      "teams": [
+        "Alavés",
+        "Osasuna"
+      ],
+      "commence_time": 1593019800,
+      "home_team": "Alavés",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903465,
+        "odds": {
+          "h2h": [
+            2.72,
+            3.05,
+            3.15
+          ],
+          "h2h_lay": [
+            2.76,
+            3.15,
+            3.2
+          ]
+        }
+      },
+      "id": "1c5e3341-254a-4801-8569-582922c09ac2",
+      "start_time": 1594634400000
+    },
+    {
+      "sport_key": "soccer_spain_la_liga",
+      "sport_nice": "La Liga - Spain",
+      "teams": [
+        "Mallorca",
+        "Real Madrid"
+      ],
+      "commence_time": 1593028800,
+      "home_team": "Real Madrid",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903465,
+        "odds": {
+          "h2h": [
+            23,
+            1.16,
+            10
+          ],
+          "h2h_lay": [
+            25,
+            1.17,
+            10.5
+          ]
+        }
+      },
+      "id": "9e788471-d478-498d-95ff-8229cb7f9a7b",
+      "start_time": 1594634400000
+    },
+    {
+      "sport_key": "soccer_spain_la_liga",
+      "sport_nice": "La Liga - Spain",
+      "teams": [
+        "Eibar",
+        "Valencia"
+      ],
+      "commence_time": 1593106200,
+      "home_team": "Eibar",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903465,
+        "odds": {
+          "h2h": [
+            2.9,
+            2.64,
+            3.45
+          ],
+          "h2h_lay": [
+            2.98,
+            2.72,
+            3.5
+          ]
+        }
+      },
+      "id": "8b469d03-2c47-4c02-81a0-9688541604c1",
+      "start_time": 1594650600000
+    },
+    {
+      "sport_key": "soccer_spain_la_liga",
+      "sport_nice": "La Liga - Spain",
+      "teams": [
+        "Espanyol",
+        "Real Betis"
+      ],
+      "commence_time": 1593115200,
+      "home_team": "Real Betis",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903465,
+        "odds": {
+          "h2h": [
+            3.45,
+            2.26,
+            3.5
+          ],
+          "h2h_lay": [
+            3.55,
+            2.3,
+            3.65
+          ]
+        }
+      },
+      "id": "916e128e-cb03-4608-b2fc-08b09ee1f78a",
+      "start_time": 1594659600000
+    },
+    {
+      "sport_key": "soccer_spain_la_liga",
+      "sport_nice": "La Liga - Spain",
+      "teams": [
+        "Sevilla",
+        "Valladolid"
+      ],
+      "commence_time": 1593201600,
+      "home_team": "Sevilla",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903465,
+        "odds": {
+          "h2h": [
+            1.45,
+            8.8,
+            4.7
+          ],
+          "h2h_lay": [
+            1.47,
+            10.5,
+            5
+          ]
+        }
+      },
+      "id": "85f1ae23-dcbd-4d81-9191-9495c610468c",
+      "start_time": 1594641600000
+    },
+    {
+      "sport_key": "soccer_spain_la_liga",
+      "sport_nice": "La Liga - Spain",
+      "teams": [
+        "Athletic Bilbao",
+        "Mallorca"
+      ],
+      "commence_time": 1593259200,
+      "home_team": "Athletic Bilbao",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903465,
+        "odds": {
+          "h2h": [
+            1.46,
+            8.6,
+            4.3
+          ],
+          "h2h_lay": [
+            1.54,
+            9.6,
+            5.1
+          ]
+        }
+      },
+      "id": "05673dee-6f29-42e7-b9b8-b5103cd49fa5",
+      "start_time": 1594650600000
+    },
+    {
+      "sport_key": "soccer_spain_la_liga",
+      "sport_nice": "La Liga - Spain",
+      "teams": [
+        "Barcelona",
+        "Celta Vigo"
+      ],
+      "commence_time": 1593270000,
+      "home_team": "Celta Vigo",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903465,
+        "odds": {
+          "h2h": [
+            1.68,
+            5.6,
+            4.1
+          ],
+          "h2h_lay": [
+            1.71,
+            6.4,
+            4.5
+          ]
+        }
+      },
+      "id": "7f178bfd-54e0-4649-86e9-87dc8521b955",
+      "start_time": 1594625400000
+    },
+    {
+      "sport_key": "soccer_spain_la_liga",
+      "sport_nice": "La Liga - Spain",
+      "teams": [
+        "Leganés",
+        "Osasuna"
+      ],
+      "commence_time": 1593279000,
+      "home_team": "Osasuna",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903465,
+        "odds": {
+          "h2h": [
+            3.7,
+            2.34,
+            3.05
+          ],
+          "h2h_lay": [
+            4.1,
+            2.38,
+            3.3
+          ]
+        }
+      },
+      "id": "3ca6b0c4-7851-4000-9327-85d1e88ee90f",
+      "start_time": 1594641600000
+    },
+    {
+      "sport_key": "soccer_spain_la_liga",
+      "sport_nice": "La Liga - Spain",
+      "teams": [
+        "Alavés",
+        "Atlético Madrid"
+      ],
+      "commence_time": 1593288000,
+      "home_team": "Atlético Madrid",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903465,
+        "odds": {
+          "h2h": [
+            13.5,
+            1.34,
+            5.1
+          ],
+          "h2h_lay": [
+            17,
+            1.38,
+            5.8
+          ]
+        }
+      },
+      "id": "f5a9642f-ec15-4937-8ead-7757c3e75ab5",
+      "start_time": 1594634400000
+    },
+    {
+      "sport_key": "soccer_spain_la_liga",
+      "sport_nice": "La Liga - Spain",
+      "teams": [
+        "Levante",
+        "Real Betis"
+      ],
+      "commence_time": 1593345600,
+      "home_team": "Levante",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903465,
+        "odds": {
+          "h2h": [
+            2.46,
+            3.05,
+            3.55
+          ],
+          "h2h_lay": [
+            2.58,
+            3.1,
+            3.8
+          ]
+        }
+      },
+      "id": "96ec4fb3-9910-435d-b423-d6e536b5f779",
+      "start_time": 1594641600000
+    },
+    {
+      "sport_key": "soccer_spain_la_liga",
+      "sport_nice": "La Liga - Spain",
+      "teams": [
+        "Valencia",
+        "Villarreal"
+      ],
+      "commence_time": 1593356400,
+      "home_team": "Villarreal",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903465,
+        "odds": {
+          "h2h": [
+            3,
+            2.34,
+            3.5
+          ],
+          "h2h_lay": [
+            3.3,
+            2.52,
+            3.85
+          ]
+        }
+      },
+      "id": "198fe55e-d07e-47a9-80a6-da0635fcdc5c",
+      "start_time": 1594650600000
+    },
+    {
+      "sport_key": "soccer_spain_la_liga",
+      "sport_nice": "La Liga - Spain",
+      "teams": [
+        "Eibar",
+        "Granada"
+      ],
+      "commence_time": 1593365400,
+      "home_team": "Granada",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903465,
+        "odds": {
+          "h2h": [
+            3.85,
+            2.28,
+            3.1
+          ],
+          "h2h_lay": [
+            4.2,
+            2.34,
+            3.35
+          ]
+        }
+      },
+      "id": "c9aee998-6f0b-4ebf-8132-687ced2b9817",
+      "start_time": 1594650600000
+    },
+    {
+      "sport_key": "soccer_spain_la_liga",
+      "sport_nice": "La Liga - Spain",
+      "teams": [
+        "Espanyol",
+        "Real Madrid"
+      ],
+      "commence_time": 1593374400,
+      "home_team": "Espanyol",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903465,
+        "odds": {
+          "h2h": [
+            6.6,
+            1.5,
+            4.7
+          ],
+          "h2h_lay": [
+            8,
+            1.54,
+            5.5
+          ]
+        }
+      },
+      "id": "14c606f4-d372-41c3-8de8-f81e99aeb579",
+      "start_time": 1594625400000
+    },
+    {
+      "sport_key": "soccer_spain_la_liga",
+      "sport_nice": "La Liga - Spain",
+      "teams": [
+        "Getafe",
+        "Real Sociedad"
+      ],
+      "commence_time": 1593460800,
+      "home_team": "Getafe",
+      "site": {
+        "site_key": "betfair",
+        "site_nice": "Betfair",
+        "last_update": 1592903465,
+        "odds": {
+          "h2h": [
+            2.62,
+            3.1,
+            3.05
+          ],
+          "h2h_lay": [
+            2.86,
+            3.45,
+            3.4
+          ]
+        }
+      },
+      "id": "8623bb0e-e171-49f0-9943-7eeb101a2c7f",
+      "start_time": 1594634400000
     }
   ]
 }

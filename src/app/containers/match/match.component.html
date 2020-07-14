@@ -28,8 +28,12 @@
                 {{ currentMatchTime === 91 ? 'FT' : currentMatchTime + "'" }}
             </div>
             <div class="score">
-                <div class="home-team-score">2</div>
-                <div class="away-team-score">0</div>
+                <div class="home-team-score">
+                    {{ homeTeamScore }}
+                </div>
+                <div class="away-team-score">
+                    {{ awayTeamScore }}
+                </div>
             </div>
             <div class="teams">
                 <div class="home-team">

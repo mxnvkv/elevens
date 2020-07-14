@@ -27,6 +27,8 @@ export class MatchComponent implements OnInit, OnDestroy {
   leagueName: string
   currentMatchTime: number;
   matchTimeSubscription: Subscription;
+  homeTeamScore: number = 0;
+  awayTeamScore: number = 0;
 
   @ViewChild('betPlacement') betPlacement: ElementRef;
   @ViewChild('stake') stake: ElementRef;
@@ -52,7 +54,11 @@ export class MatchComponent implements OnInit, OnDestroy {
           { runnerDetails: 'The Draw', odds: data.site.odds.h2h[2] },
         ];
 
-        this.setMatchTime()
+        this.setMatchTime();
+        console.log(data);
+        data.result.scoreChanges.forEach((score: number) => {
+          console.log(`${score[0][0]} : ${score[0][1]} (${score[1]}')`);
+        })
       });
 
     this.sportService.getAccountSettings()
@@ -137,7 +143,17 @@ export class MatchComponent implements OnInit, OnDestroy {
         finalize(() => {
           this.currentMatchTime = 91
         })
-      ).subscribe(val => this.currentMatchTime = val);
+      ).subscribe(time => {
+        this.currentMatchTime = time;
+
+        // setting current match score
+        this.match.result.scoreChanges.forEach((matchScore: number) => {
+          if (matchScore[1] <= time) {
+            this.homeTeamScore = matchScore[0][0];
+            this.awayTeamScore = matchScore[0][1];
+          }
+        })
+      });
     }
   }
 }

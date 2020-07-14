@@ -4,6 +4,7 @@ import { Match } from 'src/app/models/match';
 import { AccountSettings } from 'src/app/models/account-settings';
 import { concat, Subscription } from 'rxjs';
 import { v4 as uuidv4 } from 'uuid';
+import { newArray } from '@angular/compiler/src/util';
 
 @Component({
   selector: 'app-football',
@@ -63,6 +64,8 @@ export class FootballComponent implements OnInit, OnDestroy {
               this.allLiveMatches.push(match);
             }
           })
+
+          // this.allScheduledMatches.length >= 4 ? this.addMatchResult() : '';
         })
     });
 
@@ -142,6 +145,10 @@ export class FootballComponent implements OnInit, OnDestroy {
 
         match.start_time = matchNewStartTime;
         match.id = uuidv4();
+        match = {
+          ...match,
+          ...this.addMatchResult(match)
+        };
 
         observables.push(this.sportService.addMatchToSchedule(match))
       })
@@ -151,6 +158,79 @@ export class FootballComponent implements OnInit, OnDestroy {
     let updateAccount = this.sportService.updateAccountSettings(this.accountSettings);
 
     concat(...observables, updateAccount).subscribe(console.log);
+  }
+
+  addMatchResult(match: Match) {
+    let homeWin = parseFloat((1 / match.site.odds.h2h[0] * 100).toFixed(2));
+    let awayWin = parseFloat((1 / match.site.odds.h2h[1] * 100).toFixed(2));
+    let draw = parseFloat((100 - homeWin - awayWin).toFixed(2));
+
+    let resultNumber = parseFloat((Math.random() * 100).toFixed(2));
+    var result;
+
+    var homeTeamScore;
+    var awayTeamScore;
+
+    let minutes = [ ...newArray(90) ].map((v, i) => v = i + 1);
+
+    if (resultNumber <= homeWin) {
+      result = 'W';
+    } else if (resultNumber > homeWin && resultNumber <= homeWin + awayWin) {
+      result = 'L';
+    } else {
+      result = 'D';
+    }
+
+    switch(result) {
+      case 'W':
+        homeTeamScore = Math.floor(Math.random() * 5) + 1;
+        awayTeamScore = Math.floor(Math.random() * homeTeamScore);
+        break;
+      case 'L':
+        awayTeamScore = Math.floor(Math.random() * 5) + 1;
+        homeTeamScore = Math.floor(Math.random() * awayTeamScore);
+        break;
+      case 'D':
+        homeTeamScore = Math.floor(Math.random() * (4 + 1));
+        awayTeamScore = homeTeamScore;
+        break;
+    }
+
+    minutes = minutes.sort(() => Math.random() - 0.5)
+      .slice(0, homeTeamScore + awayTeamScore)
+      .sort((a, b) => a - b);
+
+    let homeMinuteScore = 0;
+    let awayMinuteScore = 0;
+    let scores = [];
+
+    minutes.forEach((minute: number) => {
+      let num = Math.round(Math.random());
+      
+      switch(num) {
+        case 0:
+          homeMinuteScore < homeTeamScore ? homeMinuteScore++ : awayMinuteScore++;
+          scores.push([[homeMinuteScore, awayMinuteScore], minute]);
+          break;
+
+        case 1:
+          awayMinuteScore < awayTeamScore ? awayMinuteScore++ : homeMinuteScore++;
+          scores.push([[homeMinuteScore, awayMinuteScore], minute]);
+          break;
+      }
+    })
+
+    match = {
+      ...match,
+      result: {
+        homeTeamScore: homeTeamScore,
+        awayTeamScore: awayTeamScore,
+        matchResult: result,
+        scoreChanges: scores
+      }
+    }
+
+    return match;
   }
 
   checkForLiveMatches(date: Date) {

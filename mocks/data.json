@@ -2068,7 +2068,7 @@
     "available_credit": 7405,
     "credit_limit": 10000,
     "net_exposure": 0,
-    "soccer_schedule_time": 1594674000000
+    "soccer_schedule_time": 1594760400000
   },
   "bets": [
     {
@@ -2711,8 +2711,64 @@
           ]
         }
       },
-      "id": "0674c4b4-9a74-4427-ada0-1e9953d15af5",
-      "start_time": 1594720800000
+      "id": "2617c4c4-2348-4c33-9510-57d10a32c146",
+      "start_time": 1594720800000,
+      "result": {
+        "homeTeamScore": 4,
+        "awayTeamScore": 3,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            3
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            16
+          ],
+          [
+            [
+              1,
+              2
+            ],
+            36
+          ],
+          [
+            [
+              2,
+              2
+            ],
+            50
+          ],
+          [
+            [
+              2,
+              3
+            ],
+            55
+          ],
+          [
+            [
+              3,
+              3
+            ],
+            86
+          ],
+          [
+            [
+              4,
+              3
+            ],
+            87
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_epl",
@@ -2740,8 +2796,71 @@
           ]
         }
       },
-      "id": "f87da49c-72fe-4332-b644-e0aa8a675f9b",
-      "start_time": 1594737000000
+      "id": "583150cf-2417-4739-999c-3ac8aca34a1c",
+      "start_time": 1594737000000,
+      "result": {
+        "homeTeamScore": 3,
+        "awayTeamScore": 5,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            23
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            50
+          ],
+          [
+            [
+              0,
+              3
+            ],
+            52
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            61
+          ],
+          [
+            [
+              0,
+              5
+            ],
+            63
+          ],
+          [
+            [
+              1,
+              5
+            ],
+            68
+          ],
+          [
+            [
+              2,
+              5
+            ],
+            71
+          ],
+          [
+            [
+              3,
+              5
+            ],
+            72
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_epl",
@@ -2769,8 +2888,43 @@
           ]
         }
       },
-      "id": "839f2283-1998-4f76-8223-094ad93cb39b",
-      "start_time": 1594720800000
+      "id": "195ec8fb-8bcf-4369-90dc-6afcb7020346",
+      "start_time": 1594720800000,
+      "result": {
+        "homeTeamScore": 0,
+        "awayTeamScore": 4,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            19
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            25
+          ],
+          [
+            [
+              0,
+              3
+            ],
+            34
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            51
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_epl",
@@ -2798,8 +2952,22 @@
           ]
         }
       },
-      "id": "612fc6e0-394a-4c38-8a11-d76cf3e3d46f",
-      "start_time": 1594728000000
+      "id": "572f6a96-4b96-4d34-80b6-1463b3da0eba",
+      "start_time": 1594728000000,
+      "result": {
+        "homeTeamScore": 1,
+        "awayTeamScore": 0,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            50
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_epl",
@@ -2827,8 +2995,22 @@
           ]
         }
       },
-      "id": "b8ac1341-3be5-40ed-b3b3-4fc95df6e1f0",
-      "start_time": 1594728000000
+      "id": "32964d2f-27f5-45d8-9f53-da1752ecef8e",
+      "start_time": 1594728000000,
+      "result": {
+        "homeTeamScore": 0,
+        "awayTeamScore": 1,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            41
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_epl",
@@ -2856,8 +3038,71 @@
           ]
         }
       },
-      "id": "51bb206c-a2c2-48e7-b32e-c73aeadad6cf",
-      "start_time": 1594720800000
+      "id": "8ef09592-5ae9-4f76-aa58-cbe082d2da55",
+      "start_time": 1594720800000,
+      "result": {
+        "homeTeamScore": 3,
+        "awayTeamScore": 5,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            4
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            7
+          ],
+          [
+            [
+              0,
+              3
+            ],
+            8
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            10
+          ],
+          [
+            [
+              1,
+              4
+            ],
+            30
+          ],
+          [
+            [
+              2,
+              4
+            ],
+            31
+          ],
+          [
+            [
+              3,
+              4
+            ],
+            37
+          ],
+          [
+            [
+              3,
+              5
+            ],
+            83
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_epl",
@@ -2885,8 +3130,57 @@
           ]
         }
       },
-      "id": "a1f2a20d-0013-4733-a87c-b7d64c1e0908",
-      "start_time": 1594728000000
+      "id": "28093469-b6ae-4486-92b1-f6b0ac214fbe",
+      "start_time": 1594728000000,
+      "result": {
+        "homeTeamScore": 3,
+        "awayTeamScore": 3,
+        "matchResult": "D",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            21
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            38
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            43
+          ],
+          [
+            [
+              3,
+              1
+            ],
+            46
+          ],
+          [
+            [
+              3,
+              2
+            ],
+            51
+          ],
+          [
+            [
+              3,
+              3
+            ],
+            88
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_epl",
@@ -2914,8 +3208,57 @@
           ]
         }
       },
-      "id": "abad0153-15f5-464d-9009-998aded56e01",
-      "start_time": 1594737000000
+      "id": "fb95af4e-eef3-4b53-b9f0-d76ae192b08f",
+      "start_time": 1594737000000,
+      "result": {
+        "homeTeamScore": 2,
+        "awayTeamScore": 4,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            5
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            21
+          ],
+          [
+            [
+              1,
+              2
+            ],
+            51
+          ],
+          [
+            [
+              2,
+              2
+            ],
+            60
+          ],
+          [
+            [
+              2,
+              3
+            ],
+            69
+          ],
+          [
+            [
+              2,
+              4
+            ],
+            77
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_epl",
@@ -2943,8 +3286,71 @@
           ]
         }
       },
-      "id": "9e42453c-e4c2-4408-8318-fb584e8078f3",
-      "start_time": 1594746000000
+      "id": "ade53bc0-aaf8-4e44-979e-b2d41d03f156",
+      "start_time": 1594746000000,
+      "result": {
+        "homeTeamScore": 4,
+        "awayTeamScore": 4,
+        "matchResult": "D",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            1
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            4
+          ],
+          [
+            [
+              1,
+              2
+            ],
+            8
+          ],
+          [
+            [
+              1,
+              3
+            ],
+            23
+          ],
+          [
+            [
+              1,
+              4
+            ],
+            26
+          ],
+          [
+            [
+              2,
+              4
+            ],
+            53
+          ],
+          [
+            [
+              3,
+              4
+            ],
+            58
+          ],
+          [
+            [
+              4,
+              4
+            ],
+            59
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_epl",
@@ -2972,8 +3378,43 @@
           ]
         }
       },
-      "id": "adf9b6db-ad37-43f6-95ae-199480a1fe4b",
-      "start_time": 1594711800000
+      "id": "db5e4f8d-7cd0-433f-8b6d-c9149c9914e9",
+      "start_time": 1594711800000,
+      "result": {
+        "homeTeamScore": 4,
+        "awayTeamScore": 0,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            22
+          ],
+          [
+            [
+              2,
+              0
+            ],
+            59
+          ],
+          [
+            [
+              3,
+              0
+            ],
+            62
+          ],
+          [
+            [
+              4,
+              0
+            ],
+            81
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_epl",
@@ -3001,8 +3442,50 @@
           ]
         }
       },
-      "id": "b01d17a3-c7db-4585-a54c-902b85c69eba",
-      "start_time": 1594746000000
+      "id": "d0b3b318-6cd9-465a-9049-01abafbbcf9d",
+      "start_time": 1594746000000,
+      "result": {
+        "homeTeamScore": 0,
+        "awayTeamScore": 5,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            2
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            3
+          ],
+          [
+            [
+              0,
+              3
+            ],
+            9
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            20
+          ],
+          [
+            [
+              0,
+              5
+            ],
+            24
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_epl",
@@ -3030,8 +3513,64 @@
           ]
         }
       },
-      "id": "bf0d9035-94e5-4d9f-a276-0f7e0224e01d",
-      "start_time": 1594711800000
+      "id": "786e2e9d-d2aa-49d7-aa56-5687ceaded66",
+      "start_time": 1594711800000,
+      "result": {
+        "homeTeamScore": 3,
+        "awayTeamScore": 4,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            3
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            18
+          ],
+          [
+            [
+              0,
+              3
+            ],
+            24
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            32
+          ],
+          [
+            [
+              1,
+              4
+            ],
+            35
+          ],
+          [
+            [
+              2,
+              4
+            ],
+            36
+          ],
+          [
+            [
+              3,
+              4
+            ],
+            66
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_epl",
@@ -3059,8 +3598,22 @@
           ]
         }
       },
-      "id": "d5bc3a26-0924-4adb-898c-05f673226e51",
-      "start_time": 1594720800000
+      "id": "471eb52b-b945-4808-8704-94380c942a56",
+      "start_time": 1594720800000,
+      "result": {
+        "homeTeamScore": 0,
+        "awayTeamScore": 1,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            81
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_epl",
@@ -3088,8 +3641,50 @@
           ]
         }
       },
-      "id": "6d54e8e1-cde1-4810-8881-54c0c77d6d62",
-      "start_time": 1594711800000
+      "id": "8604b717-a369-4721-ac5e-5f8889710f2a",
+      "start_time": 1594711800000,
+      "result": {
+        "homeTeamScore": 2,
+        "awayTeamScore": 3,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            12
+          ],
+          [
+            [
+              2,
+              0
+            ],
+            32
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            33
+          ],
+          [
+            [
+              2,
+              2
+            ],
+            35
+          ],
+          [
+            [
+              2,
+              3
+            ],
+            53
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_epl",
@@ -3117,8 +3712,36 @@
           ]
         }
       },
-      "id": "08f78c18-46fb-43be-8acf-b2f2fea9a87a",
-      "start_time": 1594737000000
+      "id": "3141648e-49a7-49d4-b2ff-14b34c4c2e1e",
+      "start_time": 1594737000000,
+      "result": {
+        "homeTeamScore": 0,
+        "awayTeamScore": 3,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            13
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            53
+          ],
+          [
+            [
+              0,
+              3
+            ],
+            64
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_epl",
@@ -3146,8 +3769,57 @@
           ]
         }
       },
-      "id": "d6fb4f8e-7c5d-4489-9198-cbd4cc7f8c12",
-      "start_time": 1594728000000
+      "id": "971f7d51-a997-463a-9800-8d00b48303db",
+      "start_time": 1594728000000,
+      "result": {
+        "homeTeamScore": 2,
+        "awayTeamScore": 4,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            2
+          ],
+          [
+            [
+              2,
+              0
+            ],
+            13
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            22
+          ],
+          [
+            [
+              2,
+              2
+            ],
+            37
+          ],
+          [
+            [
+              2,
+              3
+            ],
+            56
+          ],
+          [
+            [
+              2,
+              4
+            ],
+            76
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_epl",
@@ -3175,8 +3847,50 @@
           ]
         }
       },
-      "id": "24322974-2add-49e2-9c59-20a3124d42df",
-      "start_time": 1594711800000
+      "id": "a095235e-6d37-4318-8806-18254e99b159",
+      "start_time": 1594711800000,
+      "result": {
+        "homeTeamScore": 3,
+        "awayTeamScore": 2,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            7
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            8
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            24
+          ],
+          [
+            [
+              2,
+              2
+            ],
+            33
+          ],
+          [
+            [
+              3,
+              2
+            ],
+            52
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_epl",
@@ -3204,8 +3918,22 @@
           ]
         }
       },
-      "id": "52f23c04-2c95-4c92-aed7-6292ef0e0d0e",
-      "start_time": 1594737000000
+      "id": "d9c47238-5b77-4cb5-a0d1-606e18c124ad",
+      "start_time": 1594737000000,
+      "result": {
+        "homeTeamScore": 1,
+        "awayTeamScore": 0,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            30
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_epl",
@@ -3233,8 +3961,14 @@
           ]
         }
       },
-      "id": "1375f1eb-762d-4607-b179-f4e620f4472f",
-      "start_time": 1594746000000
+      "id": "d74b95b0-a6cc-4cba-9bf3-fdfd58ef03ae",
+      "start_time": 1594746000000,
+      "result": {
+        "homeTeamScore": 0,
+        "awayTeamScore": 0,
+        "matchResult": "D",
+        "scoreChanges": []
+      }
     },
     {
       "sport_key": "soccer_epl",
@@ -3262,8 +3996,36 @@
           ]
         }
       },
-      "id": "082bba67-5b24-4bcb-a853-d14d6d64587c",
-      "start_time": 1594634400000
+      "id": "86667e93-75a3-4027-abb8-bdd574305ecf",
+      "start_time": 1594807200000,
+      "result": {
+        "homeTeamScore": 2,
+        "awayTeamScore": 1,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            7
+          ],
+          [
+            [
+              2,
+              0
+            ],
+            22
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            83
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_epl",
@@ -3291,8 +4053,64 @@
           ]
         }
       },
-      "id": "a8356ee2-88af-4ec7-a66a-9338263a5c74",
-      "start_time": 1594650600000
+      "id": "e0f4d192-f34f-4143-b31e-2381fd2f9618",
+      "start_time": 1594823400000,
+      "result": {
+        "homeTeamScore": 5,
+        "awayTeamScore": 2,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            15
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            29
+          ],
+          [
+            [
+              1,
+              2
+            ],
+            31
+          ],
+          [
+            [
+              2,
+              2
+            ],
+            32
+          ],
+          [
+            [
+              3,
+              2
+            ],
+            56
+          ],
+          [
+            [
+              4,
+              2
+            ],
+            60
+          ],
+          [
+            [
+              5,
+              2
+            ],
+            69
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_epl",
@@ -3320,8 +4138,22 @@
           ]
         }
       },
-      "id": "5fd42f6f-85e5-48fa-9c1d-e006061f9050",
-      "start_time": 1594634400000
+      "id": "13eb8e43-cdfb-48b5-843d-5a390bd21523",
+      "start_time": 1594807200000,
+      "result": {
+        "homeTeamScore": 1,
+        "awayTeamScore": 0,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            38
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_epl",
@@ -3349,8 +4181,71 @@
           ]
         }
       },
-      "id": "35902dc8-f27c-48b4-8c14-2edcf6cbfb55",
-      "start_time": 1594641600000
+      "id": "910fe1f2-2083-4376-aa25-c590600fcced",
+      "start_time": 1594814400000,
+      "result": {
+        "homeTeamScore": 5,
+        "awayTeamScore": 3,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            4
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            30
+          ],
+          [
+            [
+              1,
+              2
+            ],
+            49
+          ],
+          [
+            [
+              1,
+              3
+            ],
+            51
+          ],
+          [
+            [
+              2,
+              3
+            ],
+            65
+          ],
+          [
+            [
+              3,
+              3
+            ],
+            66
+          ],
+          [
+            [
+              4,
+              3
+            ],
+            69
+          ],
+          [
+            [
+              5,
+              3
+            ],
+            88
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_epl",
@@ -3378,8 +4273,78 @@
           ]
         }
       },
-      "id": "ebc5e899-2995-4ee4-82e2-c0e4e1c73f65",
-      "start_time": 1594641600000
+      "id": "70ab7a02-6035-4a42-9f6a-860b1fa92671",
+      "start_time": 1594814400000,
+      "result": {
+        "homeTeamScore": 4,
+        "awayTeamScore": 5,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            7
+          ],
+          [
+            [
+              2,
+              0
+            ],
+            8
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            16
+          ],
+          [
+            [
+              3,
+              1
+            ],
+            27
+          ],
+          [
+            [
+              3,
+              2
+            ],
+            32
+          ],
+          [
+            [
+              4,
+              2
+            ],
+            38
+          ],
+          [
+            [
+              4,
+              3
+            ],
+            42
+          ],
+          [
+            [
+              4,
+              4
+            ],
+            45
+          ],
+          [
+            [
+              4,
+              5
+            ],
+            53
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_epl",
@@ -3407,8 +4372,57 @@
           ]
         }
       },
-      "id": "d4db2cd9-779b-43bb-8922-1172c58bbebf",
-      "start_time": 1594634400000
+      "id": "9f9001b5-5c5d-48fa-aaaf-61f9faa9f5fb",
+      "start_time": 1594807200000,
+      "result": {
+        "homeTeamScore": 3,
+        "awayTeamScore": 3,
+        "matchResult": "D",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            2
+          ],
+          [
+            [
+              2,
+              0
+            ],
+            14
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            52
+          ],
+          [
+            [
+              3,
+              1
+            ],
+            68
+          ],
+          [
+            [
+              3,
+              2
+            ],
+            86
+          ],
+          [
+            [
+              3,
+              3
+            ],
+            88
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_epl",
@@ -3436,8 +4450,57 @@
           ]
         }
       },
-      "id": "ea731e96-d5a4-4ba0-bd33-f756f30e494a",
-      "start_time": 1594641600000
+      "id": "1a835eac-06d9-41d9-8951-d1c25f85a31f",
+      "start_time": 1594814400000,
+      "result": {
+        "homeTeamScore": 3,
+        "awayTeamScore": 3,
+        "matchResult": "D",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            5
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            21
+          ],
+          [
+            [
+              1,
+              2
+            ],
+            24
+          ],
+          [
+            [
+              2,
+              2
+            ],
+            26
+          ],
+          [
+            [
+              2,
+              3
+            ],
+            33
+          ],
+          [
+            [
+              3,
+              3
+            ],
+            66
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_epl",
@@ -3465,8 +4528,71 @@
           ]
         }
       },
-      "id": "1aaa63c0-f90d-4a75-91fa-ad9d82af0c4c",
-      "start_time": 1594650600000
+      "id": "3a422b9c-f97d-43f2-a8ff-ff930bffde06",
+      "start_time": 1594823400000,
+      "result": {
+        "homeTeamScore": 5,
+        "awayTeamScore": 3,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            6
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            30
+          ],
+          [
+            [
+              0,
+              3
+            ],
+            32
+          ],
+          [
+            [
+              1,
+              3
+            ],
+            33
+          ],
+          [
+            [
+              2,
+              3
+            ],
+            53
+          ],
+          [
+            [
+              3,
+              3
+            ],
+            61
+          ],
+          [
+            [
+              4,
+              3
+            ],
+            86
+          ],
+          [
+            [
+              5,
+              3
+            ],
+            89
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_epl",
@@ -3494,8 +4620,50 @@
           ]
         }
       },
-      "id": "04a6562d-3a1a-427b-a069-0af63a2df6e9",
-      "start_time": 1594659600000
+      "id": "453b40b7-df6c-4dfa-9375-49dcd4fc7362",
+      "start_time": 1594832400000,
+      "result": {
+        "homeTeamScore": 4,
+        "awayTeamScore": 1,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            8
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            12
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            53
+          ],
+          [
+            [
+              3,
+              1
+            ],
+            59
+          ],
+          [
+            [
+              4,
+              1
+            ],
+            81
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_epl",
@@ -3523,8 +4691,71 @@
           ]
         }
       },
-      "id": "0a93c469-1552-48ca-bc0c-4a409ea1137a",
-      "start_time": 1594625400000
+      "id": "5aef369a-5a21-4ea7-9aac-5473a450f0cd",
+      "start_time": 1594798200000,
+      "result": {
+        "homeTeamScore": 4,
+        "awayTeamScore": 4,
+        "matchResult": "D",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            24
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            30
+          ],
+          [
+            [
+              0,
+              3
+            ],
+            32
+          ],
+          [
+            [
+              1,
+              3
+            ],
+            48
+          ],
+          [
+            [
+              2,
+              3
+            ],
+            49
+          ],
+          [
+            [
+              2,
+              4
+            ],
+            56
+          ],
+          [
+            [
+              3,
+              4
+            ],
+            59
+          ],
+          [
+            [
+              4,
+              4
+            ],
+            75
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_epl",
@@ -3552,8 +4783,71 @@
           ]
         }
       },
-      "id": "f35afd3b-6fdc-4dbb-9001-6133b5d8dc7d",
-      "start_time": 1594659600000
+      "id": "a0dd9e95-254b-4e7d-bca0-360939ebb88e",
+      "start_time": 1594832400000,
+      "result": {
+        "homeTeamScore": 4,
+        "awayTeamScore": 4,
+        "matchResult": "D",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            3
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            4
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            20
+          ],
+          [
+            [
+              3,
+              1
+            ],
+            26
+          ],
+          [
+            [
+              4,
+              1
+            ],
+            46
+          ],
+          [
+            [
+              4,
+              2
+            ],
+            56
+          ],
+          [
+            [
+              4,
+              3
+            ],
+            71
+          ],
+          [
+            [
+              4,
+              4
+            ],
+            90
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_epl",
@@ -3581,8 +4875,71 @@
           ]
         }
       },
-      "id": "6e161677-d6f9-4931-8669-61a54f9ffad2",
-      "start_time": 1594625400000
+      "id": "2257684b-c607-4951-89f5-394a00c75b73",
+      "start_time": 1594798200000,
+      "result": {
+        "homeTeamScore": 4,
+        "awayTeamScore": 4,
+        "matchResult": "D",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            12
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            25
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            31
+          ],
+          [
+            [
+              2,
+              2
+            ],
+            36
+          ],
+          [
+            [
+              2,
+              3
+            ],
+            49
+          ],
+          [
+            [
+              3,
+              3
+            ],
+            57
+          ],
+          [
+            [
+              4,
+              3
+            ],
+            65
+          ],
+          [
+            [
+              4,
+              4
+            ],
+            66
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_epl",
@@ -3610,8 +4967,71 @@
           ]
         }
       },
-      "id": "7c476cce-7a96-4a3e-9e1b-5dc183211626",
-      "start_time": 1594634400000
+      "id": "0a14a66e-48cb-426b-a81e-821da62ae36b",
+      "start_time": 1594807200000,
+      "result": {
+        "homeTeamScore": 4,
+        "awayTeamScore": 4,
+        "matchResult": "D",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            1
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            4
+          ],
+          [
+            [
+              0,
+              3
+            ],
+            10
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            14
+          ],
+          [
+            [
+              1,
+              4
+            ],
+            15
+          ],
+          [
+            [
+              2,
+              4
+            ],
+            36
+          ],
+          [
+            [
+              3,
+              4
+            ],
+            40
+          ],
+          [
+            [
+              4,
+              4
+            ],
+            43
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_epl",
@@ -3639,8 +5059,64 @@
           ]
         }
       },
-      "id": "7707815a-77f0-48bb-a450-2336e8ccd383",
-      "start_time": 1594625400000
+      "id": "856a05fd-41f3-4aa1-842b-1f6fac72d50e",
+      "start_time": 1594798200000,
+      "result": {
+        "homeTeamScore": 4,
+        "awayTeamScore": 3,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            1
+          ],
+          [
+            [
+              2,
+              0
+            ],
+            19
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            29
+          ],
+          [
+            [
+              2,
+              2
+            ],
+            65
+          ],
+          [
+            [
+              2,
+              3
+            ],
+            76
+          ],
+          [
+            [
+              3,
+              3
+            ],
+            81
+          ],
+          [
+            [
+              4,
+              3
+            ],
+            87
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_epl",
@@ -3668,8 +5144,22 @@
           ]
         }
       },
-      "id": "fbdc8b71-a7a9-4bb9-9b5a-a580829d22bb",
-      "start_time": 1594650600000
+      "id": "7845e072-d144-49fd-83f7-9cda22d43c10",
+      "start_time": 1594823400000,
+      "result": {
+        "homeTeamScore": 1,
+        "awayTeamScore": 0,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            12
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_epl",
@@ -3697,8 +5187,57 @@
           ]
         }
       },
-      "id": "d7c99042-1f08-4077-a6b4-11dfb0c7b024",
-      "start_time": 1594641600000
+      "id": "cee0e8be-71c5-4928-b558-0dbea22d073b",
+      "start_time": 1594814400000,
+      "result": {
+        "homeTeamScore": 3,
+        "awayTeamScore": 3,
+        "matchResult": "D",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            1
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            5
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            11
+          ],
+          [
+            [
+              3,
+              1
+            ],
+            25
+          ],
+          [
+            [
+              3,
+              2
+            ],
+            29
+          ],
+          [
+            [
+              3,
+              3
+            ],
+            86
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_epl",
@@ -3726,8 +5265,43 @@
           ]
         }
       },
-      "id": "16e02ca9-fb69-40b6-9285-de788a9d027a",
-      "start_time": 1594625400000
+      "id": "4007b14c-6389-4a01-9970-58b9a67a3d8c",
+      "start_time": 1594798200000,
+      "result": {
+        "homeTeamScore": 2,
+        "awayTeamScore": 2,
+        "matchResult": "D",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            14
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            65
+          ],
+          [
+            [
+              1,
+              2
+            ],
+            69
+          ],
+          [
+            [
+              2,
+              2
+            ],
+            83
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_epl",
@@ -3755,8 +5329,36 @@
           ]
         }
       },
-      "id": "c7e612e6-4e74-46c6-be89-f8be98de2648",
-      "start_time": 1594650600000
+      "id": "404e8855-b10c-4633-a5d7-9f1a81957325",
+      "start_time": 1594823400000,
+      "result": {
+        "homeTeamScore": 1,
+        "awayTeamScore": 2,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            20
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            32
+          ],
+          [
+            [
+              1,
+              2
+            ],
+            54
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_epl",
@@ -3784,8 +5386,71 @@
           ]
         }
       },
-      "id": "05eeafa3-55cf-4909-92b3-afb7d146eec1",
-      "start_time": 1594659600000
+      "id": "336e66c2-abdc-497a-9920-d95c52aa4bb5",
+      "start_time": 1594832400000,
+      "result": {
+        "homeTeamScore": 3,
+        "awayTeamScore": 5,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            7
+          ],
+          [
+            [
+              2,
+              0
+            ],
+            25
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            33
+          ],
+          [
+            [
+              2,
+              2
+            ],
+            39
+          ],
+          [
+            [
+              3,
+              2
+            ],
+            43
+          ],
+          [
+            [
+              3,
+              3
+            ],
+            46
+          ],
+          [
+            [
+              3,
+              4
+            ],
+            55
+          ],
+          [
+            [
+              3,
+              5
+            ],
+            62
+          ]
+        ]
+      }
     }
   ],
   "soccer_germany_bundesliga_schedule": [
@@ -3815,8 +5480,36 @@
           ]
         }
       },
-      "id": "e572a6c6-ded3-4d3e-b9c5-5572cf05539b",
-      "start_time": 1594711800000
+      "id": "42517a8c-4c3c-4f62-b858-a43b836db3a6",
+      "start_time": 1594711800000,
+      "result": {
+        "homeTeamScore": 0,
+        "awayTeamScore": 3,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            42
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            43
+          ],
+          [
+            [
+              0,
+              3
+            ],
+            87
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_germany_bundesliga",
@@ -3844,8 +5537,50 @@
           ]
         }
       },
-      "id": "287a77f1-5a46-450a-89ea-f8466a12b864",
-      "start_time": 1594711800000
+      "id": "d3394c4d-d280-44ca-8dc6-341c2a08a6c8",
+      "start_time": 1594711800000,
+      "result": {
+        "homeTeamScore": 5,
+        "awayTeamScore": 0,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            7
+          ],
+          [
+            [
+              2,
+              0
+            ],
+            8
+          ],
+          [
+            [
+              3,
+              0
+            ],
+            23
+          ],
+          [
+            [
+              4,
+              0
+            ],
+            42
+          ],
+          [
+            [
+              5,
+              0
+            ],
+            55
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_germany_bundesliga",
@@ -3873,8 +5608,57 @@
           ]
         }
       },
-      "id": "86ef66d3-0bcd-4c88-82da-cd5112405585",
-      "start_time": 1594720800000
+      "id": "ad5365f8-2648-4dd1-a8a2-b8c8cac55505",
+      "start_time": 1594720800000,
+      "result": {
+        "homeTeamScore": 3,
+        "awayTeamScore": 3,
+        "matchResult": "D",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            1
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            8
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            30
+          ],
+          [
+            [
+              2,
+              2
+            ],
+            32
+          ],
+          [
+            [
+              2,
+              3
+            ],
+            40
+          ],
+          [
+            [
+              3,
+              3
+            ],
+            58
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_germany_bundesliga",
@@ -3902,8 +5686,29 @@
           ]
         }
       },
-      "id": "4aebead9-b5d8-4c20-8c74-74c54817cb1f",
-      "start_time": 1594746000000
+      "id": "962d769b-f72e-448c-993b-6a76f2c4d089",
+      "start_time": 1594746000000,
+      "result": {
+        "homeTeamScore": 2,
+        "awayTeamScore": 0,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            7
+          ],
+          [
+            [
+              2,
+              0
+            ],
+            46
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_germany_bundesliga",
@@ -3931,8 +5736,71 @@
           ]
         }
       },
-      "id": "0b33180e-8881-41a6-bd0c-330a26e455a8",
-      "start_time": 1594720800000
+      "id": "c0c717b8-1b6d-4da3-83f8-a6209c6208aa",
+      "start_time": 1594720800000,
+      "result": {
+        "homeTeamScore": 5,
+        "awayTeamScore": 3,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            2
+          ],
+          [
+            [
+              2,
+              0
+            ],
+            13
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            16
+          ],
+          [
+            [
+              3,
+              1
+            ],
+            38
+          ],
+          [
+            [
+              3,
+              2
+            ],
+            39
+          ],
+          [
+            [
+              3,
+              3
+            ],
+            45
+          ],
+          [
+            [
+              4,
+              3
+            ],
+            63
+          ],
+          [
+            [
+              5,
+              3
+            ],
+            77
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_germany_bundesliga",
@@ -3960,8 +5828,50 @@
           ]
         }
       },
-      "id": "944bd87b-aded-40ed-80b4-a4d0c96e41f4",
-      "start_time": 1594737000000
+      "id": "80146c53-8c0d-4f24-b030-d85da9285522",
+      "start_time": 1594737000000,
+      "result": {
+        "homeTeamScore": 2,
+        "awayTeamScore": 3,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            27
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            32
+          ],
+          [
+            [
+              1,
+              2
+            ],
+            64
+          ],
+          [
+            [
+              2,
+              2
+            ],
+            84
+          ],
+          [
+            [
+              2,
+              3
+            ],
+            87
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_germany_bundesliga",
@@ -3989,8 +5899,29 @@
           ]
         }
       },
-      "id": "0af0b282-138a-46bd-a869-646482b4d898",
-      "start_time": 1594737000000
+      "id": "edfacfb0-48c8-41e2-8b73-65d8f2100227",
+      "start_time": 1594737000000,
+      "result": {
+        "homeTeamScore": 2,
+        "awayTeamScore": 0,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            7
+          ],
+          [
+            [
+              2,
+              0
+            ],
+            23
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_germany_bundesliga",
@@ -4018,8 +5949,36 @@
           ]
         }
       },
-      "id": "3e5edea8-db78-462b-999b-6eed8ece9d4a",
-      "start_time": 1594728000000
+      "id": "4afd5d45-9075-42ed-b157-8ed2fe603c7b",
+      "start_time": 1594728000000,
+      "result": {
+        "homeTeamScore": 1,
+        "awayTeamScore": 2,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            6
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            71
+          ],
+          [
+            [
+              1,
+              2
+            ],
+            87
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_germany_bundesliga",
@@ -4047,8 +6006,64 @@
           ]
         }
       },
-      "id": "7d010abf-4ad5-41c2-8237-ee777b990e63",
-      "start_time": 1594728000000
+      "id": "1505048a-88bb-47ce-81ae-4f952b59f2e0",
+      "start_time": 1594728000000,
+      "result": {
+        "homeTeamScore": 2,
+        "awayTeamScore": 5,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            17
+          ],
+          [
+            [
+              2,
+              0
+            ],
+            46
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            58
+          ],
+          [
+            [
+              2,
+              2
+            ],
+            59
+          ],
+          [
+            [
+              2,
+              3
+            ],
+            65
+          ],
+          [
+            [
+              2,
+              4
+            ],
+            85
+          ],
+          [
+            [
+              2,
+              5
+            ],
+            88
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_germany_bundesliga",
@@ -4076,8 +6091,29 @@
           ]
         }
       },
-      "id": "ab661eae-0aa7-4ddf-b23b-cb464c2cbbb8",
-      "start_time": 1594625400000
+      "id": "66e06bea-cecd-4b9c-965c-a1b8fbd5e9a4",
+      "start_time": 1594798200000,
+      "result": {
+        "homeTeamScore": 0,
+        "awayTeamScore": 2,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            4
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            6
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_germany_bundesliga",
@@ -4105,8 +6141,50 @@
           ]
         }
       },
-      "id": "92893107-f857-4cc0-a3e4-e81165dd9239",
-      "start_time": 1594625400000
+      "id": "cba76ca5-f3e9-4baa-926c-59dff6dcad34",
+      "start_time": 1594798200000,
+      "result": {
+        "homeTeamScore": 2,
+        "awayTeamScore": 3,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            3
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            58
+          ],
+          [
+            [
+              0,
+              3
+            ],
+            61
+          ],
+          [
+            [
+              1,
+              3
+            ],
+            62
+          ],
+          [
+            [
+              2,
+              3
+            ],
+            78
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_germany_bundesliga",
@@ -4134,8 +6212,22 @@
           ]
         }
       },
-      "id": "531cf8b3-f801-4b83-902a-5c01006c1d02",
-      "start_time": 1594634400000
+      "id": "ed16392e-5f3b-4955-8559-24992feb001c",
+      "start_time": 1594807200000,
+      "result": {
+        "homeTeamScore": 1,
+        "awayTeamScore": 0,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            7
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_germany_bundesliga",
@@ -4163,8 +6255,43 @@
           ]
         }
       },
-      "id": "12253570-7077-47c1-97a5-fc4d8384a4d5",
-      "start_time": 1594659600000
+      "id": "c7a1b4e0-a3b7-419f-9513-1bd923c48618",
+      "start_time": 1594832400000,
+      "result": {
+        "homeTeamScore": 4,
+        "awayTeamScore": 0,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            5
+          ],
+          [
+            [
+              2,
+              0
+            ],
+            6
+          ],
+          [
+            [
+              3,
+              0
+            ],
+            24
+          ],
+          [
+            [
+              4,
+              0
+            ],
+            67
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_germany_bundesliga",
@@ -4192,8 +6319,64 @@
           ]
         }
       },
-      "id": "54e5adac-2371-4ed6-82a5-099d249342dc",
-      "start_time": 1594634400000
+      "id": "665c110d-d539-411e-963f-7b169eaf1e7a",
+      "start_time": 1594807200000,
+      "result": {
+        "homeTeamScore": 4,
+        "awayTeamScore": 3,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            7
+          ],
+          [
+            [
+              2,
+              0
+            ],
+            14
+          ],
+          [
+            [
+              3,
+              0
+            ],
+            32
+          ],
+          [
+            [
+              3,
+              1
+            ],
+            38
+          ],
+          [
+            [
+              4,
+              1
+            ],
+            48
+          ],
+          [
+            [
+              4,
+              2
+            ],
+            51
+          ],
+          [
+            [
+              4,
+              3
+            ],
+            83
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_germany_bundesliga",
@@ -4221,8 +6404,78 @@
           ]
         }
       },
-      "id": "a716e915-1a84-40fb-91ad-74fb2aea2581",
-      "start_time": 1594650600000
+      "id": "a9719c9c-154e-45c1-94c6-bdaf2863192d",
+      "start_time": 1594823400000,
+      "result": {
+        "homeTeamScore": 4,
+        "awayTeamScore": 5,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            8
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            9
+          ],
+          [
+            [
+              1,
+              2
+            ],
+            16
+          ],
+          [
+            [
+              1,
+              3
+            ],
+            17
+          ],
+          [
+            [
+              1,
+              4
+            ],
+            32
+          ],
+          [
+            [
+              1,
+              5
+            ],
+            53
+          ],
+          [
+            [
+              2,
+              5
+            ],
+            70
+          ],
+          [
+            [
+              3,
+              5
+            ],
+            71
+          ],
+          [
+            [
+              4,
+              5
+            ],
+            80
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_germany_bundesliga",
@@ -4250,8 +6503,50 @@
           ]
         }
       },
-      "id": "a38f8b9c-b50a-4632-bde8-5348b1c19670",
-      "start_time": 1594650600000
+      "id": "bbb20dc4-ab6c-4ba7-ae5f-69268f9f349a",
+      "start_time": 1594823400000,
+      "result": {
+        "homeTeamScore": 5,
+        "awayTeamScore": 0,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            12
+          ],
+          [
+            [
+              2,
+              0
+            ],
+            16
+          ],
+          [
+            [
+              3,
+              0
+            ],
+            21
+          ],
+          [
+            [
+              4,
+              0
+            ],
+            32
+          ],
+          [
+            [
+              5,
+              0
+            ],
+            57
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_germany_bundesliga",
@@ -4279,8 +6574,29 @@
           ]
         }
       },
-      "id": "df201acc-cb99-42f4-8267-f96183df51d1",
-      "start_time": 1594641600000
+      "id": "c01837d0-a511-41d0-bba9-33f02d2e3f2d",
+      "start_time": 1594814400000,
+      "result": {
+        "homeTeamScore": 0,
+        "awayTeamScore": 2,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            46
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            60
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_germany_bundesliga",
@@ -4308,8 +6624,50 @@
           ]
         }
       },
-      "id": "a6e0fbcf-e8e3-4978-861d-d1d115cb226f",
-      "start_time": 1594641600000
+      "id": "a9cc487c-be7c-4aeb-925b-f2f303e2762d",
+      "start_time": 1594814400000,
+      "result": {
+        "homeTeamScore": 0,
+        "awayTeamScore": 5,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            10
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            18
+          ],
+          [
+            [
+              0,
+              3
+            ],
+            76
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            77
+          ],
+          [
+            [
+              0,
+              5
+            ],
+            89
+          ]
+        ]
+      }
     }
   ],
   "soccer_italy_serie_a_schedule": [
@@ -4339,8 +6697,43 @@
           ]
         }
       },
-      "id": "62ba43b9-923e-4051-8dfa-f655b7c4999a",
-      "start_time": 1594737000000
+      "id": "01a50263-085c-4212-afe9-1eaba6a65a94",
+      "start_time": 1594737000000,
+      "result": {
+        "homeTeamScore": 1,
+        "awayTeamScore": 3,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            23
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            41
+          ],
+          [
+            [
+              1,
+              2
+            ],
+            46
+          ],
+          [
+            [
+              1,
+              3
+            ],
+            72
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -4368,8 +6761,29 @@
           ]
         }
       },
-      "id": "0ee47b5b-ecb6-4145-bb6b-5dfd3999de4d",
-      "start_time": 1594720800000
+      "id": "4c18753d-69f7-4a58-97d3-21bb71593658",
+      "start_time": 1594720800000,
+      "result": {
+        "homeTeamScore": 1,
+        "awayTeamScore": 1,
+        "matchResult": "D",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            62
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            65
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -4397,8 +6811,14 @@
           ]
         }
       },
-      "id": "98caccf9-146a-4a45-977b-1c3541e02ed3",
-      "start_time": 1594728000000
+      "id": "1b2d046f-f37b-4c44-98f7-587462717f43",
+      "start_time": 1594728000000,
+      "result": {
+        "homeTeamScore": 0,
+        "awayTeamScore": 0,
+        "matchResult": "D",
+        "scoreChanges": []
+      }
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -4426,8 +6846,14 @@
           ]
         }
       },
-      "id": "bdec41fe-6bdc-4383-bb6a-9b0d9d28f81f",
-      "start_time": 1594728000000
+      "id": "c00494fe-3e40-47ee-a98a-a56f2564e81f",
+      "start_time": 1594728000000,
+      "result": {
+        "homeTeamScore": 0,
+        "awayTeamScore": 0,
+        "matchResult": "D",
+        "scoreChanges": []
+      }
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -4455,8 +6881,71 @@
           ]
         }
       },
-      "id": "9c713d36-96e2-4dee-8436-58aa43dcd4f5",
-      "start_time": 1594720800000
+      "id": "9b21f040-2be6-474a-ac07-dc22961fe61a",
+      "start_time": 1594720800000,
+      "result": {
+        "homeTeamScore": 4,
+        "awayTeamScore": 4,
+        "matchResult": "D",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            2
+          ],
+          [
+            [
+              2,
+              0
+            ],
+            3
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            16
+          ],
+          [
+            [
+              2,
+              2
+            ],
+            19
+          ],
+          [
+            [
+              2,
+              3
+            ],
+            30
+          ],
+          [
+            [
+              3,
+              3
+            ],
+            32
+          ],
+          [
+            [
+              3,
+              4
+            ],
+            48
+          ],
+          [
+            [
+              4,
+              4
+            ],
+            49
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -4484,8 +6973,57 @@
           ]
         }
       },
-      "id": "402e833e-2ddb-47a3-8bc2-f03cc6a1b928",
-      "start_time": 1594746000000
+      "id": "108d8750-9042-4cd3-9c9c-7d362627029b",
+      "start_time": 1594746000000,
+      "result": {
+        "homeTeamScore": 3,
+        "awayTeamScore": 3,
+        "matchResult": "D",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            5
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            6
+          ],
+          [
+            [
+              0,
+              3
+            ],
+            7
+          ],
+          [
+            [
+              1,
+              3
+            ],
+            14
+          ],
+          [
+            [
+              2,
+              3
+            ],
+            18
+          ],
+          [
+            [
+              3,
+              3
+            ],
+            22
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -4513,8 +7051,14 @@
           ]
         }
       },
-      "id": "ed303165-6b73-411b-a35b-073d39d7b6a6",
-      "start_time": 1594737000000
+      "id": "204c53fc-8e69-4df2-80fc-f19c8db6e4fc",
+      "start_time": 1594737000000,
+      "result": {
+        "homeTeamScore": 0,
+        "awayTeamScore": 0,
+        "matchResult": "D",
+        "scoreChanges": []
+      }
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -4542,8 +7086,36 @@
           ]
         }
       },
-      "id": "3f5c3753-5915-432b-8ba6-c58a1be7b83c",
-      "start_time": 1594728000000
+      "id": "25de8866-cb08-4644-bb9a-6c254f18161e",
+      "start_time": 1594728000000,
+      "result": {
+        "homeTeamScore": 2,
+        "awayTeamScore": 1,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            9
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            27
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            73
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -4571,8 +7143,22 @@
           ]
         }
       },
-      "id": "3117f3db-1371-449c-99a1-fe37e424c084",
-      "start_time": 1594737000000
+      "id": "ac5461e6-9d57-4448-923c-bd7493564f47",
+      "start_time": 1594737000000,
+      "result": {
+        "homeTeamScore": 0,
+        "awayTeamScore": 1,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            48
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -4600,8 +7186,43 @@
           ]
         }
       },
-      "id": "11740cad-ecfe-4100-9423-040da6907539",
-      "start_time": 1594737000000
+      "id": "0674e4bf-b15e-46b5-8437-ca53b5945a3c",
+      "start_time": 1594737000000,
+      "result": {
+        "homeTeamScore": 4,
+        "awayTeamScore": 0,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            28
+          ],
+          [
+            [
+              2,
+              0
+            ],
+            31
+          ],
+          [
+            [
+              3,
+              0
+            ],
+            40
+          ],
+          [
+            [
+              4,
+              0
+            ],
+            46
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -4629,8 +7250,57 @@
           ]
         }
       },
-      "id": "9546eeda-a08f-4769-9c28-819280734ea1",
-      "start_time": 1594720800000
+      "id": "f99cc877-08a4-4788-92cc-4c017f8fab9f",
+      "start_time": 1594720800000,
+      "result": {
+        "homeTeamScore": 1,
+        "awayTeamScore": 5,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            4
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            11
+          ],
+          [
+            [
+              0,
+              3
+            ],
+            20
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            30
+          ],
+          [
+            [
+              0,
+              5
+            ],
+            40
+          ],
+          [
+            [
+              1,
+              5
+            ],
+            44
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -4658,8 +7328,29 @@
           ]
         }
       },
-      "id": "3f689e69-04a7-4059-bda9-3d4ff62c63bc",
-      "start_time": 1594746000000
+      "id": "8b266c82-62d3-4aa7-a1a8-8b4a0236348b",
+      "start_time": 1594746000000,
+      "result": {
+        "homeTeamScore": 1,
+        "awayTeamScore": 1,
+        "matchResult": "D",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            72
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            88
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -4687,8 +7378,71 @@
           ]
         }
       },
-      "id": "b0db8f6b-8241-4a00-a184-d6a628fa0ae6",
-      "start_time": 1594746000000
+      "id": "e4bbc9f3-7b1f-453f-8934-9673905e6214",
+      "start_time": 1594746000000,
+      "result": {
+        "homeTeamScore": 5,
+        "awayTeamScore": 3,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            5
+          ],
+          [
+            [
+              2,
+              0
+            ],
+            6
+          ],
+          [
+            [
+              3,
+              0
+            ],
+            16
+          ],
+          [
+            [
+              4,
+              0
+            ],
+            22
+          ],
+          [
+            [
+              5,
+              0
+            ],
+            46
+          ],
+          [
+            [
+              5,
+              1
+            ],
+            82
+          ],
+          [
+            [
+              5,
+              2
+            ],
+            86
+          ],
+          [
+            [
+              5,
+              3
+            ],
+            90
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -4716,8 +7470,57 @@
           ]
         }
       },
-      "id": "f02dfbb2-27f6-43d7-a088-57fc88d31fcb",
-      "start_time": 1594720800000
+      "id": "5476f95d-dad5-49a9-a67c-5c56d87ed553",
+      "start_time": 1594720800000,
+      "result": {
+        "homeTeamScore": 3,
+        "awayTeamScore": 3,
+        "matchResult": "D",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            39
+          ],
+          [
+            [
+              2,
+              0
+            ],
+            45
+          ],
+          [
+            [
+              3,
+              0
+            ],
+            65
+          ],
+          [
+            [
+              3,
+              1
+            ],
+            67
+          ],
+          [
+            [
+              3,
+              2
+            ],
+            87
+          ],
+          [
+            [
+              3,
+              3
+            ],
+            90
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -4745,8 +7548,64 @@
           ]
         }
       },
-      "id": "f2e37676-8ef2-4682-b80f-75c11f587d7d",
-      "start_time": 1594711800000
+      "id": "2fb1baec-753b-4e49-a276-eb7650da93c9",
+      "start_time": 1594711800000,
+      "result": {
+        "homeTeamScore": 4,
+        "awayTeamScore": 3,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            7
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            10
+          ],
+          [
+            [
+              1,
+              2
+            ],
+            12
+          ],
+          [
+            [
+              1,
+              3
+            ],
+            48
+          ],
+          [
+            [
+              2,
+              3
+            ],
+            49
+          ],
+          [
+            [
+              3,
+              3
+            ],
+            60
+          ],
+          [
+            [
+              4,
+              3
+            ],
+            83
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -4774,8 +7633,71 @@
           ]
         }
       },
-      "id": "dcb7f903-71ae-42bc-a9be-4deb749f313e",
-      "start_time": 1594711800000
+      "id": "48432ce9-2c06-45a2-a5a7-c5d7e49b8a6e",
+      "start_time": 1594711800000,
+      "result": {
+        "homeTeamScore": 4,
+        "awayTeamScore": 4,
+        "matchResult": "D",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            3
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            4
+          ],
+          [
+            [
+              0,
+              3
+            ],
+            6
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            34
+          ],
+          [
+            [
+              1,
+              4
+            ],
+            63
+          ],
+          [
+            [
+              2,
+              4
+            ],
+            68
+          ],
+          [
+            [
+              3,
+              4
+            ],
+            74
+          ],
+          [
+            [
+              4,
+              4
+            ],
+            75
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -4803,8 +7725,71 @@
           ]
         }
       },
-      "id": "f51cdea6-9207-4441-9dc8-15b417313455",
-      "start_time": 1594711800000
+      "id": "29562bd8-4af2-4635-926e-a288035123b2",
+      "start_time": 1594711800000,
+      "result": {
+        "homeTeamScore": 4,
+        "awayTeamScore": 4,
+        "matchResult": "D",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            8
+          ],
+          [
+            [
+              2,
+              0
+            ],
+            12
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            33
+          ],
+          [
+            [
+              2,
+              2
+            ],
+            47
+          ],
+          [
+            [
+              3,
+              2
+            ],
+            48
+          ],
+          [
+            [
+              4,
+              2
+            ],
+            70
+          ],
+          [
+            [
+              4,
+              3
+            ],
+            77
+          ],
+          [
+            [
+              4,
+              4
+            ],
+            89
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -4832,8 +7817,36 @@
           ]
         }
       },
-      "id": "2435ca47-63fb-4986-b481-0da78606565a",
-      "start_time": 1594650600000
+      "id": "fb96dd10-f246-461d-827c-f1707112fada",
+      "start_time": 1594823400000,
+      "result": {
+        "homeTeamScore": 0,
+        "awayTeamScore": 3,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            25
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            44
+          ],
+          [
+            [
+              0,
+              3
+            ],
+            51
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -4861,8 +7874,36 @@
           ]
         }
       },
-      "id": "70295dd6-ffbb-4562-b89a-5a24c6d12c19",
-      "start_time": 1594634400000
+      "id": "f1560b31-502a-45b2-a363-3cbd8d5d563a",
+      "start_time": 1594807200000,
+      "result": {
+        "homeTeamScore": 1,
+        "awayTeamScore": 2,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            52
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            70
+          ],
+          [
+            [
+              1,
+              2
+            ],
+            86
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -4890,8 +7931,29 @@
           ]
         }
       },
-      "id": "4a352318-6000-4981-b271-e9825c35fc65",
-      "start_time": 1594641600000
+      "id": "58a1e2c3-6d9a-422d-b198-47fe6f332640",
+      "start_time": 1594814400000,
+      "result": {
+        "homeTeamScore": 0,
+        "awayTeamScore": 2,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            51
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            85
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -4919,8 +7981,43 @@
           ]
         }
       },
-      "id": "bb33958c-b6c0-4e52-abd7-8a24b0750efe",
-      "start_time": 1594641600000
+      "id": "0765b345-bdc9-4a30-91af-d858d737a514",
+      "start_time": 1594814400000,
+      "result": {
+        "homeTeamScore": 2,
+        "awayTeamScore": 2,
+        "matchResult": "D",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            29
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            42
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            45
+          ],
+          [
+            [
+              2,
+              2
+            ],
+            75
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -4948,8 +8045,50 @@
           ]
         }
       },
-      "id": "0486c419-afb8-4a79-a842-8035c8680ba7",
-      "start_time": 1594634400000
+      "id": "7a7abe4f-d887-4282-be16-40a60af55e36",
+      "start_time": 1594807200000,
+      "result": {
+        "homeTeamScore": 3,
+        "awayTeamScore": 2,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            46
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            50
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            59
+          ],
+          [
+            [
+              3,
+              1
+            ],
+            77
+          ],
+          [
+            [
+              3,
+              2
+            ],
+            83
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -4977,8 +8116,43 @@
           ]
         }
       },
-      "id": "16ff98df-773c-44db-9dfb-26274efae76c",
-      "start_time": 1594659600000
+      "id": "f7ea00d7-37de-49e2-b433-53b843659819",
+      "start_time": 1594832400000,
+      "result": {
+        "homeTeamScore": 0,
+        "awayTeamScore": 4,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            3
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            8
+          ],
+          [
+            [
+              0,
+              3
+            ],
+            18
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            82
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -5006,8 +8180,22 @@
           ]
         }
       },
-      "id": "370659de-9d2f-466a-a280-c3e397a9bdb6",
-      "start_time": 1594650600000
+      "id": "43f319e4-23fc-4ce5-b998-7d3e6e6e8a83",
+      "start_time": 1594823400000,
+      "result": {
+        "homeTeamScore": 1,
+        "awayTeamScore": 0,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            56
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -5035,8 +8223,57 @@
           ]
         }
       },
-      "id": "51a0bb15-291e-4f74-9fe7-c531d3139608",
-      "start_time": 1594641600000
+      "id": "d09c531b-7b69-43c2-a355-433bd092c5d8",
+      "start_time": 1594814400000,
+      "result": {
+        "homeTeamScore": 5,
+        "awayTeamScore": 1,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            5
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            12
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            15
+          ],
+          [
+            [
+              3,
+              1
+            ],
+            22
+          ],
+          [
+            [
+              4,
+              1
+            ],
+            52
+          ],
+          [
+            [
+              5,
+              1
+            ],
+            88
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -5064,8 +8301,64 @@
           ]
         }
       },
-      "id": "13ec5c3c-1189-4415-aba0-ae62becf9bd2",
-      "start_time": 1594650600000
+      "id": "95cac421-20c8-4707-b560-0432290a7a6b",
+      "start_time": 1594823400000,
+      "result": {
+        "homeTeamScore": 2,
+        "awayTeamScore": 5,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            4
+          ],
+          [
+            [
+              2,
+              0
+            ],
+            8
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            11
+          ],
+          [
+            [
+              2,
+              2
+            ],
+            12
+          ],
+          [
+            [
+              2,
+              3
+            ],
+            13
+          ],
+          [
+            [
+              2,
+              4
+            ],
+            36
+          ],
+          [
+            [
+              2,
+              5
+            ],
+            44
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -5093,8 +8386,36 @@
           ]
         }
       },
-      "id": "3c49c13d-374f-498c-b620-71509cc4c63a",
-      "start_time": 1594650600000
+      "id": "4059db91-d42d-4072-adf6-dbc77c8d6daa",
+      "start_time": 1594823400000,
+      "result": {
+        "homeTeamScore": 2,
+        "awayTeamScore": 1,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            1
+          ],
+          [
+            [
+              2,
+              0
+            ],
+            5
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            19
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -5122,8 +8443,57 @@
           ]
         }
       },
-      "id": "5d1f76fb-a702-457e-b663-56c447144dcf",
-      "start_time": 1594634400000
+      "id": "58a177aa-575c-4ee1-b461-9e8f0771af80",
+      "start_time": 1594807200000,
+      "result": {
+        "homeTeamScore": 2,
+        "awayTeamScore": 4,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            6
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            19
+          ],
+          [
+            [
+              1,
+              2
+            ],
+            21
+          ],
+          [
+            [
+              1,
+              3
+            ],
+            28
+          ],
+          [
+            [
+              1,
+              4
+            ],
+            30
+          ],
+          [
+            [
+              2,
+              4
+            ],
+            84
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -5151,8 +8521,36 @@
           ]
         }
       },
-      "id": "bc58d91f-e4aa-45bb-b411-a4e47e236c5a",
-      "start_time": 1594659600000
+      "id": "033fb95b-27f0-4659-a2ff-e039ad070ea6",
+      "start_time": 1594832400000,
+      "result": {
+        "homeTeamScore": 3,
+        "awayTeamScore": 0,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            50
+          ],
+          [
+            [
+              2,
+              0
+            ],
+            51
+          ],
+          [
+            [
+              3,
+              0
+            ],
+            68
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -5180,8 +8578,50 @@
           ]
         }
       },
-      "id": "9c943ef5-7e73-491c-a74e-1e3c1e8f5941",
-      "start_time": 1594659600000
+      "id": "b36b89af-7074-4b83-baa9-133c74b8aba1",
+      "start_time": 1594832400000,
+      "result": {
+        "homeTeamScore": 4,
+        "awayTeamScore": 1,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            8
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            24
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            50
+          ],
+          [
+            [
+              3,
+              1
+            ],
+            55
+          ],
+          [
+            [
+              4,
+              1
+            ],
+            69
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -5209,8 +8649,43 @@
           ]
         }
       },
-      "id": "e20f36f0-b153-4c95-8afb-9001ec202c68",
-      "start_time": 1594634400000
+      "id": "6911d59a-8b7f-48d6-9990-e93ff55e5771",
+      "start_time": 1594807200000,
+      "result": {
+        "homeTeamScore": 3,
+        "awayTeamScore": 1,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            1
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            10
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            15
+          ],
+          [
+            [
+              3,
+              1
+            ],
+            60
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -5238,8 +8713,14 @@
           ]
         }
       },
-      "id": "eacbc881-38fa-4f13-b57f-ad50cec5e838",
-      "start_time": 1594625400000
+      "id": "5c9afe94-fab8-4c9c-b56a-deea75c98947",
+      "start_time": 1594798200000,
+      "result": {
+        "homeTeamScore": 0,
+        "awayTeamScore": 0,
+        "matchResult": "D",
+        "scoreChanges": []
+      }
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -5267,8 +8748,36 @@
           ]
         }
       },
-      "id": "d546e7da-5515-41b5-93ed-a884a6adce13",
-      "start_time": 1594625400000
+      "id": "9164d84b-7fb2-46fd-8b7a-e2ac2cca64a7",
+      "start_time": 1594798200000,
+      "result": {
+        "homeTeamScore": 1,
+        "awayTeamScore": 2,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            17
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            54
+          ],
+          [
+            [
+              1,
+              2
+            ],
+            90
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_italy_serie_a",
@@ -5296,8 +8805,64 @@
           ]
         }
       },
-      "id": "82101e38-2104-47fb-b620-f7419f33e4d9",
-      "start_time": 1594625400000
+      "id": "e9921f94-a77a-454e-96b1-a2e35f104658",
+      "start_time": 1594798200000,
+      "result": {
+        "homeTeamScore": 5,
+        "awayTeamScore": 2,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            2
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            4
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            24
+          ],
+          [
+            [
+              2,
+              2
+            ],
+            27
+          ],
+          [
+            [
+              3,
+              2
+            ],
+            30
+          ],
+          [
+            [
+              4,
+              2
+            ],
+            63
+          ],
+          [
+            [
+              5,
+              2
+            ],
+            74
+          ]
+        ]
+      }
     }
   ],
   "soccer_spain_la_liga_schedule": [
@@ -5327,8 +8892,43 @@
           ]
         }
       },
-      "id": "a5179de5-26ef-41ec-9216-18ad26a811bf",
-      "start_time": 1594746000000
+      "id": "c4cdb25b-1435-4243-9351-ff34b47a738f",
+      "start_time": 1594746000000,
+      "result": {
+        "homeTeamScore": 2,
+        "awayTeamScore": 2,
+        "matchResult": "D",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            16
+          ],
+          [
+            [
+              2,
+              0
+            ],
+            66
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            72
+          ],
+          [
+            [
+              2,
+              2
+            ],
+            84
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -5356,8 +8956,22 @@
           ]
         }
       },
-      "id": "a453268d-9d2f-4d75-9eb9-f729f26de73e",
-      "start_time": 1594728000000
+      "id": "eebc99e9-b641-4f27-8f88-3870c1f84c0d",
+      "start_time": 1594728000000,
+      "result": {
+        "homeTeamScore": 1,
+        "awayTeamScore": 0,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            24
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -5385,8 +8999,22 @@
           ]
         }
       },
-      "id": "5bcaf51d-aa68-4708-9264-ab7e7067c56c",
-      "start_time": 1594746000000
+      "id": "79f05a2e-a96f-4b6b-9b70-a85656f3fa0d",
+      "start_time": 1594746000000,
+      "result": {
+        "homeTeamScore": 0,
+        "awayTeamScore": 1,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            29
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -5414,8 +9042,36 @@
           ]
         }
       },
-      "id": "dcb0364b-4542-499c-a4c9-c211749df68e",
-      "start_time": 1594711800000
+      "id": "1106c6d0-9a4d-46bb-bc50-b02eb4de784d",
+      "start_time": 1594711800000,
+      "result": {
+        "homeTeamScore": 2,
+        "awayTeamScore": 1,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            45
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            57
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            61
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -5443,8 +9099,22 @@
           ]
         }
       },
-      "id": "391d2cb9-9aca-4586-89b8-d749f5a07238",
-      "start_time": 1594720800000
+      "id": "37aa32ea-6803-47b9-8a44-5595ce76b98f",
+      "start_time": 1594720800000,
+      "result": {
+        "homeTeamScore": 1,
+        "awayTeamScore": 0,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            73
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -5472,8 +9142,36 @@
           ]
         }
       },
-      "id": "781291a7-a860-4605-9862-8cf852ee0778",
-      "start_time": 1594720800000
+      "id": "1881ce69-1d1e-49c5-a57d-d480ababab48",
+      "start_time": 1594720800000,
+      "result": {
+        "homeTeamScore": 1,
+        "awayTeamScore": 2,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            1
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            7
+          ],
+          [
+            [
+              1,
+              2
+            ],
+            23
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -5501,8 +9199,57 @@
           ]
         }
       },
-      "id": "c895be62-2ddd-421d-af37-075b7d197c51",
-      "start_time": 1594737000000
+      "id": "68e94217-971b-4ec5-91ad-a3125eeab841",
+      "start_time": 1594737000000,
+      "result": {
+        "homeTeamScore": 4,
+        "awayTeamScore": 2,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            1
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            2
+          ],
+          [
+            [
+              1,
+              2
+            ],
+            18
+          ],
+          [
+            [
+              2,
+              2
+            ],
+            26
+          ],
+          [
+            [
+              3,
+              2
+            ],
+            60
+          ],
+          [
+            [
+              4,
+              2
+            ],
+            64
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -5530,8 +9277,50 @@
           ]
         }
       },
-      "id": "f58c9491-18e5-4eab-8858-74937064a780",
-      "start_time": 1594746000000
+      "id": "69002727-3749-4e1a-8d03-b0391e95616f",
+      "start_time": 1594746000000,
+      "result": {
+        "homeTeamScore": 0,
+        "awayTeamScore": 5,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            53
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            57
+          ],
+          [
+            [
+              0,
+              3
+            ],
+            69
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            70
+          ],
+          [
+            [
+              0,
+              5
+            ],
+            90
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -5559,8 +9348,64 @@
           ]
         }
       },
-      "id": "c8bbfaa3-3566-4128-9244-1513e1695908",
-      "start_time": 1594728000000
+      "id": "263696d3-5174-4dd4-a791-2f7d50745489",
+      "start_time": 1594728000000,
+      "result": {
+        "homeTeamScore": 4,
+        "awayTeamScore": 3,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            13
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            28
+          ],
+          [
+            [
+              1,
+              2
+            ],
+            46
+          ],
+          [
+            [
+              1,
+              3
+            ],
+            60
+          ],
+          [
+            [
+              2,
+              3
+            ],
+            65
+          ],
+          [
+            [
+              3,
+              3
+            ],
+            72
+          ],
+          [
+            [
+              4,
+              3
+            ],
+            77
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -5588,8 +9433,50 @@
           ]
         }
       },
-      "id": "68c35152-fdb4-450c-8674-be8b51c8e5a8",
-      "start_time": 1594737000000
+      "id": "8d56344b-f677-4e95-882b-4fb85d339d04",
+      "start_time": 1594737000000,
+      "result": {
+        "homeTeamScore": 3,
+        "awayTeamScore": 2,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            14
+          ],
+          [
+            [
+              2,
+              0
+            ],
+            17
+          ],
+          [
+            [
+              3,
+              0
+            ],
+            35
+          ],
+          [
+            [
+              3,
+              1
+            ],
+            43
+          ],
+          [
+            [
+              3,
+              2
+            ],
+            76
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -5617,8 +9504,50 @@
           ]
         }
       },
-      "id": "8d827950-58ca-477f-871e-4d1d440d70e3",
-      "start_time": 1594711800000
+      "id": "12b4380f-2d10-43bf-a0af-5050b2bde657",
+      "start_time": 1594711800000,
+      "result": {
+        "homeTeamScore": 3,
+        "awayTeamScore": 2,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            40
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            50
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            58
+          ],
+          [
+            [
+              3,
+              1
+            ],
+            66
+          ],
+          [
+            [
+              3,
+              2
+            ],
+            68
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -5646,8 +9575,57 @@
           ]
         }
       },
-      "id": "a534c963-2f5d-4d0e-a04d-338d4fa48b1a",
-      "start_time": 1594728000000
+      "id": "639739a4-ad2a-468f-872c-e6d3a5627557",
+      "start_time": 1594728000000,
+      "result": {
+        "homeTeamScore": 5,
+        "awayTeamScore": 1,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            1
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            2
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            6
+          ],
+          [
+            [
+              3,
+              1
+            ],
+            7
+          ],
+          [
+            [
+              4,
+              1
+            ],
+            12
+          ],
+          [
+            [
+              5,
+              1
+            ],
+            13
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -5675,8 +9653,71 @@
           ]
         }
       },
-      "id": "9ee3230b-9414-4853-a113-bc557cee52aa",
-      "start_time": 1594720800000
+      "id": "044dab8b-db18-4594-87b4-6d4b168ed097",
+      "start_time": 1594720800000,
+      "result": {
+        "homeTeamScore": 4,
+        "awayTeamScore": 4,
+        "matchResult": "D",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            1
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            10
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            33
+          ],
+          [
+            [
+              2,
+              2
+            ],
+            54
+          ],
+          [
+            [
+              2,
+              3
+            ],
+            60
+          ],
+          [
+            [
+              3,
+              3
+            ],
+            63
+          ],
+          [
+            [
+              3,
+              4
+            ],
+            85
+          ],
+          [
+            [
+              4,
+              4
+            ],
+            88
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -5704,8 +9745,22 @@
           ]
         }
       },
-      "id": "7faefa4b-013f-4c85-a2fd-30a0945db44b",
-      "start_time": 1594728000000
+      "id": "f9e9a3f6-12b6-4e89-9ad6-adbb8fd52e7d",
+      "start_time": 1594728000000,
+      "result": {
+        "homeTeamScore": 1,
+        "awayTeamScore": 0,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            77
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -5733,8 +9788,57 @@
           ]
         }
       },
-      "id": "0faccef6-7de7-49ad-92a9-16ffbbf411b4",
-      "start_time": 1594737000000
+      "id": "35abe08a-9431-4190-a38f-11f6b61d903b",
+      "start_time": 1594737000000,
+      "result": {
+        "homeTeamScore": 3,
+        "awayTeamScore": 3,
+        "matchResult": "D",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            49
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            63
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            73
+          ],
+          [
+            [
+              3,
+              1
+            ],
+            74
+          ],
+          [
+            [
+              3,
+              2
+            ],
+            84
+          ],
+          [
+            [
+              3,
+              3
+            ],
+            90
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -5762,8 +9866,22 @@
           ]
         }
       },
-      "id": "c51c0760-ef1c-4b20-bdd7-0f067da7fee7",
-      "start_time": 1594737000000
+      "id": "ae4bbd63-c26f-44eb-8b3f-0633a1712db2",
+      "start_time": 1594737000000,
+      "result": {
+        "homeTeamScore": 0,
+        "awayTeamScore": 1,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            17
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -5791,8 +9909,22 @@
           ]
         }
       },
-      "id": "cefd4ade-b2fd-49fd-add1-93e5d01e295f",
-      "start_time": 1594711800000
+      "id": "5f181310-e41c-4a68-805b-ac7669c9119a",
+      "start_time": 1594711800000,
+      "result": {
+        "homeTeamScore": 0,
+        "awayTeamScore": 1,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            59
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -5820,8 +9952,14 @@
           ]
         }
       },
-      "id": "b5b9b79e-ba9e-46ec-a1f6-51ab53c8dc0d",
-      "start_time": 1594720800000
+      "id": "69176b7f-6708-4b7e-b324-2f9957d158e0",
+      "start_time": 1594720800000,
+      "result": {
+        "homeTeamScore": 0,
+        "awayTeamScore": 0,
+        "matchResult": "D",
+        "scoreChanges": []
+      }
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -5849,8 +9987,50 @@
           ]
         }
       },
-      "id": "329c08ef-0ed2-466c-9ac1-7f28e2382275",
-      "start_time": 1594659600000
+      "id": "8bba8075-868c-4287-ace7-16d5a28b60d0",
+      "start_time": 1594832400000,
+      "result": {
+        "homeTeamScore": 4,
+        "awayTeamScore": 1,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            51
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            55
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            73
+          ],
+          [
+            [
+              3,
+              1
+            ],
+            75
+          ],
+          [
+            [
+              4,
+              1
+            ],
+            81
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -5878,8 +10058,64 @@
           ]
         }
       },
-      "id": "a7e984cc-ccd8-40b6-84d9-c54be6a418fc",
-      "start_time": 1594641600000
+      "id": "73acb5cb-19f9-48a0-b8dd-cf3239f7a797",
+      "start_time": 1594814400000,
+      "result": {
+        "homeTeamScore": 5,
+        "awayTeamScore": 2,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            2
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            4
+          ],
+          [
+            [
+              1,
+              2
+            ],
+            54
+          ],
+          [
+            [
+              2,
+              2
+            ],
+            56
+          ],
+          [
+            [
+              3,
+              2
+            ],
+            77
+          ],
+          [
+            [
+              4,
+              2
+            ],
+            87
+          ],
+          [
+            [
+              5,
+              2
+            ],
+            88
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -5907,8 +10143,14 @@
           ]
         }
       },
-      "id": "850838e1-fb34-44fe-ab49-2221f9fcd1d8",
-      "start_time": 1594659600000
+      "id": "968bf98f-a1b1-4289-8895-b877bfe42b2f",
+      "start_time": 1594832400000,
+      "result": {
+        "homeTeamScore": 0,
+        "awayTeamScore": 0,
+        "matchResult": "D",
+        "scoreChanges": []
+      }
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -5936,8 +10178,36 @@
           ]
         }
       },
-      "id": "aeed5b4c-3a4f-45b4-894c-3177aec43259",
-      "start_time": 1594625400000
+      "id": "2798d47b-7381-47bd-bf87-40062ff41c29",
+      "start_time": 1594798200000,
+      "result": {
+        "homeTeamScore": 1,
+        "awayTeamScore": 2,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            12
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            16
+          ],
+          [
+            [
+              1,
+              2
+            ],
+            51
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -5965,8 +10235,14 @@
           ]
         }
       },
-      "id": "1c5e3341-254a-4801-8569-582922c09ac2",
-      "start_time": 1594634400000
+      "id": "34989754-38e4-460f-976c-aa0839935fdf",
+      "start_time": 1594807200000,
+      "result": {
+        "homeTeamScore": 0,
+        "awayTeamScore": 0,
+        "matchResult": "D",
+        "scoreChanges": []
+      }
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -5994,8 +10270,64 @@
           ]
         }
       },
-      "id": "9e788471-d478-498d-95ff-8229cb7f9a7b",
-      "start_time": 1594634400000
+      "id": "8af3e997-477f-472d-ad95-bdfb19c0c4e2",
+      "start_time": 1594807200000,
+      "result": {
+        "homeTeamScore": 2,
+        "awayTeamScore": 5,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            49
+          ],
+          [
+            [
+              2,
+              0
+            ],
+            50
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            53
+          ],
+          [
+            [
+              2,
+              2
+            ],
+            60
+          ],
+          [
+            [
+              2,
+              3
+            ],
+            79
+          ],
+          [
+            [
+              2,
+              4
+            ],
+            83
+          ],
+          [
+            [
+              2,
+              5
+            ],
+            87
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -6023,8 +10355,43 @@
           ]
         }
       },
-      "id": "8b469d03-2c47-4c02-81a0-9688541604c1",
-      "start_time": 1594650600000
+      "id": "0e4ae586-395a-48dd-9abf-b4135a2b61ff",
+      "start_time": 1594823400000,
+      "result": {
+        "homeTeamScore": 4,
+        "awayTeamScore": 0,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            6
+          ],
+          [
+            [
+              2,
+              0
+            ],
+            8
+          ],
+          [
+            [
+              3,
+              0
+            ],
+            48
+          ],
+          [
+            [
+              4,
+              0
+            ],
+            84
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -6052,8 +10419,22 @@
           ]
         }
       },
-      "id": "916e128e-cb03-4608-b2fc-08b09ee1f78a",
-      "start_time": 1594659600000
+      "id": "f8a78000-70c2-4d9c-8adf-37a783f5a2ca",
+      "start_time": 1594832400000,
+      "result": {
+        "homeTeamScore": 0,
+        "awayTeamScore": 1,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            49
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -6081,8 +10462,43 @@
           ]
         }
       },
-      "id": "85f1ae23-dcbd-4d81-9191-9495c610468c",
-      "start_time": 1594641600000
+      "id": "3284c850-7979-426a-83f0-fb9cbc45b0e9",
+      "start_time": 1594814400000,
+      "result": {
+        "homeTeamScore": 3,
+        "awayTeamScore": 1,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            5
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            14
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            40
+          ],
+          [
+            [
+              3,
+              1
+            ],
+            45
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -6110,8 +10526,57 @@
           ]
         }
       },
-      "id": "05673dee-6f29-42e7-b9b8-b5103cd49fa5",
-      "start_time": 1594650600000
+      "id": "e791f18d-8c9b-4ec6-8324-726a28ed82f1",
+      "start_time": 1594823400000,
+      "result": {
+        "homeTeamScore": 3,
+        "awayTeamScore": 3,
+        "matchResult": "D",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            7
+          ],
+          [
+            [
+              2,
+              0
+            ],
+            29
+          ],
+          [
+            [
+              3,
+              0
+            ],
+            31
+          ],
+          [
+            [
+              3,
+              1
+            ],
+            35
+          ],
+          [
+            [
+              3,
+              2
+            ],
+            43
+          ],
+          [
+            [
+              3,
+              3
+            ],
+            65
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -6139,8 +10604,22 @@
           ]
         }
       },
-      "id": "7f178bfd-54e0-4649-86e9-87dc8521b955",
-      "start_time": 1594625400000
+      "id": "37ea7c40-a86b-4232-b24e-afa1109a3a7e",
+      "start_time": 1594798200000,
+      "result": {
+        "homeTeamScore": 1,
+        "awayTeamScore": 0,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            8
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -6168,8 +10647,22 @@
           ]
         }
       },
-      "id": "3ca6b0c4-7851-4000-9327-85d1e88ee90f",
-      "start_time": 1594641600000
+      "id": "7d0bb3b2-52de-412c-adc4-2e1f353a8124",
+      "start_time": 1594814400000,
+      "result": {
+        "homeTeamScore": 0,
+        "awayTeamScore": 1,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            88
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -6197,8 +10690,22 @@
           ]
         }
       },
-      "id": "f5a9642f-ec15-4937-8ead-7757c3e75ab5",
-      "start_time": 1594634400000
+      "id": "7d07d2f7-8b14-4f46-ac97-71041d71d559",
+      "start_time": 1594807200000,
+      "result": {
+        "homeTeamScore": 1,
+        "awayTeamScore": 0,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            10
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -6226,8 +10733,29 @@
           ]
         }
       },
-      "id": "96ec4fb3-9910-435d-b423-d6e536b5f779",
-      "start_time": 1594641600000
+      "id": "327b2123-c6ef-4ba2-9e47-848cdaa0309b",
+      "start_time": 1594814400000,
+      "result": {
+        "homeTeamScore": 1,
+        "awayTeamScore": 1,
+        "matchResult": "D",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            48
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            70
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -6255,8 +10783,57 @@
           ]
         }
       },
-      "id": "198fe55e-d07e-47a9-80a6-da0635fcdc5c",
-      "start_time": 1594650600000
+      "id": "f6f28cd7-64ab-4a77-ae90-66d1d9194db7",
+      "start_time": 1594823400000,
+      "result": {
+        "homeTeamScore": 2,
+        "awayTeamScore": 4,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              0,
+              1
+            ],
+            2
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            3
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            5
+          ],
+          [
+            [
+              2,
+              2
+            ],
+            68
+          ],
+          [
+            [
+              2,
+              3
+            ],
+            84
+          ],
+          [
+            [
+              2,
+              4
+            ],
+            89
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -6284,8 +10861,36 @@
           ]
         }
       },
-      "id": "c9aee998-6f0b-4ebf-8132-687ced2b9817",
-      "start_time": 1594650600000
+      "id": "b4825f41-8521-4f48-95eb-15bccfd03d92",
+      "start_time": 1594823400000,
+      "result": {
+        "homeTeamScore": 1,
+        "awayTeamScore": 2,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            15
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            31
+          ],
+          [
+            [
+              1,
+              2
+            ],
+            50
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -6313,8 +10918,50 @@
           ]
         }
       },
-      "id": "14c606f4-d372-41c3-8de8-f81e99aeb579",
-      "start_time": 1594625400000
+      "id": "54a5bdfc-0c7d-445e-9760-b3d4576d1dab",
+      "start_time": 1594798200000,
+      "result": {
+        "homeTeamScore": 4,
+        "awayTeamScore": 1,
+        "matchResult": "W",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            7
+          ],
+          [
+            [
+              2,
+              0
+            ],
+            8
+          ],
+          [
+            [
+              3,
+              0
+            ],
+            22
+          ],
+          [
+            [
+              3,
+              1
+            ],
+            41
+          ],
+          [
+            [
+              4,
+              1
+            ],
+            76
+          ]
+        ]
+      }
     },
     {
       "sport_key": "soccer_spain_la_liga",
@@ -6342,8 +10989,57 @@
           ]
         }
       },
-      "id": "8623bb0e-e171-49f0-9943-7eeb101a2c7f",
-      "start_time": 1594634400000
+      "id": "feaaa562-86cd-4132-8883-e16fce8aca72",
+      "start_time": 1594807200000,
+      "result": {
+        "homeTeamScore": 2,
+        "awayTeamScore": 4,
+        "matchResult": "L",
+        "scoreChanges": [
+          [
+            [
+              1,
+              0
+            ],
+            11
+          ],
+          [
+            [
+              2,
+              0
+            ],
+            12
+          ],
+          [
+            [
+              2,
+              1
+            ],
+            14
+          ],
+          [
+            [
+              2,
+              2
+            ],
+            27
+          ],
+          [
+            [
+              2,
+              3
+            ],
+            28
+          ],
+          [
+            [
+              2,
+              4
+            ],
+            30
+          ]
+        ]
+      }
     }
   ]
 }

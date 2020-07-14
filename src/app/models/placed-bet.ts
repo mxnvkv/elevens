@@ -7,5 +7,6 @@ export interface PlacedBet {
     placedTime: number,
     match: Match,
     betNumber?: number,
+    betStatus?: 'Live' | 'Waiting for start' | 'Won' | 'Lost',
     id: string
 }

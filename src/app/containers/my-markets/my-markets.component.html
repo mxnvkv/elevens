@@ -4,7 +4,12 @@
     </div>
 
     <div *ngIf="bets" class="bet-list">
-        <div *ngFor="let bet of bets.slice().reverse()" class="bet">
+        <div 
+            *ngFor="let bet of bets.slice().reverse(); let lastBet = last" 
+            class="bet"
+            [ngStyle]="{
+                'margin-bottom': lastBet ? '0px' : null
+            }">
             
             <div class="top-row">
                 <div class="result">
@@ -38,8 +43,14 @@
                     Bet: {{ bet.stake | number: '1.2-2' }}
                 </div>
 
-                <div class="bet-status">
-                    Live
+                <div 
+                    class="bet-status"
+                    [ngClass]="{
+                        'live': bet.betStatus === 'Live', 
+                        'won': bet.betStatus === 'Won', 
+                        'lost': bet.betStatus === 'Lost'
+                    }">
+                    {{ bet.betStatus }}
                 </div>
             </div>
 

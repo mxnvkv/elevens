@@ -80,6 +80,11 @@ export class SportServiceService {
     return this.http.get(`http://localhost:4200/bets`);
   }
 
+  updateBet(bet: PlacedBet): Observable<any> {
+    return this.http.put(`http://localhost:4200/bets/${bet.id}`, bet)
+      .pipe(delay(100));
+  }
+
 
 
   // other

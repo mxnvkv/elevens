@@ -59,8 +59,16 @@
             justify-content: space-between;
         }
 
-        .bet-status {
+        .live {
             color: $orange;
+        }
+
+        .won {
+            color: $green;
+        }
+
+        .lost {
+            color: red;
         }
     }
 }

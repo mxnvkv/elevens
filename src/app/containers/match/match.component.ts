@@ -99,12 +99,16 @@ export class MatchComponent implements OnInit, OnDestroy {
   }
 
   placeBet(stakeValue: number) {
+    let match = { ...this.match };
+    delete match.result.scoreChanges;
+
     this.bet = {
       runnerDetails: this.market.runnerDetails,
       odds: this.market.odds,
       stake: parseFloat(parseFloat(stakeValue.toString()).toFixed(2)),
       placedTime: + new Date(),
-      match: this.match,
+      betStatus: 'Waiting for start',
+      match: match,
       id: uuidv4()
     }
     

@@ -27,6 +27,11 @@
                     <div class="match">
                         {{ bet.match.teams[0] }} - {{ bet.match.teams[1] }}
                     </div>
+                    <div *ngIf="bet.betStatus === 'Won' || bet.betStatus === 'Lost'" 
+                        class="match-result">
+                        &nbsp; ( {{ bet.match.result.homeTeamScore }} : 
+                        {{ bet.match.result.awayTeamScore }} )
+                    </div>
                 </div>
 
                 <div class="match-date">

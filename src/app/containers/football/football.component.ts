@@ -2,9 +2,11 @@ import { Component, OnInit, Renderer2, OnDestroy } from '@angular/core';
 import { SportServiceService } from 'src/app/services/sport.service';
 import { Match } from 'src/app/models/match';
 import { AccountSettings } from 'src/app/models/account-settings';
-import { concat, Subscription } from 'rxjs';
+import { concat, Subscription, forkJoin } from 'rxjs';
 import { v4 as uuidv4 } from 'uuid';
 import { newArray } from '@angular/compiler/src/util';
+import { PlacedBet } from 'src/app/models/placed-bet';
+import { timestamp } from 'rxjs/operators';
 
 @Component({
   selector: 'app-football',

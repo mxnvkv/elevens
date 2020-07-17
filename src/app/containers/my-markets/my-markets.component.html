@@ -56,6 +56,10 @@
                         'lost': bet.betStatus === 'Lost'
                     }">
                     {{ bet.betStatus }}
+
+                    <span class="won" *ngIf="bet.betStatus === 'Won'">
+                        : {{ bet.stake * bet.odds - bet.stake | number: '1.2-2' }}
+                    </span>
                 </div>
             </div>
 
